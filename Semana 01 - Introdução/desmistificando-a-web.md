@@ -1,8 +1,6 @@
-# 02 - HTML Básico
+# Desmistificando a Web
 
-### Primeiro projeto em HTML do curso de Front-End Mastertech
-
-Neste projeto mostramos o funcionamento das tags em HTML e do CSS utilizado dentro da tag `<style>`.
+Vamos começar a introduzir alguns conceitos básicos para revelar alguns segredos contidos nesse mundo digital.
 
 ## Tags utilizadas no HTML
 
@@ -25,3 +23,6 @@ Neste projeto mostramos o funcionamento das tags em HTML e do CSS utilizado dent
 * `margin: 0 20px 30px 3px`
 
 * `text-align: center`
+
+
+
