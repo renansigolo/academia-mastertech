@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
 
 ## Semana 01 - Introdução
 
@@ -12,9 +11,9 @@
 
 ## Semana 02 - Front End
 
-* Introdução a programação
-* Estratégias de solução de problemas
-* Javascript e algorítimos
+* [Introdução a programação](semana-02-front-end/introducao-a-programacao.md)
+* [Estratégias de solução de problemas](semana-02-front-end/estrategias-de-solucao-de-problemas.md)
+* [Javascript e algorítimos](semana-02-front-end/javascript-e-algoritimos.md)
 
 ## Semana 03 - Back End
 
