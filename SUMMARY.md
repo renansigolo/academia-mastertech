@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Extra](extra.md)
 
 ## Semana 01 - Introdução
 

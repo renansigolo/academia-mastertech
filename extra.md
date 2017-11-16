@@ -1,8 +1,4 @@
-# Primeira Semana do Curso de Front-End Mastertech
-
-## Web Básica
-
-Aqui você irá encontrar todos os códigos realizados em sala de aula como referência para estudar em casa.
+# Extra
 
 ## Dicas
 
@@ -47,4 +43,6 @@ Aqui você irá encontrar todos os códigos realizados em sala de aula como refe
 * Verifica o status das alterações realizadas no projeto
 
 `git status`
+
+
 
