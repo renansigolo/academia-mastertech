@@ -6,9 +6,9 @@
 ## Semana 01 - Introdução
 
 * [Desmistificando a web](Semana 01 - Introdução/desmistificando-a-web.md)
-* [HTML e CSS](html-e-css.md)
-* [Bootstrap e templates](bootstrap-e-templates.md)
-* [DOM e evento \(Javascript\)](dom-e-evento-javascript.md)
+* [HTML e CSS](Semana 01 - Introdução/html-e-css.md)
+* [Bootstrap e templates](Semana 01 - Introdução/bootstrap-e-templates.md)
+* [DOM e evento \(Javascript\)](Semana 01 - Introdução/dom-e-evento-javascript.md)
 
 ## Semana 02 - Front End
 
