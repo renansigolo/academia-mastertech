@@ -4,13 +4,9 @@
 
 Primeiro projeto utilizando HTML, CSS e JS puro.
 
-## 
 
-## CSS
 
-* `.classes{  }`
 
-* `#ids{  }`
 
 ## JS
 
