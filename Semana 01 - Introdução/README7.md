@@ -1,15 +1,15 @@
 # 05 - CSS e JS Básico - Parte 3
 
-### Aprimoramento nas técnicas de CSS e JS do curso de Front-End Mastertech
+### Aprofundamos o conhecimento em CSS e JS puro.
 
-Aprofundamos o conhecimento em CSS e JS puro.
+## Quer ir além?
 
-## CSS
+* Crie uma conta no [GitHub](https://github.com/) e plublique seu projeto
+
+* Lembre de fazer uma cópia antes, só por segurança!
 
 * ## JS
-* 
-## Comandos do GIT
-
+* ## Comandos do GIT
 * Clona o diretório
 
 `git clone https://github.com/brunoapimentel/mastertech-frontend.git`
