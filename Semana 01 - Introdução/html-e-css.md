@@ -6,11 +6,17 @@
 
 ### Form
 
-* `<form> </form>`
+* Tag de formulário
 
-* `<input> <input placeholder="Digite seu nome...">`
+`<form> </form>`
 
-* `<button type="button" onclick="alternarModal()">Enviar</button>`
+* Tag do campo de inserção
+
+`<input> <input placeholder="Digite seu nome...">`
+
+* Botão
+
+`<button type="button">Enviar</button>`
 
 ### Head
 
