@@ -4,19 +4,29 @@
 
 ## HTML
 
+### Form
+
 * `<form> </form>`
 
 * `<input> <input placeholder="Digite seu nome...">`
 
 * `<button type="button" onclick="alternarModal()">Enviar</button>`
 
-* `<link src="styles.css">`
+### Head
+
+```
+<head>
+    <meta charset="utf-8">
+    <title>Nome da Aba do Navegador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+### Tags
 
 * `<section> <section>`
 
 * `<footer> </footer>`
-
-* `<button onclick="minhaFuncao()"> Clique Aqui </button>`
 
 ## CSS
 

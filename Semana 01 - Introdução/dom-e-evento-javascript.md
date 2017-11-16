@@ -26,7 +26,9 @@ Bora aprender o que é o tão falado Javascript
 
 * `acumulador = acumulador + numero; == acumulador += numero`
 
-## JS
+* `<button onclick="minhaFuncao()"> Clique Aqui </button>`
+
+## ES5 x ES6
 
 * Duas formas de declarar uma função \(Ambos são a mesma coisa!!! Elas somente estão escritas de formas diferentes\)
 
