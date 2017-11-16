@@ -32,19 +32,15 @@ Programa de terminal que cria e gerencia aplicações Angular
 
   `ng generate component NomeDoComponente`
 
+* Cria um serviço
+
+`ng generate service NomeDoServico`
 
 
-* Serviços e comunicação entre componentes: [https://angular.io/guide/component-interaction\#parent-and-children-communicate-via-a-service](https://angular.io/guide/component-interaction#parent-and-children-communicate-via-a-service)
 
-## Comandos no Angular \(referência\)
+Serviços e comunicação entre componentes:
 
-* Cria um Componente
-
-  `ng generate component NomeDoComponente`
-
-* Cria um Serviço
-
-  `ng generate service NomeDoServico`
+ [https://angular.io/guide/component-interaction\#parent-and-children-communicate-via-a-service](https://angular.io/guide/component-interaction#parent-and-children-communicate-via-a-service)
 
 
 

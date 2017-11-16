@@ -38,3 +38,13 @@ Adiciona todos as modificações
 
 `git pull`
 
+* Loga os commits realizados no projeto
+
+`git log`
+
+* Reverte para o commit inserido
+
+`git checkout IDdoCommit`
+
+
+
