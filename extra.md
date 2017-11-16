@@ -46,21 +46,7 @@
 
 ---
 
-## NPM
-
-* Instala o Bootstrap 4 através do NPM \(Package Manager\)
-
-```
-npm install bootstrap@4.0.0-beta
-```
-
-* Instala outras dependências para rodar o JS do bootstrap
-
-```
-npm install jquery
-
-npm install popper.js
-```
+## 
 
 ## JQuery
 
