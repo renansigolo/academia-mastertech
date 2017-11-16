@@ -4,6 +4,22 @@
 
 ## HTML
 
+## Tags utilizadas no HTML
+
+* `<p>Paragrafo</p>`
+
+* `<h1>Título</h1>`
+
+* `<ul>Lista</ul>`
+
+* `<li>Item da lista</li>`
+
+* `<img src="endereco-da-imagem">`
+
+* `<section> ... <section>`
+
+* `<footer> ... </footer>`
+
 ### Form
 
 * Tag de formulário
@@ -18,7 +34,24 @@
 
 `<button type="button">Enviar</button>`
 
+### Formulário Completo
+
+```
+  <section>
+    <form action="/" method="post">
+      <input type="text" name="name" placeholder="Digite aqui seu Nome">
+      <input type="email" name="email" placeholder="Digite aqui seu Email">
+      <input type="password" name="pass" placeholder="Digite aqui sua Senha">
+      <button type="button" name="button">Clique aqui para Logar</button>
+    </form>
+  </section>
+```
+
+![](/assets/Screen Shot 2017-11-16 at 3.37.31 pm.png)
+
 ### Head
+
+* Exemplo de cabeçalho
 
 ```
 <head>
@@ -27,12 +60,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 ```
-
-### Tags
-
-* `<section> <section>`
-
-* `<footer> </footer>`
 
 ## CSS
 
@@ -49,18 +76,6 @@
 * `position: absolute;`
 
 * `@media(max-width: 600px){}`
-
-## Tags utilizadas no HTML
-
-* `<p>Paragrafo</p>`
-
-* `<h1>Título</h1>`
-
-* `<ul>Lista</ul>`
-
-* `<li>Item da lista</li>`
-
-* `<img src="endereco-da-imagem">`
 
 ## Propriedades do CSS
 
