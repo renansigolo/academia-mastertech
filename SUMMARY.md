@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Extra](extra.md)
+  * [GIT](extra/git.md)
 
 ## Semana 01 - Introdução
 

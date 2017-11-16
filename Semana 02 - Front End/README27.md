@@ -4,8 +4,7 @@
 
 Aprofundando em JS e aprendendo a lidar com o bootstrap
 
-
-## CSS
+## Bootstrap4
 
 * Insere o Bootstrap 4 através de CDN no seu projeto
 
@@ -22,9 +21,10 @@ Aprofundando em JS e aprendendo a lidar com o bootstrap
 ## JS
 
 * Duas formas de declarar uma função
-(Ambos são a mesma coisa!!! Elas somente estão escritas de formas diferentes)
+  \(Ambos são a mesma coisa!!! Elas somente estão escritas de formas diferentes\)
 
 ES5 - Function
+
 ```
 function defineNome(){
 
@@ -32,8 +32,12 @@ function defineNome(){
 ```
 
 ES6 - Arrow Function
+
 ```
 const defineNome = () => {
 
 }
 ```
+
+
+
