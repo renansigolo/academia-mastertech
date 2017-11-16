@@ -11,9 +11,9 @@
 
 ## Semana 02 - Front End
 
-* [Introdução a programação](semana-02-front-end/introducao-a-programacao.md)
-* [Estratégias de solução de problemas](semana-02-front-end/estrategias-de-solucao-de-problemas.md)
-* [Javascript e algorítimos](semana-02-front-end/javascript-e-algoritimos.md)
+* [Introdução a programação](Semana 02 - Front End/introducao-a-programacao.md)
+* [Estratégias de solução de problemas](Semana 02 - Front End/estrategias-de-solucao-de-problemas.md)
+* [Javascript e algorítimos](Semana 02 - Front End/javascript-e-algoritimos.md)
 
 ## Semana 03 - Back End
 
