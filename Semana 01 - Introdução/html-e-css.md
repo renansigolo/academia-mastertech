@@ -10,6 +10,14 @@
 
 * `<button type="button" onclick="alternarModal()">Enviar</button>`
 
+* `<link src="styles.css">`
+
+* `<section> <section>`
+
+* `<footer> </footer>`
+
+* `<button onclick="minhaFuncao()"> Clique Aqui </button>`
+
 ## CSS
 
 * `.classes{  }`

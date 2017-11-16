@@ -4,15 +4,7 @@
 
 Primeiro projeto utilizando HTML, CSS e JS puro.
 
-## HTML
-
-* `<link src="styles.css">`
-
-* `<section> <section>`
-
-* `<footer> </footer>`
-
-* `<button onclick="minhaFuncao()"> Clique Aqui </button>`
+## 
 
 ## CSS
 
@@ -29,3 +21,6 @@ Primeiro projeto utilizando HTML, CSS e JS puro.
 * `funcao nomeDaFuncao(){  };`
 
 * `titulo.innerHTML = 'um texto qualquer';`
+
+
+
