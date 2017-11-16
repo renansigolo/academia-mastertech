@@ -2,7 +2,19 @@
 
 ## Dicas
 
+* [Live de Front-end e aplicações personalizadas de web](https://www.facebook.com/mastertech.tech/videos/1743943105907692/)
+
 ### Links de referência
+
+* [BootStrap](https://getbootstrap.com/)
+
+* [JQuery](https://jquery.com/)
+
+* [SASS](http://sass-lang.com/)
+
+* [NPM](https://www.npmjs.com/)
+
+### Links para Estudo
 
 * [W3C Schools](https://www.w3schools.com/)
 
@@ -23,6 +35,67 @@
   Mostra todos os elementos com o mesmo nome do que foi selecionado.
 
 ---
+
+## NPM
+
+* Instala o Bootstrap 4 através do NPM \(Package Manager\)
+
+```
+npm install bootstrap@4.0.0-beta
+```
+
+* Instala outras dependências para rodar o JS do bootstrap
+
+```
+npm install jquery
+
+npm install popper.js
+```
+
+## JQuery
+
+* Inicializa o item com o id="modalzin"
+
+```
+$('#modalzin').modal();
+```
+
+## SASS
+
+* Importa o Bootstrap 4
+
+`@import 'node_modules/bootstrap/scss/bootstrap';`
+
+* Atribui uma cor HEX em uma variável para reutilizar ao longo do código
+
+`$red: #ff0000;`
+
+* Converte o input para o output
+
+`sass input.scss output.css`
+
+* Mantêm o processo de conversão ativo
+
+`sass --watch input.scss:output.css`
+
+* Converte o input para o output
+
+`sass input.scss output.css`
+
+* Code
+
+`sass assets/_pre/sass/main.scss assets/css/styles.css`
+
+* Mantêm o processo de conversão ativo utilizando os caminhos relativos
+
+`sass --watch assets/_pre/sass/main.scss:assets/css/styles.css`
+
+## Orientação à objetos
+
+* Objetos em Javascript: JSON
+* Classes
+* Instanciando objetos
+* Método construtor
 
 
 

@@ -22,3 +22,19 @@
 
 `git reset --hard`
 
+Adiciona todos as modificações
+
+`git add .`
+
+* Comenta o que foi alterado nas modificações adicionadas
+
+`git commit -m "Comentário sobre o que foi alterado"`
+
+* Realiza o upload dos seus commmits
+
+`git push`
+
+* Baixa e aplica as atualizações mais recentes
+
+`git pull`
+
