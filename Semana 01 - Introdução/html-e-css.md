@@ -24,6 +24,16 @@
 
 * `#ids{  }`
 
+* `.minha-classe p{  }`
+
+* `display: flex;`
+
+* `position: relative;`
+
+* `position: absolute;`
+
+* `@media(max-width: 600px){}`
+
 ## Tags utilizadas no HTML
 
 * `<p>Paragrafo</p>`
