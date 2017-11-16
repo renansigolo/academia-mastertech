@@ -16,15 +16,15 @@ O Objetivo deste exercício é criar uma landingPage conforme o wireframe
 
 * Inserir o conteúdo do site
 
-  >Pode ser [lorem ipsum](https://www.lipsum.com/) e as imagens [placeholders](https://placeholder.com/)
-
-  >Esqueça o Layout, foque na estrutura do conteúdo
+  > Pode ser [lorem ipsum](https://www.lipsum.com/) e as imagens [placeholders](https://placeholder.com/)
+  >
+  > Esqueça o Layout, foque na estrutura do conteúdo
 
 * Defina um ID para cada seção e adicione um comentário acima para facilitar a identificação e navegação no código
 
-	> [Tutorial HTML](vimeo.com/239943992)
-
-	>	`password: M@stertech`
+  > [Tutorial HTML](vimeo.com/239943992)
+  >
+  > `password: M@stertech`
 
 ## 03 CSS
 
@@ -63,3 +63,6 @@ O Objetivo deste exercício é criar uma landingPage conforme o wireframe
 * Hover na imagem para mudar o title por uma breve descrição
 
 * Adiconar um item ou subtrair e ele altera a contagem da soma
+
+
+

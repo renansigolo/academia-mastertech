@@ -14,11 +14,21 @@
 
 * [NPM](https://www.npmjs.com/)
 
-### Links para Estudo
+### Links para Consulta
 
 * [W3C Schools](https://www.w3schools.com/)
 
 * [Color Picker](https://www.google.com.br/search?q=color+picker)
+
+* [Roadmap com as últimas tendências em desenvolvimento web para 2017](https://github.com/kamranahmedse/developer-roadmap)
+
+### Para estudar...
+
+* [W3C Schools](https://www.w3schools.com/)
+
+* [Code Schools](https://www.codeschool.com/)
+
+* [Code Academy](https://www.codecademy.com/)
 
 ### Plugins para o Atom
 

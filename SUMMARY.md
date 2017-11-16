@@ -3,6 +3,9 @@
 * [Introduction](README.md)
 * [Extra](extra.md)
   * [GIT](extra/git.md)
+* [Exercícios](exercicios.md)
+  * [Angular](exercicios/angular.md)
+  * [HTML, CSS, JS](exercicios/html-css-js.md)
 
 ## Semana 01 - Introdução
 

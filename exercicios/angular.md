@@ -34,11 +34,11 @@ Construir uma aplicação utilizando Angular, SASS, Bootstrap, Firebase
 
 Entre na pasta do Projeto
 
-  `cd NOMEDOPROJETO`
+`cd NOMEDOPROJETO`
 
 Rode a aplicação
 
-  `ng serve`
+`ng serve`
 
 * Instale o Bootstrap4 no projeto
 
@@ -52,7 +52,7 @@ OU
 
 `npm install bootstrap@4.0.0-beta.2 jquery popper.js --save`
 
-No arquivo `.angular-cli.json` adicione o endereço do arquivo do bootstrap instalado pelo NPM
+No arquivo `.angular-cli.json` adicione o endereço do arquivo do bootstrap instalado pelo NPM  
 Conforme demonstrado abaixo
 
 ```
@@ -74,9 +74,9 @@ E logo abaixo os endereços do jQuery, Popper e do BootstrapJs
 
 Rode a aplicação novamente
 
-  `ng serve`
+`ng serve`
 
->Você irá perceber que o conteúdo já estará estilizado com o Bootstrap
+> Você irá perceber que o conteúdo já estará estilizado com o Bootstrap
 
 ## 02 Criação dos Componentes
 
@@ -98,7 +98,7 @@ Para criar um componente pare a aplicação e utilize no terminal o comando
 
 `ng g component NOMEDOCOMPONENTE`
 
->Você terá então dentro da pasta `src/app` uma pasta com o conteúdo de cada elemento que foi criado
+> Você terá então dentro da pasta `src/app` uma pasta com o conteúdo de cada elemento que foi criado
 
 * Edite o componente para que fique igual ao wireframe
 
@@ -106,15 +106,15 @@ Lembre que cada componente tem seus próprios arquivos seguindo a estrutura abai
 
 HTML
 
->NOMDEDOCOMPONENTE.component.html
+> NOMDEDOCOMPONENTE.component.html
 
 SASS
 
->NOMDEDOCOMPONENTE.component.scss
+> NOMDEDOCOMPONENTE.component.scss
 
 TS
 
->NOMDEDOCOMPONENTE.component.ts
+> NOMDEDOCOMPONENTE.component.ts
 
 * Insira cada elemento criado dentro de `app.component.html` para vizualizar e testar conforme o exemplo abaixo
 
@@ -147,11 +147,11 @@ TS
 
 ### Firebase Console
 
- Crie um novo projeto em `https://firebase.google.com/`
+Crie um novo projeto em `https://firebase.google.com/`
 
- Em `Overview` clique na opção `Add Firebase to your web app`
+Em `Overview` clique na opção `Add Firebase to your web app`
 
- Copie somente o objeto
+Copie somente o objeto
 
 ```
  var config: {
@@ -186,7 +186,7 @@ export const environment = {
 
 No terminal utilize `npm install firebase angularfire2 --save` para instalar as dependencias no seu projeto
 
-No seu arquivo `app/app.module.ts` importe os modulos do Firebase e do Angularfire (Database, Auth) para o Firebase
+No seu arquivo `app/app.module.ts` importe os modulos do Firebase e do Angularfire \(Database, Auth\) para o Firebase
 
 Importe também os arquivos com as chaves de acesso ao seu projeto no Firebase que foram salvos em `environments/environment.ts` e em `environments/environment.prod.ts`
 
@@ -271,7 +271,7 @@ Para que as informações sejam acessadas de forma dinâmica precisamos primeiro
 
 Para facilitar eu criei um arquivo `.json` que podemos importar diretamente no firebase, você também pode criar manualmente na database do seu projeto
 
-````
+```
 {
     "stickers" : {
       "angular" : {
@@ -304,18 +304,18 @@ Para facilitar eu criei um arquivo `.json` que podemos importar diretamente no f
       }
     }
 }
-````
+```
 
-### TS 
+### TS
 
 Agora precisamos falar para o `.ts` do componente quais dados eles vai utilizar do firebase
 
 * Importamos o angularfire2 e o observable
 
-````
+```
 import { AngularFireDatabase } from 'angularfire2/database'; 
 import { Observable } from 'rxjs/Observable';
-````
+```
 
 * Dentro da class criamos o objeto que será observado
 
@@ -377,7 +377,7 @@ Utilize então o `*ngFor` que se comporta como um `for of` buscando todos os ite
 
 `*ngFor="let item of feedObservable | async"`
 
-E finalmente inserimos o nome do dado dentro do objeto que queremos exibir dentro do código 
+E finalmente inserimos o nome do dado dentro do objeto que queremos exibir dentro do código
 
 `{{item.NOMEDACHAVE}}`
 
@@ -421,9 +421,9 @@ Então agora que toda nossa aplicação está configurada vamos linkar as págin
 
 * A primeira coisa que precisamos fazer é importar o modulo de rotas no nosso `app.module.ts`
 
- `import { RouterModule, Routes } from '@angular/router';`
+  `import { RouterModule, Routes } from '@angular/router';`
 
- * Agora ainda no `app.module.ts` vamos criar uma variavel que irá controlar as rotas
+  * Agora ainda no `app.module.ts` vamos criar uma variavel que irá controlar as rotas
 
 ```
  const routes: Routes = [
@@ -431,26 +431,26 @@ Então agora que toda nossa aplicação está configurada vamos linkar as págin
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent } 
  ];
- ```
+```
 
- * Ultima configuração no nosso arquivo `app.module.ts` é importar a config do modulo 
- 
- Para isso vamos inserir o comando abaixo dentro do nosso array imports[]
+* Ultima configuração no nosso arquivo `app.module.ts` é importar a config do modulo
 
- `RouterModule.forRoot(routes)`
+  Para isso vamos inserir o comando abaixo dentro do nosso array imports\[\]
 
- ```
- imports: [
-    BrowserModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule,
-    AngularFireAuthModule,
-    RouterModule.forRoot(routes)
+  `RouterModule.forRoot(routes)`
+
+  ```
+  imports: [
+   BrowserModule,
+   AngularFireModule.initializeApp(environment.firebase),
+   AngularFireDatabaseModule,
+   AngularFireAuthModule,
+   RouterModule.forRoot(routes)
   ],
   ```
 
   * Dentro do nosso arquivo `app.compenent.html` alteramos os injects que estão fixados pela tag
-  
+
   `<router-outlet></router-outlet>`
 
   Assim todos código que for chamado pela rota irá ser injetado dentro desta tag
@@ -459,7 +459,7 @@ Então agora que toda nossa aplicação está configurada vamos linkar as págin
 
   ```
   <li class="nav-item">
-    <a class="nav-link" routerLink="/signup">Signup</a>
+   <a class="nav-link" routerLink="/signup">Signup</a>
   </li>
   ```
 
@@ -480,3 +480,6 @@ Para Exportar seu app utilize o comando
 Agora é só pegar o conteúdo da pasta `dist` que foi gerada e colocar em um servidor de produção!
 
 # FIM
+
+
+
