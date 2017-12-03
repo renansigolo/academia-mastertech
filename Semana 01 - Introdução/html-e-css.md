@@ -1,6 +1,6 @@
 # HTML e CSS
 
-É hora de por a mão na massa!
+É hora de por a mão na massa e começar a mexer em códigos!
 
 ## HTML
 
@@ -142,7 +142,7 @@ O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito
 
 O que é um media querie?
 
-Uma expressão colocada no seu arquivo CSS que limita/adapta a apresentação do seu conteúdo de acordo com um formato especifica de dispositivos \(tamanho da tela\), geralmente usado para largura, altura e cor. 
+Uma expressão colocada no seu arquivo CSS que limita/adapta a apresentação do seu conteúdo de acordo com um formato especifica de dispositivos \(tamanho da tela\), geralmente usado para largura, altura e cor.
 
 ```
 @media(max-width: 1024px) and (min-width: 700px){
@@ -165,7 +165,15 @@ Uma expressão colocada no seu arquivo CSS que limita/adapta a apresentação do
   }
 ```
 
-## 
+## Hora de colocar em prática seus conhecimentos
+
+Exercício 1
+
+Monte a sua página. Pode ser um currículo, por exemplo uma página com seus hobbies ou coisas preferidas utilizando HTML e CSS.
+
+Exercício 2
+
+
 
 
 
