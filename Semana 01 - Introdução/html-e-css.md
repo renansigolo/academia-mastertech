@@ -71,7 +71,7 @@ O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito
 
 ![](/assets/codecss.png)
 
-##  Itens mais utilizados no CSS
+## Itens mais utilizados no CSS
 
 * `.classes{  }`
 
@@ -87,7 +87,7 @@ O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito
 
 * `@media(max-width: 600px){}`
 
-## Propriedades do CSS
+## Exemplos de propriedades do CSS
 
 * `color: black`
 
@@ -116,7 +116,7 @@ O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito
 }
 ```
 
-* Abusem do border radius
+* Brinquem com border radius
 
 ```
 //HTML
@@ -139,6 +139,10 @@ O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito
 ```
 
 * Usem o media queries
+
+O que é um media querie?
+
+Uma expressão colocada no seu arquivo CSS que limita/adapta a apresentação do seu conteúdo de acordo com um formato especifica de dispositivos \(tamanho da tela\), geralmente usado para largura, altura e cor. 
 
 ```
 @media(max-width: 1024px) and (min-width: 700px){
