@@ -4,7 +4,7 @@
 
 ## HTML
 
-HTML é o corpo do seu site, toda a estrutura da página é feito por html. Ele faz o posicionamento de cada item seja título, parágrafo, imagem ou um link. Ele é formado por tags como por exemplo &lt;body&gt; e toda tag deve ser fechada no seu código. 
+HTML é o corpo do seu site, toda a estrutura da página é feito por html. Ele faz o posicionamento de cada item seja título, parágrafo, imagem ou um link. Ele é formado por tags como por exemplo &lt;body&gt; e toda tag deve ser fechada no seu código.
 
 ##### ![](/assets/code1.png)
 
@@ -66,6 +66,10 @@ HTML é o corpo do seu site, toda a estrutura da página é feito por html. Ele 
 ```
 
 ## CSS
+
+O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito e personalizado da maneira que você imagina seu site. Ele ajuda também na usabilidade do seu site, e em euma melhor experiência de navegação. A forma de escrever seu CSS é diferente do html, e trabalho em um arquivo diferente, geralmente nominado como styles.css.
+
+![](/assets/codecss.png)
 
 * `.classes{  }`
 
