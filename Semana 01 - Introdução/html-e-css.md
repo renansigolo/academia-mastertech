@@ -71,6 +71,8 @@ O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito
 
 ![](/assets/codecss.png)
 
+##  Itens mais utilizados no CSS
+
 * `.classes{  }`
 
 * `#ids{  }`
