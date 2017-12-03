@@ -1,4 +1,4 @@
-# Angular
+# Angular 2 - Guiii
 
 ## Angular Básico
 
@@ -36,11 +36,7 @@ Programa de terminal que cria e gerencia aplicações Angular
 
 `ng generate service NomeDoServico`
 
-
-
 Serviços e comunicação entre componentes:
 
- [https://angular.io/guide/component-interaction\#parent-and-children-communicate-via-a-service](https://angular.io/guide/component-interaction#parent-and-children-communicate-via-a-service)
-
-
+[https://angular.io/guide/component-interaction\#parent-and-children-communicate-via-a-service](https://angular.io/guide/component-interaction#parent-and-children-communicate-via-a-service)
 

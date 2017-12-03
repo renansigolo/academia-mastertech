@@ -4,6 +4,8 @@
 
 ## HTML
 
+HTML é o corpo do seu site, toda a estrutura da página é feito por html. Ele faz o posicionamento de cada item seja título, parágrafo, imagem ou um link. Ele é formado por tags como por exemplo &lt;body&gt; e toda tag deve ser 
+
 ## Tags utilizadas no HTML
 
 * `<p>Paragrafo</p>`

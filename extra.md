@@ -30,6 +30,16 @@
 
 * [Code Academy](https://www.codecademy.com/)
 
+* https://www.udemy.com/ \(alguns cursos são pagos\)
+
+### Editores de texto
+
+Sublime Text 3
+
+Atom
+
+
+
 ### Plugins para o Atom
 
 * **atom-beautify**

@@ -1,6 +1,4 @@
-# Javascript e algorítimos
-
-
+# Javascript e algorítimos - Guiii
 
 ## JS
 
