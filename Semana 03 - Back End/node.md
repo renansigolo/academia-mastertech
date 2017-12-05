@@ -1,36 +1,30 @@
 # Node & Express -Diego e Vagnao
 
+Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
 
+A versão mais recente e recomendada para a maioria dos usuarios  é a 8.9.1 LTS.
 
-Instalando o NodeJS  - https://nodejs.org/en/
+**Windows**
 
-A versão mais recente e recomendada para a maioria dos usuarios  é a 8.9.1 LTS. 
-
- Windows 
-
-Baixar o instalador e executa-lo. 
-
-
+Baixar o instalador e executa-lo.
 
 Instalando via terminal Linux e macOS
 
-Linux
+**Linux**
 
 ```
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash - 
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 ```
 
 ```
 sudo apt-get install -y nodejs
 ```
 
-
-
-macOS
+**macOS**
 
 Install Homebrew:
 
-https://brew.sh/
+[https://brew.sh/](https://brew.sh/)
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -55,19 +49,14 @@ node --version
 npm --version
 ```
 
-Aparecendo a versão do Node.js e do Npm, a instalação foi feita com sucesso.
-
-
+Aparecendo a versão do Node.js e do Npm, a instalação foi feita com sucesso.
 
 Obs. O Npm é instalado junto com o Node.js
 
+**Instalando o Express**
 
-Instalando o Express
+[https://expressjs.com/en/starter/installing.html](https://expressjs.com/en/starter/installing.html)
 
-https://expressjs.com/en/starter/installing.html
-
-```
-$ npm install express --save
-
-
+\`\`\`  
+$ npm install express --save
 
