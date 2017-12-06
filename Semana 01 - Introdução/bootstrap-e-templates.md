@@ -4,9 +4,9 @@
 
 ###### _“Projetado para qualquer um em qualquer lugar”_
 
-um **framework **de front-end que facilita e agiliza o trabalho, oferecendo padrões para HTML, JavaScript e CSS para criações de páginas web.
+um **framework **de front-end que facilita e agiliza o trabalho, oferecendo padrões para HTML, JavaScript e CSS para criações de páginas web de maneira responsiva e é gratuito.
 
-Mas o que é um Framework?
+##### Mas o que é um Framework mesmo? Imagina um quebra-cabeça. Há várias peçinhas já com uma identidade, cor, desenho, formato e que juntas formam uma imagem. É a mesma coisa, são conjuntos de códigos já criados e testados que juntos criam o seu site.
 
 ## Bootstrap4 \(beta 2\) - CDN
 
