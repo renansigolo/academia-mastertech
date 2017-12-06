@@ -6,5 +6,7 @@ Basicamente é um protocolo que permite enviar e receber informações na web. E
 
 Um protocolo é um conjunto de regras que determinam que tipo de informações podem ser trocadas e que tipo de mensagem deve ser enviada.
 
+O Protocolo HTTP precisa de duas entidades para funcionar corretamente: o cliente e o servidor. E normalmente o cliente é quem inicia a conversa e o servidor responde, criando uma linha de comunicação entre eles. Convencionalmente os pedidos são chamados de _request _e as respostas de _response_._ _
+
 ![](/assets/http.png)
 
