@@ -1,6 +1,10 @@
 # Protocolo HTTP - Caique
 
-http - é o protocolo que faz que seu browser saber se comunicar com o servidor que está do outro lado.
+O nome parece complicado mas é só uma sigla, que vem de _HyperText Transfer Protocol_. Mas o que é isso, afinal?
 
-porta 80: porta padrão para acessar o protocolo http![](/assets/http.png)
+Basicamente é um protocolo que permite enviar e receber informações na web. E o que é um protocolo?
+
+Um protocolo é um conjunto de regras que determinam que tipo de informações podem ser trocadas e que tipo de mensagem deve ser enviada.
+
+![](/assets/http.png)
 
