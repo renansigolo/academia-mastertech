@@ -1,5 +1,13 @@
 # Bootstrap e templates
 
+## O que é?
+
+###### _“Projetado para qualquer um em qualquer lugar”_
+
+um **framework **de front-end que facilita e agiliza o trabalho, oferecendo padrões para HTML, JavaScript e CSS para criações de páginas web.
+
+Mas o que é um Framework?
+
 ## Bootstrap4 \(beta 2\) - CDN
 
 * Insere o Bootstrap 4 através de CDN no seu projeto
