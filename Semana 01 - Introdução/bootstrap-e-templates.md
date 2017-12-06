@@ -4,7 +4,7 @@
 
 ###### _“Projetado para qualquer um em qualquer lugar”_
 
-um **framework **de front-end que facilita e agiliza o trabalho, oferecendo padrões para HTML, JavaScript e CSS para criações de páginas web de maneira responsiva e é gratuito.
+um **framework **de front-end criado para facilitar e ajudar no trabalho do DEV, oferecendo padrões para HTML, JavaScript e CSS para criações de páginas web de maneira responsiva e gratuita.
 
 ##### Mas o que é um Framework mesmo? Imagina um quebra-cabeça. Há várias peçinhas já com uma identidade, cor, desenho, formato e que juntas formam uma imagem. É a mesma coisa, são conjuntos de códigos já criados e testados que juntos criam o seu site.
 
