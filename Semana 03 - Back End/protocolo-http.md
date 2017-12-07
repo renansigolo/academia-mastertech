@@ -28,13 +28,12 @@ Body:   {
         }
 ```
 
-liyfuiytkvb
+### O que são os métodos HTTP?
 
-                                                                                          
-
-
-
-
+* **GET**
+* **POST**
+* **PUT**
+* **DELETE**
 
 
 
