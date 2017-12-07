@@ -11,10 +11,8 @@ O Protocolo HTTP precisa de duas entidades para funcionar corretamente: o **clie
 * **Header**
   * Pode conter instruções para a transferência das informações do body e até métodos HTTP.
 
-
-
 * **Body**
-  * 
+  * Pode estar vazio ou conter informações que você deseja transmitir através da rede.
 
 
 
