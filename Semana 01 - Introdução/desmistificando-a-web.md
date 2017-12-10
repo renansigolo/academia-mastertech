@@ -21,11 +21,13 @@ Porém é comum que alguns dados se misturem ou essa caixinha fique com muita in
 
 ### Front-end x Back-end
 
-Quem trabalha com front é responsável por toda parte que é visualizada por nós, ou seja cores, botões, cliques, e toda interface do site. Nesta etapa é super importante dar atenção a experiência do usuário, chamado de UX. 
+Quem trabalha com front é responsável por toda parte que é visualizada por nós, ou seja cores, botões, cliques, e toda interface do site. Nesta etapa é super importante dar atenção a experiência do usuário, chamado de UX.
 
 O foco principal é em HTML \(linguagem de marcação\), CSS \(linguagem de estilo\) e JavaScript \(linguagem de script/programação\). São linguagens client-side, ou seja do lado do cliente, do usuário do site.
 
-Já quem trabalha com back-end fica na parte de trás, nos bastidores de seu site na parte de implementação, com banco de dados.
+Já quem trabalha com back-end fica na parte de trás, nos bastidores de seu site na parte de implementação, segurança da informação, performance e com banco de dados também.
 
-Em relação as principais linguagens seriam C\#, Java, PHP, Python, Ruby... que seriam linguagens de programação conhecidas como server-side, que são 
+Em relação as principais linguagens seriam C\#, Java, PHP, Python, Ruby... que seriam algumas das linguagens de programação conhecidas como server-side, que seriam linguagens de servidor que fornece a lógica para cada aplicação. Um exemplo simples, é uma requisição HTTP que seria quando você clica num botão de "cadastrar" e aparece uma página de cadastro e logo em seguida do preenchimento, uma página de cadastro salvo. Todo esse processo de solicitar a página de cadastro, salvar seus dados e receber a confirmação faz parte de uma lógica que é efetuada no back-end.
+
+
 
