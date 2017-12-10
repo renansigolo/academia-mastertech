@@ -19,9 +19,13 @@ Aqui você irá encontrar todos os códigos realizados em sala de aula como refe
 
 Porém é comum que alguns dados se misturem ou essa caixinha fique com muita informação. Por isso, é muito comum ouvir apague ou limpe o cache, para elimiar estes dados e ficar mais leve. IMPORTANTE: são dados temporários, dados como senhas salvas, preenchimento automático se mantém.
 
+### Front-end x Back-end
 
+Quem trabalha com front é responsável por toda parte que é visualizada por nós, ou seja cores, botões, cliques, e toda interface do site. Nesta etapa é super importante dar atenção a experiência do usuário, chamado de UX. 
 
+O foco principal é em HTML \(linguagem de marcação\), CSS \(linguagem de estilo\) e JavaScript \(linguagem de script/programação\). São linguagens client-side, ou seja do lado do cliente, do usuário do site.
 
+Já quem trabalha com back-end fica na parte de trás, nos bastidores de seu site na parte de implementação, com banco de dados.
 
-
+Em relação as principais linguagens seriam C\#, Java, PHP, Python, Ruby... que seriam linguagens de programação conhecidas como server-side, que são 
 
