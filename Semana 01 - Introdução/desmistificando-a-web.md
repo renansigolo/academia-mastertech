@@ -29,5 +29,11 @@ Já quem trabalha com back-end fica na parte de trás, nos bastidores de seu sit
 
 Em relação as principais linguagens seriam C\#, Java, PHP, Python, Ruby... que seriam algumas das linguagens de programação conhecidas como server-side, que seriam linguagens de servidor que fornece a lógica para cada aplicação. Um exemplo simples, é uma requisição HTTP que seria quando você clica num botão de "cadastrar" e aparece uma página de cadastro e logo em seguida do preenchimento, uma página de cadastro salvo. Todo esse processo de solicitar a página de cadastro, salvar seus dados e receber a confirmação faz parte de uma lógica que é efetuada no back-end.
 
+### Aplicações Móveis 
+
+São os nossos conhecidos aplicativos de celular. São desenvolvidos exatamente para ser utilizado no mobile e há opções de aplicações nativas e conhecidas como híbridas. 
+
+Aplicações nativas são aquelas desenvolvidas na linguagem do sistema operacional, como por exemplo para IOS que seria a Swift, para Android seria Java e a grande vantagem é se comunicar melhor com os dispositivos do aparelho, como câmera, pedômetro, entre outros. Isso faz com que a aplicação fique mais funcional, com melhor aproveitamento de energia porém geram um conhecimento maior de cada linguagem. A escolha da sua aplicação depende muito da sua necessidade e do seu negócio.
+
 
 
