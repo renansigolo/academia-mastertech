@@ -13,5 +13,15 @@ Aqui você irá encontrar todos os códigos realizados em sala de aula como refe
   `[ ]`
   para indicar que este parâmetro é opcional.
 
+#### O que é o tal cache?
+
+É onde são armazenados os dados temporários de sua navegação, para agilizar o acesso aos sites visitados anteriormente. Ou seja, imagina que seja uma caixinha que toda vez que você acessa um site é armazenado dados como pesquisa, cliques, no caso de aplicativos, as informações dos aplicativos mais acessados, e cada vez que você acessar um site ou um aplicativo eles vão visitar essa caixinha para que não tenha que fazer do zero, isso ajuda a economizar tempo e tornar a resposta mais rápida.
+
+Porém é comum que alguns dados se misturem ou essa caixinha fique com muita informação. Por isso, é muito comum ouvir apague ou limpe o cache, para elimiar estes dados e ficar mais leve. IMPORTANTE: são dados temporários, dados como senhas salvas, preenchimento automático se mantém.
+
+
+
+
+
 
 
