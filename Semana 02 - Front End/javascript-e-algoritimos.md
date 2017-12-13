@@ -56,9 +56,18 @@ const defineNome = () => {
 }
 ```
 
+## O que é DOM?
 
+Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo........???
 
-## 
+| Propriedade | Descrição |
+| :--- | :--- |
+| documentElement | Captura o elemento raiz &lt;html&gt; de um documento HTML. |
+| getElementById | Busca um elemento da página Web com o uso do atributo id do elemento. |
+| getElementByClass | Busca um elemento da página Web com o uso da classe do elemento. |
+| innerHTML | Retorna ou define o conteúdo de um elemento. |
+| appendChild | Insere um novo elemento filho. |
+| removeChild | Remove um elemento filho.  |
 
 
 
