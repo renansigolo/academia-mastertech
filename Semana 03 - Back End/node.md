@@ -1,5 +1,19 @@
 # Node & Express -Diego e Vagnao
 
+#### O que é Node.js?
+
+É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor. Isso torna o processo muito mais ágil. Mas como assim?
+
+Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, ou seja, acontecerá uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa a próxima requisição e quando ele receber a resposta é enviado o evento sem deixar as demais requisições paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagina na black friday que são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas. 
+
+####  Mas ele então é um servidor no servidor? 
+
+Não. É possível criar um servidor http por exemplo, 
+
+
+
+
+
 Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
 
 A versão mais recente e recomendada para a maioria dos usuarios  é a 8.9.1 LTS.
