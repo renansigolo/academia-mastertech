@@ -1,6 +1,6 @@
 # Introdução a programação - Renan
 
-## O que uma linguagem de programação?
+## O que é uma linguagem de programação?
 
 Linguagem de programação nada mais é do que uma outra língua.
 
@@ -9,6 +9,4 @@ Assim como nós aprendemos Inglês, Espanhol, Italiano entre outras,  as linguag
 Assim como a língua portuguesa é composta das seguinte forma.
 
 ![](/assets/sixtaxe.png)
-
-
 
