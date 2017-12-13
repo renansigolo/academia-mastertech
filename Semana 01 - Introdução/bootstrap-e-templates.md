@@ -24,13 +24,13 @@ um **framework **para front-end criado para facilitar e ajudar no trabalho do DE
 
 ## Bootstrap4 \(beta 2\) - NPM
 
-* Instala o Bootstrap 4 através do NPM \(Package Manager\)
+* Instale o Bootstrap 4 através do NPM \(Package Manager\)
 
 ```
 npm install bootstrap@4.0.0-beta.2
 ```
 
-* Instala outras dependências para rodar o JS do bootstrap
+* Instale outras dependências para rodar o JS do bootstrap
 
 ```
 npm install jquery

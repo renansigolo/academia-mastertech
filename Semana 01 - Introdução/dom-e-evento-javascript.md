@@ -1,8 +1,20 @@
 # DOM e evento \(Javascript\) - Daniii
 
-Bora aprender o que é o tão falado Javascript
+Bora aprender o que é o tão falado Javascript.
 
-## JS
+A primeira coisa que você precisa saber, e que vai mudar a sua vida: JavaScript não tem nada a ver com Java.
+
+Java é uma outra linguagem de programação usada mais em back-end, como PHP, Ruby, Python. Já o JavaScript é uma linguagem de programação client-side, ou seja usada em front-end para controlar o HTML e o CSS e manipular o comportamento da sua página, ou seja, ela é responder por trazer mágica a sua página. 
+
+Exemplo: Quando você passa o mouse em um menu e de forma mágica aparece um submenu com outros itens, adivinha quem fez isso? O Javascript, que  é executado e faz a função de esconder e mostrar aquele submenu.
+
+Quer um exemplo básico, insira este código no Sublime e abra o arquivo html no seu navegador.
+
+![](/assets/Screen Shot 2017-12-13 at 8.28.11 AM.png)
+
+
+
+## exemplos JS
 
 * Operadores `>, <, =<, >=, ==, !=`
 
