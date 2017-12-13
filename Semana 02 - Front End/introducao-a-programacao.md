@@ -1,4 +1,4 @@
-# Introdução a programação - Renan
+# Introdução a programação
 
 ## O que uma linguagem de programação?
 
