@@ -12,7 +12,7 @@ um **framework **para front-end criado para facilitar e ajudar no trabalho do DE
 
 Nós temos algumas opções nas formas de incluir o Bootstrap em nosso projeto.
 
-## Bootstrap4 \(beta 2\) - CDN
+### Bootstrap4 \(beta 2\) - CDN
 
 * Insere o Bootstrap 4 através de CDN no seu projeto
 
@@ -26,7 +26,7 @@ Nós temos algumas opções nas formas de incluir o Bootstrap em nosso projeto.
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 ```
 
-## Bootstrap4 \(beta 2\) - NPM
+### Bootstrap4 \(beta 2\) - NPM
 
 * Instale o Bootstrap 4 através do NPM \(Package Manager\)
 
@@ -41,7 +41,8 @@ npm install jquery
 
 npm install popper.js
 ```
-## Bootstrap4 \(beta 2\) - Yarn
+
+### Bootstrap4 \(beta 2\) - Yarn
 
 * Instale o Bootstrap 4 através do YARN \(Package Manager\)
 
@@ -57,8 +58,19 @@ yarn add jquery
 yarn add popper.js
 ```
 
-
-
+> Após adicionar as dependencias ao seu projeto certifique-se de que você está importando os arquivos de seus locais corretos
+>
+> var libPaths = \[
+>
+>   // CAMINHOS DAS BIBLIOTECAS EM SUAS RESPECTIVAS ORDENS \(JQUERY, POPPER, BOOTSTRAP\)
+>
+>   'node\_modules/jquery/dist/jquery.slim.min.js',
+>
+>   'node\_modules/popper.js/dist/umd/popper.min.js',
+>
+>   'node\_modules/bootstrap/dist/js/bootstrap.min.js'
+>
+> \];
 
 
 
