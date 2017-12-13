@@ -41,13 +41,12 @@ Veja o exemplo abaixo
 
 ```
 const nomeDaMinhaFuncao = (  ) => {
-    
+
     let meuObjeto = {
         "nome": "Renan",
         "idade": 26
     }
 }
-
 ```
 
 ### Loop
@@ -70,8 +69,29 @@ const contarAteDez = (  ) => {
       console.log(a);
     }    
 }
-
 ```
+
+### Condições
+
+Podemos controlar nosso código com as estruturas de controle como `if` e `else`, veja os exemplos abaixo
+
+    const exibeOsNumerosPares = (  ) => {
+
+        let todosOsNumeros = [1, 2 ,5 ,7, 10, 12, 100 , 500]
+
+        for (let umNumero of todosOsNumeros){
+
+            let resultado = umNumero % 2
+
+            if ( resultado === 0 ){
+
+                console.log(resultado)
+
+            }else {
+                console.log(`Opsss, o número ${resultado} não é par)
+            }
+
+
 
 
 
