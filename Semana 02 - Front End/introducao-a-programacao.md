@@ -73,7 +73,9 @@ const contarAteDez = (  ) => {
 
 ### Condições
 
-Podemos controlar nosso código com as estruturas de controle como `if` e `else`, veja os exemplos abaixo
+Podemos controlar nosso código com as estruturas de controle como `if` e `else`
+
+Eles servem para filtrar o resultado caso a condição definida seja verdadeira, veja os exemplos abaixo:
 
     const exibeOsNumerosPares = (  ) => {
 
@@ -90,8 +92,6 @@ Podemos controlar nosso código com as estruturas de controle como `if` e `else`
             }else {
                 console.log(`Opsss, o número ${resultado} não é par)
             }
-
-
 
 
 
