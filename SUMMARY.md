@@ -29,8 +29,7 @@
 
 ## Semana 04 - Aplicativos
 
-* [Interfaces e UX ](Semana 04 - Aplicativos/interfaces-e-ux.md)
-* [Ideação e prototipação ](Semana 04 - Aplicativos/ideacao-e-prototipacao.md)
+* [UX, Ideação e prototipação ](Semana 04 - Aplicativos/ideacao-e-prototipacao.md)
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
 * [Angular](Semana 04 - Aplicativos/angular.md)
 

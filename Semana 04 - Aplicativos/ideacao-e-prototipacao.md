@@ -1,4 +1,22 @@
-# Ideação e Prototipação
+# UX, Ideação e Prototipação
+
+#### Começando do ínicio
+
+Escolha um problema de alguém, ou um problema que você já precisa lidar no seu dia-a-dia. Em UX lidamos comHxH \(human to human\) de pessoas para pessoas.
+
+Alguns exemplos rápidos:
+
+* Pessoas não conseguem marcar consultas 
+* Pessoas não conseguem gerenciar o seu tempo
+* Pessoas tem dificuldade para marcar reservas em restaurantes
+
+A partir desta ideia, é importante que você abra um pouco mais para entender o porque esta situação é um problema.
+
+Ex: "**Pessoas que tem hábito de ir a restaurantes **não conseguem marcar reservas por não saber onde procurar, o telefone estar errado ou não atende, o restaurante escolhido não aceita reserva.Por conta disso, estas pessoas perdem tempo até achar um restaurante ou acabam desistindo pois a experiência inicial já foi frustante."
+
+###                                    ` Foque no problema e não na solução. `
+
+
 
 #### É hora de colocar a ideia no papel e usar a criatividade!
 
@@ -20,17 +38,13 @@ Prototipar é pegar a sua ideia e colocar no papel mesmo. A prototipação é um
 
 ![](/assets/prototipo.jpg)
 
-Por conta de ter feito o processo de ideação provavelmente aparece várias ideias, mas é importante focar em apenas 1 e trabalhar em cima desta que foi escolhida. A ideia da prototipação é criar um MVP da sua ideia. 
+Por conta de ter feito o processo de ideação provavelmente aparece várias ideias, mas é importante focar em apenas 1 e trabalhar em cima desta que foi escolhida. A ideia da prototipação é começar a criar um MVP da sua ideia.
 
 Pode ser feito em papel, caneta colorida, post-it exatamente para testar, mostrar as outras pessoas, ouvir feedbacks. Há opções de plataformas que ajudam nesta etapa que você pode até montar cada tela para ajudar a ficar mais claro e não fica tão artificial.
 
-http://app.in/
+[http://app.in/](http://app.in/)
 
-https://marvelapp.com/
+[https://marvelapp.com/](https://marvelapp.com/)
 
-Não ficará a estrutura final, mas deixa claro como vai funcionar, sem que as pessoas se atentem a cores, elementos visuais que acabam tirando a atenção do foco principal que é validar a jornada do usuário pelo seu app.
-
-
-
-
+Não ficará a estrutura final, mas deixa claro como vai funcionar, sem que as pessoas se atentem a cores, a estética, e elementos visuais que acabam tirando a atenção do foco principal que é validar a jornada do usuário pelo seu app e acaba virando uma busca pela aplicação perfeita.
 
