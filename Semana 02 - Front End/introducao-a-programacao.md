@@ -92,6 +92,8 @@ Eles servem para filtrar o resultado caso a condição definida seja verdadeira,
             }else {
                 console.log(`Opsss, o número ${resultado} não é par)
             }
+        }
+    }
 
 
 
