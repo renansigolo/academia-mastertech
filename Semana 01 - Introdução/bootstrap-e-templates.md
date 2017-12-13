@@ -58,19 +58,15 @@ yarn add jquery
 yarn add popper.js
 ```
 
-> Após adicionar as dependencias ao seu projeto certifique-se de que você está importando os arquivos de seus locais corretos
+> Após adicionar as dependências ao seu projeto certifique-se de que você está importando os arquivos de seus locais corretos
 >
-> var libPaths = \[
+> // CAMINHOS DAS BIBLIOTECAS EM SUAS RESPECTIVAS ORDENS \(JQUERY, POPPER, BOOTSTRAP\)
 >
->   // CAMINHOS DAS BIBLIOTECAS EM SUAS RESPECTIVAS ORDENS \(JQUERY, POPPER, BOOTSTRAP\)
+> 'node\_modules/jquery/dist/jquery.slim.min.js',
 >
->   'node\_modules/jquery/dist/jquery.slim.min.js',
+> 'node\_modules/popper.js/dist/umd/popper.min.js',
 >
->   'node\_modules/popper.js/dist/umd/popper.min.js',
->
->   'node\_modules/bootstrap/dist/js/bootstrap.min.js'
->
-> \];
+> 'node\_modules/bootstrap/dist/js/bootstrap.min.js'
 
 
 
