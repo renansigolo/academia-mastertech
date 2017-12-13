@@ -12,9 +12,9 @@ Alguns exemplos rápidos:
 
 A partir desta ideia, é importante que você abra um pouco mais para entender o porque esta situação é um problema.
 
-Ex: "**Pessoas que tem hábito de ir a restaurantes **não conseguem marcar reservas por não saber onde procurar, o telefone estar errado ou não atende, o restaurante escolhido não aceita reserva.Por conta disso, estas pessoas perdem tempo até achar um restaurante ou acabam desistindo pois a experiência inicial já foi frustante."
+Ex: "**Pessoas que tem hábito de ir a restaurantes **não conseguem marcar reservas por não saber onde procurar, o telefone estar errado ou não atende, o restaurante escolhido não aceita reserva.Por conta disso, estas pessoas perdem tempo até achar um restaurante ou acabam desistindo pois a experiência inicial já foi frustante."
 
-###                                    ` Foque no problema e não na solução. `
+### `Foque no problema e não na solução.`
 
 
 
@@ -22,7 +22,7 @@ Ex: "**Pessoas que tem hábito de ir a restaurantes **não conseguem marcar rese
 
 Neste momento é hora de deixar de lado um pouco os códigos e ir para prática, para o papel mesmo.
 
-Pense em um problema, ou uma ideia que você sempre quis colocar em prática e não conseguiu. Este será o momento.
+Pense neste problema.  Este será o momento de ter ideias de soluções.
 
 ###### Design Thinking - técnica através do pensamento criativo cria soluções diferenciadas para um determinado problema.
 
