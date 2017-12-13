@@ -67,7 +67,7 @@ HTML é o corpo do seu site, toda a estrutura da página é feito por html. Ele 
 
 ## CSS
 
-O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito e personalizado da maneira que você imagina seu site. Ele ajuda também na usabilidade do seu site, e em euma melhor experiência de navegação. A forma de escrever seu CSS é diferente do html, e trabalho em um arquivo diferente, geralmente nominado como styles.css.
+O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito e personalizado da maneira que você imagina seu site. Ele ajuda também na usabilidade do seu site, e em uma melhor experiência de navegação. A forma de escrever seu CSS é diferente do html, e inserido em um arquivo diferente, geralmente nominado como styles.css.
 
 ![](/assets/codecss.png)
 
