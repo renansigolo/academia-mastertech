@@ -8,6 +8,10 @@ um **framework **para front-end criado para facilitar e ajudar no trabalho do DE
 
 ##### Mas o que é um Framework mesmo? Imagina um quebra-cabeça. Há várias peçinhas já com uma identidade, cor, desenho, formato e que juntas formam uma imagem. É a mesma coisa, são conjuntos de códigos já criados e testados que juntos criam o seu site.
 
+## Como Instalar o Bootstrap4?
+
+Nós temos algumas opções nas formas de incluir o Bootstrap em nosso projeto.
+
 ## Bootstrap4 \(beta 2\) - CDN
 
 * Insere o Bootstrap 4 através de CDN no seu projeto
@@ -37,6 +41,24 @@ npm install jquery
 
 npm install popper.js
 ```
+## Bootstrap4 \(beta 2\) - Yarn
+
+* Instale o Bootstrap 4 através do YARN \(Package Manager\)
+
+```
+yarn add bootstrap@4.0.0-beta.2
+```
+
+* Instale outras dependências para rodar o JS do bootstrap
+
+```
+yarn add jquery
+
+yarn add popper.js
+```
+
+
+
 
 
 
