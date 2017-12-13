@@ -173,5 +173,5 @@ Monte a sua página. Pode ser um currículo, por exemplo uma página com seus ho
 
 Exercício 2
 
-
+Crie uma página que seria um ecommerce. A ideia é ter uma vitrine com produtos e que clicando em algum produto iria para outra página com mais informações sobre este produto. E qual o produto? Você escolhe! Pode ser flores, games, bijouterias...a ideia é estruturar um site com imagens, valores, textos \(pode ser só de marcação\).
 
