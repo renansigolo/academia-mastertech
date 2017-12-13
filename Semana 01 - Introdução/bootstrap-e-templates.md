@@ -68,5 +68,15 @@ yarn add popper.js
 >
 > 'node\_modules/bootstrap/dist/js/bootstrap.min.js'
 
+### Download Manual
+
+* Baixe os arquivos através do [link](https://getbootstrap.com/docs/4.0/getting-started/download/)
+
+* Descompacte o arquivo `.zip`
+
+* Mova os arquivos para dentro do seu projeto
+
+* Importe em seus respectivos locais
+
 
 
