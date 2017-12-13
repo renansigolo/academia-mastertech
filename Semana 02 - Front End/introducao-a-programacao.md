@@ -2,7 +2,7 @@
 
 ## O que uma linguagem de programação?
 
-Linguagem de programação nada mais é do que uma outra língua.
+Imagine uma linguagem de programação como se fosse um outro idioma.
 
 Assim como nós aprendemos Inglês, Espanhol, Italiano entre outras,  as linguagens de programação seguem as mesmas regras e princípios. Quer um exemplo...
 
