@@ -1,5 +1,9 @@
 # UX, Ideação e Prototipação
 
+#### O que é UX?
+
+É a experiência do usuário com seu produto. Não é algo físico e sim um acontecimento de quando uma pessoa entra em contato com um produto ou serviço. Por exemplo quando vai a uma loja pela primeira vez, todo visual, decoração, cheiros, posição dos produtos e simpatia do vendedor é uma experiência, ou quando você acessa um aplicativo como o Spotify que aparece as playlists que mais combinam com você \(essa mágica é exatamente para proporcionar uma melhor experiência\).
+
 #### Começando do ínicio
 
 Escolha um problema de alguém, ou um problema que você já precisa lidar no seu dia-a-dia. Em UX lidamos comHxH \(human to human\) de pessoas para pessoas.
@@ -15,8 +19,6 @@ A partir desta ideia, é importante que você abra um pouco mais para entender o
 Ex: "**Pessoas que tem hábito de ir a restaurantes **não conseguem marcar reservas por não saber onde procurar, o telefone estar errado ou não atende, o restaurante escolhido não aceita reserva.Por conta disso, estas pessoas perdem tempo até achar um restaurante ou acabam desistindo pois a experiência inicial já foi frustante."
 
 ### `Foque no problema e não na solução.`
-
-
 
 #### É hora de colocar a ideia no papel e usar a criatividade!
 
