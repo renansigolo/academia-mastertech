@@ -20,6 +20,8 @@ Ex: "**Pessoas que tem hábito de ir a restaurantes **não conseguem marcar rese
 
 ### `Foque no problema e não na solução.`
 
+
+
 #### É hora de colocar a ideia no papel e usar a criatividade!
 
 Neste momento é hora de deixar de lado um pouco os códigos e ir para prática, para o papel mesmo.
