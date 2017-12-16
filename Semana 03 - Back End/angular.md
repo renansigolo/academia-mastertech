@@ -1,4 +1,4 @@
-# Angular 2 - Guiii
+# Angular 2
 
 ## Angular Básico
 

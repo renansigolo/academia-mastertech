@@ -1,4 +1,4 @@
-# Protocolo HTTP - Caique
+# Protocolo HTTP
 
 O nome parece complicado mas é só uma sigla, que vem de _HyperText Transfer Protocol_. Mas o que é isso, afinal?
 
@@ -45,6 +45,4 @@ Body:   {
 Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
 
 ![](/assets/tag.jpg)
-
-
 
