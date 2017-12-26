@@ -58,7 +58,7 @@ const defineNome = () => {
 
 ## Exemplos básicos de funções
 
-Inserindo uma função em um botão![](/assets/button-testejs.png)Criando um botão via html, quando você tenta clicar nele nada acontece. Por isso podemos inserir uma função de clique neste botão.
+Inserindo uma função em um botão![](/assets/button-testejs.png)Criando um botão via html, quando você tenta clicar nele nada acontece. Por isso podemos inserir uma função de clique neste botão. Insira a função abaixo e teste em seu navegador.
 
 ```
 <!DOCTYPE html>
@@ -86,6 +86,8 @@ function Clicar(){
 alert("teste com sucesso");
 }
 ```
+
+## 
 
 ## O que é DOM?
 
