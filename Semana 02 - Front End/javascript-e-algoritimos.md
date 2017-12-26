@@ -60,9 +60,32 @@ const defineNome = () => {
 
 Inserindo uma função em um botão![](/assets/button-testejs.png)Criando um botão via html, quando você tenta clicar nele nada acontece. Por isso podemos inserir uma função de clique neste botão.
 
+```
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/styles.css">
 
+<head>
+    <meta charset="utf-8">
+    <title>Mastertech</title>
+</head>
 
+<h1> Academia Mastertech</h1>
+<p> Começando a programar</p>
 
+<button onclick="Clicar()">Clique Aqui</button>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
+
+//arquivo js//
+
+function Clicar(){
+alert("teste com sucesso");
+}
+```
 
 ## O que é DOM?
 
