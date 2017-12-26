@@ -56,9 +56,17 @@ const defineNome = () => {
 }
 ```
 
+## Exemplos básicos de funções
+
+Inserindo uma função em um botão![](/assets/button-testejs.png)Criando um botão via html, quando você tenta clicar nele nada acontece. Por isso podemos inserir uma função de clique neste botão.
+
+
+
+
+
 ## O que é DOM?
 
-Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo........???
+Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo........???
 
 | Propriedade | Descrição |
 | :--- | :--- |
@@ -67,7 +75,7 @@ Ele é uma representação da sua página no navegador como se fosse uma árvore
 | getElementByClass | Busca um elemento da página Web com o uso da classe do elemento. |
 | innerHTML | Retorna ou define o conteúdo de um elemento. |
 | appendChild | Insere um novo elemento filho. |
-| removeChild | Remove um elemento filho.  |
+| removeChild | Remove um elemento filho. |
 
 
 
