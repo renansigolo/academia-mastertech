@@ -87,7 +87,17 @@ alert("teste com sucesso");
 }
 ```
 
-## 
+## Brincando com o Javascript - Botão
+
+Para inserir um conteúdo em um formulário e alterar em seu site é simples de fazer pelo Javascript. Veja este exemplo:
+
+No arquivo html, inserimos um novo item &lt;p&gt;, &lt;input&gt; e &lt;button&gt; com id e no botão chamando a função do JS.
+
+![](/assets/fucntion-teste.png)
+
+Já no arquivo script.js inserimos uma nova função, a 'MudarTexto' onde será o start para alterar o texto de seu html de acordo com o que for inserido no campo do formulário.
+
+![](/assets/fucntion-teste2.png)
 
 ## O que é DOM?
 
