@@ -97,6 +97,10 @@ No arquivo html, inserimos um novo item &lt;p&gt;, &lt;input&gt; e &lt;button&gt
 
 Já no arquivo script.js inserimos uma nova função, a 'MudarTexto' onde será o start para alterar o texto de seu html de acordo com o que for inserido no campo do formulário.
 
+Criamos uma nova variável para armazenar o valor \(value\) que será "recebido" do campo &lt;input&gt;. E logo em seguida, busca um elemento que está no arquivo html, com um id que é colocado \(' '\) e receberá o valor da variável colocada acima. 
+
+Teste e veja o que acontece no seu navegador.
+
 ![](/assets/fucntion-teste2.png)
 
 ## O que é DOM?
