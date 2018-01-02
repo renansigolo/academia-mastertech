@@ -30,15 +30,13 @@
 
 * [Code Academy](https://www.codecademy.com/)
 
-* https://www.udemy.com/ \(alguns cursos são pagos\)
+* [https://www.udemy.com/](https://www.udemy.com/) \(alguns cursos são pagos\)
 
 ### Editores de texto
 
 Sublime Text 3
 
 Atom
-
-
 
 ### Plugins para o Atom
 
@@ -73,5 +71,13 @@ $('#modalzin').modal();
 * Instanciando objetos
 * Método construtor
 
+# Database
 
+##### Mongoose
+
+O Mongoose é um framework que irá nos auxiliar a manipular o banco de dados que iremos criar com o MongoDB!
+
+##### Mongolab
+
+Mongolab é um serviço que hospeda nosso MongoDB e facilita o gerenciamento dos dados do nosso banco.
 

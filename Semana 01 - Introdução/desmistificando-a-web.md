@@ -45,7 +45,63 @@ De forma mais simples, é o que acontece com alguns sites que possuem mapas de l
 
 Um outro bom exemplo é uma rede social como o Facebook, que foram criadas diversas APIs que possibilitaram receber informações de uma conta ou mesmo em fazer login em outros sites, utilizando uma conta do Facebook.
 
+#### O que é Node.js?
 
+É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor. Isso torna o processo muito mais ágil. Mas como assim?
+
+Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, ou seja, acontecerá uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa a próxima requisição e quando ele receber a resposta é enviado o evento sem deixar as demais requisições paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagina na black friday que são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
+
+Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
+
+A versão mais recente e recomendada para a maioria dos usuarios  é a 8.9.1 LTS.
+
+# Protocolo HTTP
+
+O nome parece complicado mas é só uma sigla, que vem de _HyperText Transfer Protocol_. Mas o que é isso, afinal?
+
+Basicamente é um protocolo que permite enviar e receber informações na web. E o que é um protocolo?
+
+Um protocolo é um conjunto de regras que determinam que tipo de informações podem ser trocadas e que tipo de mensagem deve ser enviada.
+
+O Protocolo HTTP precisa de duas entidades para funcionar corretamente: o **cliente** e o **servidor**. E normalmente o cliente é quem inicia a conversa e o servidor responde, criando uma linha de comunicação entre eles. Convencionalmente os pedidos são chamados de _**request**_ e as respostas de _**response**_.![](/assets/http.png)Existem duas coisas bem importantes em uma mensagem HTTP:
+
+* **Header**
+
+  * Pode conter instruções para a transferência das informações do body e até métodos HTTP.
+
+* **Body**
+
+  * Pode estar vazio ou conter informações que você deseja transmitir através da rede.
+
+**Exemplo:**
+
+```
+Header: Host: localhost:3000
+        Connection: keep-alive
+        Content-type: application/json
+Body:   {
+           "nome": "João",
+           "idade": 16
+        }
+```
+
+### O que são os métodos HTTP?
+
+* **GET**
+  * Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Quem manda na minha terra sou euzis!
+* **POST**
+  * Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Quem manda na minha terra sou euzis!
+* **PUT**
+  * Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Quem manda na minha terra sou euzis!
+* **DELETE**
+  * Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Quem manda na minha terra sou euzis!
+* asdasd
+
+### Query Strings
+
+Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
+
+![](/assets/tag.jpg)
 
 
 

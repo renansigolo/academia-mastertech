@@ -22,16 +22,17 @@
 * [Lógica de programação](Semana 02 - Front End/estrategias-de-solucao-de-problemas.md)
 * [Javascript e DOM](Semana 02 - Front End/javascript-e-algoritimos.md)
 
-## Semana 03 - Back End
+## Semana 03
 
-* [Database](Semana 03 - Back End/database.md)
+* [Orientação a objetos](Semana 03 - Back End/database.md)
 * [Angular](Semana 03 - Back End/angular.md)
-* [Node & Express](Semana 03 - Back End/node.md)
-* [Protocolo HTTP](Semana 03 - Back End/protocolo-http.md)
+* [Typescript](Semana 03 - Back End/node.md)
+* [Single Page Applications](Semana 03 - Back End/protocolo-http.md)
 
 ## Semana 04 - Aplicativos
 
 * [UX, Ideação e prototipação ](Semana 04 - Aplicativos/ideacao-e-prototipacao.md)
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
-* [Angular](Semana 04 - Aplicativos/angular.md)
+* [Angular - app](Semana 04 - Aplicativos/angular.md)
+* Integrando uma API
 
