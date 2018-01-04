@@ -167,6 +167,8 @@ Uma expressão colocada no seu arquivo CSS que limita/adapta a apresentação do
 
 ## Flexbox
 
+Flexbox faz parte do CSS3 e veio para organizar elementos na página quando o layout precisa ser visualizado em diferentes tamanhos de tela ou dispositivos.
+
 ### propriedades Flexbox:
 
 * flex-direction
