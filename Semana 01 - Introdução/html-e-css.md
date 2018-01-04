@@ -165,6 +165,23 @@ Uma expressão colocada no seu arquivo CSS que limita/adapta a apresentação do
   }
 ```
 
+## Flexbox
+
+### propriedades Flexbox:
+
+* flex-direction
+* flex-wrap
+* flex-flow
+* justify-content
+* align-items
+* align-content
+* order
+* align-self
+* flex-grow
+* flex-shrink
+* flex-basis
+* flex
+
 ## Hora de colocar em prática seus conhecimentos
 
 Exercício 1
