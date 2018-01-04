@@ -10,6 +10,40 @@ Quer um exemplo básico, insira este código no Sublime e abra o arquivo html no
 
 ![](/assets/Screen Shot 2017-12-13 at 8.28.11 AM.png)
 
+##  JavaScript
+
+##  Valores
+
+O JavaScript reconhece os seguintes tipos de valores:
+
+* Números** **: como 42 ou 3,14159
+* Valores lógicos chamados de Booleanos: true ou false
+* Strings: como "Mastertech!" ou "guarda-roupa"
+* null :  um valor nulo;
+* undefined: uma propriedade que possui o valor indefinido;
+
+#### Função é diferente de objeto
+
+_Os objetos são como nome da caixinha que vai ser guardado os valores, e funções são como um passo a passo do que a sua aplicação vai executar._
+
+### Variavéis
+
+Variáveis são como nomes simbólicos para os valores em sua aplicação,imagina que você vai trabalhar com várias variavéis, e não pode todas terem o nome de strings ou de números.
+
+Há variáveis globais e locais, sendo que a principal diferença entre elas é onde são declaradas e  sua validade. Como assim?
+
+Uma variável global é declarada em um objeto global, que será válido para todo o documento, e uma variável local geralmente fica armazenada dentro de uma função e quando esta função termina, aquela variável morre. Você não consegue a utilizar em outra função como ocorre com uma global.
+
+Para declarar uma variável \(local e global\) pode-se  colocar : 
+
+`var Idade : 20;`
+
+`var Nome: "João";`
+
+Ou sem a palavra var, que ficaria como:
+
+`Nome: "João"`
+
 ## exemplos JS
 
 * Operadores `>, <, =<, >=, ==, !=`
@@ -103,13 +137,11 @@ Teste e veja o que acontece no seu navegador.
 
 ![](/assets/fucntion-teste2.png)
 
-\*\*Tente inserir dentro da função o seguinte trecho: 
+\*\*Tente inserir dentro da função o seguinte trecho:
 
 ```
 document.getElementById('novotexto').style.color = "orange";
 ```
-
-
 
 ## E o que é DOM?
 

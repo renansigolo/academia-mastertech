@@ -6,6 +6,7 @@
 * [Extra](extra.md)
   * [GIT](extra/git.md)
   * [SASS](extra/sass.md)
+* [UX, Ideação e prototipação ](Semana 04 - Aplicativos/ideacao-e-prototipacao.md)
 * [Exercícios](exercicios.md)
   * [Angular](exercicios/angular.md)
   * [HTML, CSS, JS](exercicios/html-css-js.md)
@@ -31,7 +32,6 @@
 
 ## Semana 04 - Aplicativos
 
-* [UX, Ideação e prototipação ](Semana 04 - Aplicativos/ideacao-e-prototipacao.md)
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
 * [Angular - app](Semana 04 - Aplicativos/angular.md)
 * Integrando uma API
