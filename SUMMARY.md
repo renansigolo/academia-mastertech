@@ -34,5 +34,5 @@
 
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
 * [Angular - app](Semana 04 - Aplicativos/angular.md)
-* Integrando uma API
+* [Integrando uma API](Semana 04 - Aplicativos/integrando-uma-api.md)
 
