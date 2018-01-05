@@ -10,9 +10,9 @@ Quer um exemplo básico, insira este código no Sublime e abra o arquivo html no
 
 ![](/assets/Screen Shot 2017-12-13 at 8.28.11 AM.png)
 
-##  JavaScript
+## JavaScript
 
-##  Valores
+## Valores
 
 O JavaScript reconhece os seguintes tipos de valores:
 
@@ -34,7 +34,7 @@ Há variáveis globais e locais, sendo que a principal diferença entre elas é 
 
 Uma variável global é declarada em um objeto global, que será válido para todo o documento, e uma variável local geralmente fica armazenada dentro de uma função e quando esta função termina, aquela variável morre. Você não consegue a utilizar em outra função como ocorre com uma global.
 
-Para declarar uma variável \(local e global\) pode-se  colocar : 
+Para declarar uma variável \(local e global\) pode-se  colocar :
 
 `var Idade : 20;`
 
@@ -145,7 +145,7 @@ document.getElementById('novotexto').style.color = "orange";
 
 ## E o que é DOM?
 
-Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo........???
+Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo.![](/assets/tree.png)
 
 | Propriedade | Descrição |
 | :--- | :--- |
