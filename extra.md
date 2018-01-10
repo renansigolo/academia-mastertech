@@ -32,11 +32,24 @@
 
 * [https://www.udemy.com/](https://www.udemy.com/) \(alguns cursos são pagos\)
 
-### Editores de texto
+Existem inúmeras ferramentas que podem ser utilizadas para criação e edição de arquivos HTML e CSS, abaixo destaco alguns, fique a vontade para utilizar o seu preferido:
 
-Sublime Text 3
+## Editores off-line {#editores-off-line}
 
-Atom
+* O[Sublime Text](https://www.sublimetext.com/) é um software multiplataforma de edição de texto, no entanto utilizado por muitos desenvolvedores para editar código-fonte, escrito em linguagem Python.
+
+* O[Visual Studio Code](https://code.visualstudio.com/) é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+
+* [Atom](https://atom.io/) é um editor de texto de código aberto disponível para as plataformas Linux, macOS e Microsoft Windows, desenvolvido pelo GitHub sob a licença MIT.
+
+* [Brackets](http://brackets.io/) é um editor de open-source criado pela Adobe Systems que possui como foco principal o desenvolvimento web.
+
+## Editores online {#editores-online}
+
+* [CodePen](https://codepen.io/)
+* [Trinket](https://trinket.io/)
+* [JSFiddle](https://jsfiddle.net/)
+* [Thimble](https://thimble.mozilla.org/pt-BR/)
 
 ### Plugins para o Atom
 

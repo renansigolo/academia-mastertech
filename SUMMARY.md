@@ -28,11 +28,10 @@
 * [Orientação a objetos](Semana 03 - Back End/database.md)
 * [Angular](Semana 03 - Back End/angular.md)
 * [Typescript](Semana 03 - Back End/node.md)
-* [Single Page Applications](Semana 03 - Back End/protocolo-http.md)
+* [protocolos HTTP ](Semana 04 - Aplicativos/integrando-uma-api.md)
 
 ## Semana 04 - Aplicativos
 
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
 * [Angular - app](Semana 04 - Aplicativos/angular.md)
-* [Integrando uma API](Semana 04 - Aplicativos/integrando-uma-api.md)
 
