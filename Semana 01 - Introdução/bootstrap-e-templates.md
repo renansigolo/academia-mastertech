@@ -4,7 +4,7 @@
 
 ###### _“Projetado para qualquer um em qualquer lugar”_
 
-um **framework **para front-end criado para facilitar e ajudar no trabalho do DEV, oferecendo padrões para HTML, JavaScript e CSS para criações de páginas web de maneira responsiva e gratuita.
+um **framework **para front-end criado para facilitar e ajudar no trabalho do DEV, oferecendo padrões para HTML, JavaScript e CSS para criações de páginas web de maneira responsiva e gratuita. .
 
 ##### Mas o que é um Framework mesmo? Imagina um quebra-cabeça. Há várias peçinhas já com uma identidade, cor, desenho, formato e que juntas formam uma imagem. É a mesma coisa, são conjuntos de códigos já criados e testados que juntos criam o seu site.
 
@@ -88,6 +88,4 @@ O importante neste caso é inserir o link do seu CSS após o link do Boostrap, a
 Como exercício, temos um página já criada com elementos e que precisa de melhorias. Baixe o projeto no seu computador e começe a sua página em Boostrap.
 
 Endereço: [https://github.com/Diandralas/semana1](https://github.com/Diandralas/semana1-hack)
-
-
 

@@ -107,6 +107,8 @@ Quando começa a programar é bem comum aparecer elemento pai e filho durante ex
 
 O CSS tem como principal função estilizar seu site, ou seja, deixar ele bonito e personalizado da maneira que você imagina seu site. Ele ajuda também na usabilidade do seu site, e em uma melhor experiência de navegação. A forma de escrever seu CSS é diferente do html, e inserido em um arquivo diferente, geralmente nominado como styles.css.
 
+![](/assets/2018-01-13.png)
+
 ![](/assets/codecss.png)
 
 Ele é referenciado em seu HTML através da tag &lt;link&gt; :
@@ -121,7 +123,11 @@ E através de um seletor, é colocado as propriedades que você que aplicar na t
 
 * `.classes{  }`
 
+Uma classe é reutilizável: pode se repetir na página e também combinar-se com outras \(podemos pôr mais de uma classe em um elemento\)
+
 * `#ids{  }`
+
+\#id é uma identificação única: só pode ser utilizada uma vez no documento inteiro. Normalmente é utilizada para identificar elementos estruturais da página.
 
 * `.minha-classe p{  }`
 
@@ -184,9 +190,7 @@ E através de um seletor, é colocado as propriedades que você que aplicar na t
 }
 ```
 
-* Usem o media queries
-
-O que é um media querie?
+#### O que é  media queries?
 
 Uma expressão colocada no seu arquivo CSS que limita/adapta a apresentação do seu conteúdo de acordo com um formato especifica de dispositivos \(tamanho da tela\), geralmente usado para largura, altura e cor.
 
@@ -352,7 +356,7 @@ O atributo href faz parte da tag, tem a função de referenciar algo externa que
 
 Para trabalhar o espaçamento entre os elementos, o mais comum é os atributos padding e margin.
 
-![](/assets/margin-padding)
+![](/assets/paddingemargin.gif)
 
 A margin seria o distanciamento do seu elemento com o seu site \(body\) que pode ser tanto colocada em % ou pixel.
 
