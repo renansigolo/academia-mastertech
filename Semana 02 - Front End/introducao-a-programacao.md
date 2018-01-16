@@ -12,7 +12,7 @@ Assim como a língua portuguesa é composta da seguinte estrutura seguindo as re
 
 Porém o tempo para se aprender uma linguagem de programação é muito menor do que um outro idioma. Por exemplo Python que é uma das linguagens mais utilizadas para programar o backEnd contém apenas 33 palavras reservadas. Isso significa que você precisa aprender apenas 33 palavras!
 
-## Conceitos básicos de programação
+## Conceitos básicos de programação...começando Javascript
 
 ### Variáveis
 

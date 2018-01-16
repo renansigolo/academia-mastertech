@@ -18,9 +18,20 @@ O JavaScript reconhece os seguintes tipos de valores:
 
 * Números** **: como 42 ou 3,14159
 * Valores lógicos chamados de Booleanos: true ou false
+
+![](/assets/boolean.png)
+
 * Strings: como "Mastertech!" ou "guarda-roupa"
 * null :  um valor nulo;
 * undefined: uma propriedade que possui o valor indefinido;
+
+### Tipos de dados abstratos/agrupados
+
+objetos - é como um dado que tem propriedades. Compare-o com um carro, por exemplo. Um carro tem uma cor, um modelo, peso, um ano de fabricação, etc. Da mesma forma, objetos em JavaScript podem ter propriedades, que definem suas características.
+
+vetor \[ \] - é um agrupamento de variavéis, e sempre começa em zero. As variavéis tanto podem ser strings, números, booleanos....O mais comum é verificar vetores com um mesmo tipo, por exemplo, um vetor de nomes, só teria strings.![](/assets/2018-01-15 %282%29.png)
+
+![](/assets/2018-01-15 %282%29.png)
 
 #### Função é diferente de objeto
 
@@ -46,7 +57,41 @@ Ou sem a palavra var, que ficaria como:
 
 ## exemplos JS
 
-* Operadores `>, <, =<, >=, ==, !=`
+#### Operadores 
+
+=  significa atribuir um valor a uma variável
+
+== significa Igual.
+
+!=  significa Diferente.
+
+=== significa Estritamente igual \(verifica conteúdo e tipo da variável\).
+
+!==  significa Estritamente diferente \(verifica conteúdo e tipo da variável\);
+
+&lt;    Menor que.
+
+&lt;=  Menor ou igual a.
+
+&gt;    Maior que.
+
+&gt;=  Maior ou igual a.
+
++    significa concatenar um elemento ou variável A com o B
+
+++   significa quando vc incrementa/adiciona um valor a variável \(ex: usado no for\)
+
+--    significa quando vc decrementa/diminui um valor a variável 
+
+&&   é o mesmo valor de "E".
+
+\|\|    é o mesmo valor de "Ou".
+
+!     é o mesmo valor de "Não".
+
+
+
+### Mais exemplos:
 
 * `if(umaCondicao >= queOutra){  };`
 
@@ -69,6 +114,8 @@ Ou sem a palavra var, que ficaria como:
 * `acumulador = acumulador + numero; == acumulador += numero`
 
 * `<button onclick="minhaFuncao()"> Clique Aqui </button>`
+
+if e else
 
 ## ES5 x ES6
 

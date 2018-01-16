@@ -19,8 +19,8 @@
 
 ## Semana 02 - Front End
 
-* [Introdução a programação](Semana 02 - Front End/introducao-a-programacao.md)
 * [Lógica de programação](Semana 02 - Front End/estrategias-de-solucao-de-problemas.md)
+* [Introdução a programação](Semana 02 - Front End/introducao-a-programacao.md)
 * [Javascript e DOM](Semana 02 - Front End/javascript-e-algoritimos.md)
 
 ## Semana 03
