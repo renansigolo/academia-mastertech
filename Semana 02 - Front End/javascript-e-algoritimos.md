@@ -261,17 +261,19 @@ var total = palavra1 + palavra2;     // "Bom dia todo mundo"
 
 ## Math
 
-Ele é considerado um objeto embutido com propriedades e métodos para constantes e funções matemáticas. Por exemplo para realizar uma exponenciação, é utilizado o método pow ` math.pow (x,y)` onde x e y poderia ser 3² \(três elevado a segunda potência\). Ele é um facilitador para realizar operações.
+Ele é considerado um objeto embutido com propriedades e métodos para constantes e funções matemáticas. Por exemplo para realizar uma exponenciação, é utilizado o método pow `math.pow (x,y)` onde x e y poderia ser 3² \(três elevado a segunda potência\). Ele é um facilitador para realizar operações.
 
 Exemplos:
 
-Math.round\(x\) - Retorna o valor arrendodado de X para o valor inteiro mais próximo.
+Math.round\(x\) - Retorna o valor arrendodado de X para o valor inteiro mais próximo.
 
 Math.random\( \) - Retorna um número pseudo-aleatório entre 0 e 1.
 
 ### Console
 
-O console é  um objeto com diversos métodos que trabalham em conjunto semelhante ao funcionamento do Math. Ele fornece acesso à consola de depuração do navegador. Um desses métodos mais usado é o log\(\) onde você envia uma informação para depurar o código, verificar onde está a falha.
+O console é  um objeto com diversos métodos que trabalham em conjunto semelhante ao funcionamento do Math. Ele fornece acesso à consola de depuração do navegador. Um desses métodos mais usado é o log\(\) onde você envia uma informação para depurar o código, verificar onde deu o erro ou em qual parte da função parou de rodar.
+
+Você pode também pode inserir mensagens, como por exemplo com if e else onde você aparece as duas condições que pode acontecer na função.
 
 Exemplo:
 
@@ -280,7 +282,70 @@ let apostila = "Academia Mastertech"
 console.log (apostila)     // aparece Academia Mastertech.
 ```
 
-## 
+## Document
+
+
+
+### SetInterval e TimeOut
+
+São duas funções do Javascript que chamamos de temporizadores, e com elas é possível definir um intervalo de tempo em que um evento irá acontecer em milisegundos \(1 segundo = 1000 milisegundos\).
+
+A sintaxe das duas funções é praticamente idêntica, só muda a forma em que elas agem no seu código.
+
+A setTimeout\(\) chama a função uma única vez. Enquanto a setInterval\(\) chama a função “infinitamente” sempre no mesmo intervalo de tempo que é colocado e para pausar a função usa-se clearInterval\(\). 
+
+Exemplo para ficar mais claro: Na função abaixo a setInterval\(\) vai executar o que for definido dentro de uma função passada como parâmetro em 50 em 50 milisegundos e este processo vai  durar 3000 milisegundos \(3 segundos\), que é o tempo definido na setTimeout\(\) e ela ai ela para por conta da clearInterval\(\).
+
+```
+var intervalo = window.setInterval(function() {
+    // inserir uma função aqui
+}, 50);
+
+window.setTimeout(function() {
+    clearInterval(intervalo);
+}, 3000);
+```
+
+## Eventos Javascript
+
+Para entender os eventos em JavaScript é legal pensar que estão em camadas. Por exemplo, quando se usa um evento de clique para fazer aparecer uma caixa de diálogo \(`alert()`\), existem uma sequência de ações para acontecer isso.
+
+* Um botão é clicado;
+* O botão dispara um evento;
+* Algum código está escutando o evento disparado;
+* A caixa de diálogo é mostrada "Hello World".
+
+Quando se clica no botão, o navegador emite o que é conhecido como **evento**. Toda a aplicação sabem que o botão foi clicado.. Para ter uma reação a este clique, é preciso que tenha um código que escute este evento para acionar o "disparo" da caixa de diálogo.
+
+Este processo pode ocorrer diversas vezes, ao abrir uma página, clicar em um botão, passar o mouse e dependendo do foco da sua aplicação é preciso escutar o evento certo para atingir a resposta esperada. 
+
+Para fazer isso é feito a função addEventListener\(\) onde ela atua como um vigilante 24h que fica de olho em todos os eventos acontecendo em sua aplicação para que possa dar prosseguimento a próxima ação quando o evento for disparado.
+
+Você pode usar a função addEventListener\(\) para escutar os eventos que neste caso será No caso, um botão chamado com a id clickButton que terá o evento click e a função que vai acontecer assim que ocorrer o clique do botão que neste caso é um alert com um aviso.
+
+```
+<html>
+    <head>
+        <title>Eventos de Javascript</title>
+    </head>
+ 
+    <body>
+        <div id="main">
+            <button id="clickButton" class="buttonStyle">clicar aqui</button>
+        </div>
+ 
+        <script>
+        let clickButton = document.querySelector("#clickButton");
+ 
+        clickButton.addEventListener('click', displayDialog, false);
+ 
+        function displayDialog(e) {
+            window.alert("Deu certo!");
+        }
+        </script>
+    </body>
+</html>
+```
 
 ## E o que é DOM?
 
