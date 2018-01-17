@@ -326,6 +326,7 @@ Você pode usar a função addEventListener\(\) para escutar os eventos que nest
     </head>
 
     <body>
+    
         <div id="main">
             <button id="clickButton" class="buttonStyle">clicar aqui</button>
         </div>
@@ -478,12 +479,12 @@ Por exemplo: considerando que variável palavra contém a string "Facebook", o v
       e a quantidade de produtos é ${quantidadeProdutos}`);
 
 1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console:  
- _O valor sorteado foi banana.    
+ _O valor sorteado foi banana.        
 _
 
 2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais.  
  Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console:  
- _Os valores sorteados foram banana, banana e pera. Você perdeu!    
+ _Os valores sorteados foram banana, banana e pera. Você perdeu!        
 _ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     let valores = ['maçã', 'banana', 'pera', '7'];
