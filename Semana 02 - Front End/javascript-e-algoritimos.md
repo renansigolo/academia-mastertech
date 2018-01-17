@@ -57,7 +57,7 @@ Ou sem a palavra var, que ficaria como:
 
 ## exemplos JS
 
-#### Operadores 
+#### Operadores
 
 =  significa atribuir um valor a uma variável
 
@@ -77,19 +77,17 @@ Ou sem a palavra var, que ficaria como:
 
 &gt;=  Maior ou igual a.
 
-+    significa concatenar um elemento ou variável A com o B
+* significa concatenar um elemento ou variável A com o B
 
 ++   significa quando vc incrementa/adiciona um valor a variável \(ex: usado no for\)
 
---    significa quando vc decrementa/diminui um valor a variável 
+--    significa quando vc decrementa/diminui um valor a variável
 
 &&   é o mesmo valor de "E".
 
 \|\|    é o mesmo valor de "Ou".
 
 !     é o mesmo valor de "Não".
-
-
 
 ### Mais exemplos:
 
@@ -99,13 +97,9 @@ Ou sem a palavra var, que ficaria como:
 
 * `let titulo = document.querySelector('h1');`
 
-* `let minhaVariavel = 'um valor';`
+* `let minhaVariavel = 'um valor para esta variável';`
 
-* `funcao nomeDaFuncao(){  };`
-
-* `titulo.innerHTML = 'um texto qualquer';`
-
-* `let numeros = [90, 10, 21, 2, 72, 5, 7];`
+* `funcao nomeDaFuncao(){  }`
 
 * `for (let numero of numeros){ }`
 
@@ -115,7 +109,39 @@ Ou sem a palavra var, que ficaria como:
 
 * `<button onclick="minhaFuncao()"> Clique Aqui </button>`
 
-if e else
+
+
+#### For e while
+
+Frequentemente é preciso ter nas aplicações repetir a execução de um bloco de códigos até que determinada condição seja verdadeira, ou senão até uma quantidade de vezes seja o suficiente.
+
+O **while** faz este laço, ou loop de executar o código até que a condição seja verdadeira, porém sem saber o número correto de iterações. Por exemplo, verificar em site de sorteio, se o número 20 foi selecionado. Não está determinado o número de participantes ou de tentativas, então o while vai "rodar" até encontrar este número.
+
+Já o for, também executa o loop porém já está determinado o número de iterações. Por exemplo, usando a mesma ideia do sorteio, é necessário escolher 5 participantes para uma próxima rodada, então já sabemos que o laço irá parar até ter 5 selecionados. Veja o que acontece quando insere este código no console do seu browser:
+
+```
+var contador;
+for(contador = 0; contador < 10; contador++)
+{
+  alert(contador);
+}
+```
+
+### For...of e for...in
+
+Enquanto o`for...in`interage com o nome das propriedades, o`for...of`interage com o valor das propriedades.
+
+```
+let vetor = [3, 5, 7];
+
+for (let i in vetor) {
+   console.log(i); // logs "0", "1", "2" (aparece a posição de cada vetor ou seja o nome, que neste caso seria números)
+}
+
+for (let i of vetor) {
+   console.log(i); // logs "3", "5", "7" (neste caso aparece o valor, ou seja a posição 0 tem valor de 3)
+}
+```
 
 ## ES5 x ES6
 
@@ -190,6 +216,51 @@ Teste e veja o que acontece no seu navegador.
 document.getElementById('novotexto').style.color = "orange";
 ```
 
+## Usando o 'this'
+
+O uso do this é uma forma de referenciar ou criar um atalho para um objeto por exemplo. Uma boa analogia é o uso de pronomes para referenciar o sujeito de uma frase, "João está estudando para evitar que ele fique de recuperação", o ele faria a mesma função do this.
+
+```
+let pessoa = {
+    Nome : "Bruno",
+    Sobrenome: "Pimentel",
+    NomeCompleto  : function() {
+        //Um exemplo do uso do "this" "ele" referenciando ao objeto pessoa
+        console.log( this.Nome + ' ' + this.Sobrenome );
+ 
+        // Também poderia ter escrito assim:
+        console.log( pessoa.Nome + ' ' + pessoa.Sobrenome );
+    }
+}
+```
+
+#### Interpolação
+
+É uma forma mais sucinta para encapsular expressões dentro das strings.
+
+    VERSÃO ANTIGA ES5
+    var a = 5;
+    var b = 10;
+    console.log("Quinze é " + (a + b) + " e não " + (2 * a + b) + ".");
+    // "Quinze é 15 e não 20."
+
+    Agora, utilizar as substituções sintaticas torna o código mais legível:
+    VERSÃO ANTIGA ES5
+    var a = 5;
+    var b = 10;
+    console.log(`Quinze é ${a + b} e não ${2 * a + b}.`);
+    // "Quinze é 15 e não 20."
+
+Concatenação
+
+Diferente da matemática, o + não faz a soma em strings, e sim as concatena, como mostra o exemplo abaixo:
+
+```
+var palavra1 = "Bom dia";  
+var palavra2 = " todo mundo";  
+var total = palavra1 + palavra2;     // "Bom dia todo mundo"
+```
+
 ## E o que é DOM?
 
 Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo.![](/assets/tree.png)
@@ -202,6 +273,8 @@ Ele é uma representação da sua página no navegador como se fosse uma árvore
 | innerHTML | Retorna ou define o conteúdo de um elemento. |
 | appendChild | Insere um novo elemento filho. |
 | removeChild | Remove um elemento filho. |
+
+
 
 
 
