@@ -109,8 +109,6 @@ Ou sem a palavra var, que ficaria como:
 
 * `<button onclick="minhaFuncao()"> Clique Aqui </button>`
 
-
-
 #### For e while
 
 Frequentemente é preciso ter nas aplicações repetir a execução de um bloco de códigos até que determinada condição seja verdadeira, ou senão até uma quantidade de vezes seja o suficiente.
@@ -129,7 +127,7 @@ for(contador = 0; contador < 10; contador++)
 
 ### For...of e for...in
 
-Enquanto o`for...in`interage com o nome das propriedades, o`for...of`interage com o valor das propriedades.
+Enquanto o`for...in`interage com o nome das propriedades, o`for...of`interage com o valor das propriedades.
 
 ```
 let vetor = [3, 5, 7];
@@ -227,7 +225,7 @@ let pessoa = {
     NomeCompleto  : function() {
         //Um exemplo do uso do "this" "ele" referenciando ao objeto pessoa
         console.log( this.Nome + ' ' + this.Sobrenome );
- 
+
         // Também poderia ter escrito assim:
         console.log( pessoa.Nome + ' ' + pessoa.Sobrenome );
     }
@@ -261,6 +259,29 @@ var palavra2 = " todo mundo";
 var total = palavra1 + palavra2;     // "Bom dia todo mundo"
 ```
 
+## Math
+
+Ele é considerado um objeto embutido com propriedades e métodos para constantes e funções matemáticas. Por exemplo para realizar uma exponenciação, é utilizado o método pow ` math.pow (x,y)` onde x e y poderia ser 3² \(três elevado a segunda potência\). Ele é um facilitador para realizar operações.
+
+Exemplos:
+
+Math.round\(x\) - Retorna o valor arrendodado de X para o valor inteiro mais próximo.
+
+Math.random\( \) - Retorna um número pseudo-aleatório entre 0 e 1.
+
+### Console
+
+O console é  um objeto com diversos métodos que trabalham em conjunto semelhante ao funcionamento do Math. Ele fornece acesso à consola de depuração do navegador. Um desses métodos mais usado é o log\(\) onde você envia uma informação para depurar o código, verificar onde está a falha.
+
+Exemplo:
+
+```
+let apostila = "Academia Mastertech"
+console.log (apostila)     // aparece Academia Mastertech.
+```
+
+## 
+
 ## E o que é DOM?
 
 Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo.![](/assets/tree.png)
@@ -273,8 +294,6 @@ Ele é uma representação da sua página no navegador como se fosse uma árvore
 | innerHTML | Retorna ou define o conteúdo de um elemento. |
 | appendChild | Insere um novo elemento filho. |
 | removeChild | Remove um elemento filho. |
-
-
 
 
 
