@@ -249,7 +249,7 @@ let pessoa = {
     console.log(`Quinze é ${a + b} e não ${2 * a + b}.`);
     // "Quinze é 15 e não 20."
 
-Concatenação
+#### Concatenação
 
 Diferente da matemática, o + não faz a soma em strings, e sim as concatena, como mostra o exemplo abaixo:
 
@@ -281,8 +281,6 @@ Exemplo:
 let apostila = "Academia Mastertech"
 console.log (apostila)     // aparece Academia Mastertech.
 ```
-
-## Document
 
 ### SetInterval e TimeOut
 
@@ -370,21 +368,19 @@ Quando o navegador recebe a requisição e baixa o documento HTML é  preciso tr
 | appendChild | Insere um novo elemento filho. |
 | removeChild | Remove um elemento filho. |
 
-
-
 ##### _Exercícios resolvidos em sala_
 
- Imprima no console uma escada com a mesma quantidade de degraus que o número contido na variável.
+Imprima no console uma escada com a mesma quantidade de degraus que o número contido na variável.
 
-  Ex: numero = 4;
+Ex: numero = 4;
 
-  \#
+\#
 
-  \#\#
+\#\#
 
-  \#\#\#
+\#\#\#
 
-  \#\#\#\#
+\#\#\#\#
 
 ```
 // ESCADA - forma 1
@@ -392,8 +388,8 @@ let numero = 10;
 let degrau = '#';
 
 for(let i = 1; i <= numero; i++){
-	degrau += '#';
-	console.log(degrau);
+    degrau += '#';
+    console.log(degrau);
 }
 
 //ESCADA - forma 2
@@ -407,17 +403,15 @@ for(let contador = 0; contador < numero_de_degraus; contador++) {
 }
 ```
 
+Crie um programa que busque uma letra dentro de uma frase e imprima a quantidade de ocorrências dela, da seguinte forma:
 
+Foram encontradas 4 ocorrências da letra "a" na frase "Colocar dois pratos de trigo para dois tigres".
 
-  Crie um programa que busque uma letra dentro de uma frase e imprima a quantidade de ocorrências dela, da seguinte forma:
+Não foram encontradas ocorrências da letra "a" na frase "Colocar dois pratos de trigo para dois tigres".
 
-  Foram encontradas 4 ocorrências da letra "a" na frase "Colocar dois pratos de trigo para dois tigres".
+Dica: Em javascript, os caracteres de uma string podem ser acessados usando a notação de vetor.
 
-  Não foram encontradas ocorrências da letra "a" na frase "Colocar dois pratos de trigo para dois tigres".
-
-  Dica: Em javascript, os caracteres de uma string podem ser acessados usando a notação de vetor.
-
-  Por exemplo: considerando que variável palavra contém a string "Facebook", o valor de palavra\[2\] é "c".
+Por exemplo: considerando que variável palavra contém a string "Facebook", o valor de palavra\[2\] é "c".
 
     // BUSCA-LETRA
     let frase = "Três pratos de trigo para três tigres tristes";
@@ -426,18 +420,18 @@ for(let contador = 0; contador < numero_de_degraus; contador++) {
 
 
     for(let letra of frase){
-    	if (letra == letra_procurada){
-    		contador++;
-    	}
+        if (letra == letra_procurada){
+            contador++;
+        }
     }
 
     console.log(`A frase "${frase}" possui ${contador} letras ${letra_procurada}`);
 
+1- Criar um programa que soma o valor da lista de compra, considerando o  
+ valor de cada item e sua quantidade.  
+ No final, o programa deve imprimir uma mensagem no console: O valor total da lista de compras é R$ 100.
 
-
-  1- Criar um programa que soma o valor da lista de compra, considerando o valor de cada item e sua quantidade. No final, o programa deve imprimir uma mensagem no console: O valor total da lista de compras é R$ 100.
-
-  2- Somar também a quantidade de itens da lista e alterar a mensagem a ser impressa: O valor total da lista de compras é R$ 100 e a quantidade de itens é 23
+2- Somar também a quantidade de itens da lista e alterar a mensagem a ser impressa: O valor total da lista de compras é R$ 100 e a quantidade de itens é 23
 
     let itens = [
       {
@@ -483,9 +477,14 @@ for(let contador = 0; contador < numero_de_degraus; contador++) {
       console.log(`O valor total da lista de compras é de R$ ${valorTotal} 
       e a quantidade de produtos é ${quantidadeProdutos}`);
 
-  1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console: _O valor sorteado foi banana._
+1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console:  
+ _O valor sorteado foi banana.  
+_
 
-  2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais. Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console: _Os valores sorteados foram banana, banana e pera. Você perdeu!_ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
+2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais.  
+ Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console:  
+ _Os valores sorteados foram banana, banana e pera. Você perdeu!  
+_ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     let valores = ['maçã', 'banana', 'pera', '7'];
     let escolha = [];
@@ -493,18 +492,43 @@ for(let contador = 0; contador < numero_de_degraus; contador++) {
 
 
     for(let i = 0; i < 3; i++){
-    	let x = Math.floor((Math.random() * 4) + 1); //Número aleatório entre 1 e 4
-    	escolha[i] = valores[x-1];
+        let x = Math.floor((Math.random() * 4) + 1); //Número aleatório entre 1 e 4
+        escolha[i] = valores[x-1];
     }
 
     if(escolha[0] == escolha[1] && escolha[1] == escolha[2]){
-    	console.log(`Os valores sorteados foram ${escolha[0]}, ${escolha[1]} e ${escolha[2]}. 
-    	Parabéns, você foi sorteado!`);
+        console.log(`Os valores sorteados foram ${escolha[0]}, ${escolha[1]} e ${escolha[2]}. 
+        Parabéns, você foi sorteado!`);
     }
     else {
-    	console.log(`Os valores sorteados foram ${escolha[0]}, ${escolha[1]} e ${escolha[2]}. 
-    	Você foi não sorteado!`);
+        console.log(`Os valores sorteados foram ${escolha[0]}, ${escolha[1]} e ${escolha[2]}. 
+        Você foi não sorteado!`);
 
+    }
+
+  Criar um programa que verifica se um dado vetor está ordenado ou não, e imprima as seguintes mensagens no console.
+
+ O vetor está ordenado
+
+  O vetor não está ordenado
+
+  Obs: O vetor só irá conter números inteiros, positivos e maiores que zero.
+
+    let lista = [10, 20, 50, 100, 1];
+    let ok = true;
+
+
+    for(let item of lista){
+    	if(lista[item] < lista[item+1]){
+    		ok = false;
+    	}
+    }
+
+    if(ok == false){
+    	console.log(`A lista não é ordenada.`);
+    }
+    else {
+    	console.log(`A lista é ordenada.`);
     }
 
 
