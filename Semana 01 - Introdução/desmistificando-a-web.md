@@ -15,27 +15,29 @@ Aqui você irá encontrar todos os códigos realizados em sala de aula como refe
 
 #### O que é o tal cache?
 
-É onde são armazenados os dados temporários de sua navegação, para agilizar o acesso aos sites visitados anteriormente. Ou seja, imagina que seja uma caixinha que toda vez que você acessa um site é armazenado dados como pesquisa, cliques, no caso de aplicativos, as informações dos aplicativos mais acessados, e cada vez que você acessar um site ou um aplicativo eles vão visitar essa caixinha para que não tenha que fazer do zero, isso ajuda a economizar tempo e tornar a resposta mais rápida.
+É onde são armazenados os dados temporários de sua navegação, para agilizar o acesso aos sites visitados anteriormente. Imagina que seja uma caixinha em que, toda vez que você acessa um site, armazena-se nela dados como pesquisa, cliques, e afins, ou no caso de aplicativos, informações como quais são os aplicativos mais acessados e etc... e cada vez que você acessar um site ou um aplicativo, ele visita essa caixinha para que não tenha que pedir ao usuário todas essas informações novamente. Isso ajuda a economizar tempo e tornar a resposta mais rápida.
 
-Porém é comum que alguns dados se misturem ou essa caixinha fique com muita informação. Por isso, é muito comum ouvir apague ou limpe o cache, para elimiar estes dados e ficar mais leve. IMPORTANTE: são dados temporários, dados como senhas salvas, preenchimento automático se mantém.
+Porém é comum que alguns dados se misturem ou que essa caixinha fique com muita informação. Por isso, é muito comum que o browser \(_Google Chrome _ou_ Internet Explorer, _por exemplo\) peça para que o usuário apague ou limpe o cache, para eliminar estes dados e ficar mais leve. IMPORTANTE: no cache são dados temporários apenas. Dados como senhas salvas, preenchimento automático e etc se mantém.
 
 ### Front-end x Back-end
 
-Quem trabalha com front é responsável por toda parte que é visualizada por nós, ou seja cores, botões, cliques, e toda interface do site. Nesta etapa é super importante dar atenção a experiência do usuário, chamado de UX.
+Quem trabalha com _front-end_ é responsável por toda parte visual, ou seja cores, botões, cliques, e toda interface do site. Nesta etapa é super importante dar atenção a experiência do usuário, chamado de UX \(_User Experience - _falaremos sobre isso mais pra frente\).
 
-O foco principal é em HTML \(linguagem de marcação\), CSS \(linguagem de estilo\) e JavaScript \(linguagem de script/programação\). São linguagens client-side, ou seja do lado do cliente, do usuário do site.
+O foco principal é em HTML \(linguagem de marcação\), CSS \(linguagem de estilo\) e JavaScript \(linguagem de script/programação\). São linguagens _client-side_, ou seja são interpretadas no computador do cliente \(usuário\). Isso significa que não há necessidade de se conectar a um servidor para poder programar com elas, pois não é preciso fazer requisições a bancos de dados nem nada do tipo.
 
-Já quem trabalha com back-end fica na parte de trás, nos bastidores de seu site na parte de implementação, segurança da informação, performance e com banco de dados também.
+Já quem trabalha com _back-end_ fica na parte de trás, nos bastidores de seu site, na parte de implementação, segurança da informação, performance e com banco de dados também.
 
-Em relação as principais linguagens seriam C\#, Java, PHP, Python, Ruby... que seriam algumas das linguagens de programação conhecidas como server-side, que seriam linguagens de servidor que fornece a lógica para cada aplicação. Um exemplo simples, é uma requisição HTTP que seria quando você clica num botão de "cadastrar" e aparece uma página de cadastro e logo em seguida do preenchimento, uma página de cadastro salvo. Todo esse processo de solicitar a página de cadastro, salvar seus dados e receber a confirmação faz parte de uma lógica que é efetuada no back-end.
+As principais linguagens de _back-end_ são C\#, Java, PHP, Python, Ruby... conhecidas também como linguagens _server-side_, linguagens de servidor que fornecem a lógica para cada aplicação. Um exemplo simples é a requisição HTTP: quando um usuário cadastra seus dados em um site, suas informações são salvas em um banco de dados. Para recuperar essas informações, o site faz uma requisição ao banco de dados. Todo esse processo de solicitar a página de cadastro, salvar seus dados e recuperá-los faz parte de uma lógica que é efetuada no _back-end_.
 
 ### Aplicações Móveis
 
 São os nossos conhecidos aplicativos de celular. São desenvolvidos exatamente para ser utilizado no mobile e há opções de aplicações nativas, web app e conhecidas como híbridas.
 
-Aplicações nativas são aquelas desenvolvidas na linguagem do sistema operacional, como por exemplo para IOS que seria a Swift, para Android seria Java e a grande vantagem é se comunicar melhor com os dispositivos do aparelho, como câmera, pedômetro, entre outros. Isso faz com que a aplicação fique mais funcional, com melhor aproveitamento de energia porém geram um conhecimento maior de cada linguagem. A escolha da sua aplicação depende muito da sua necessidade e do seu negócio.
+Aplicações nativas são aquelas desenvolvidas na linguagem do sistema operacional, como por exemplo para iOS que usa uma  linguagem própria chamada Swift, para Android seria Java e a grande vantagem é se comunicar melhor com os dispositivos do aparelho, como câmera, pedômetro, entre outros. Isso faz com que a aplicação fique mais funcional, com melhor aproveitamento de energia porém necessita de um conhecimento maior de cada linguagem. A escolha da sua aplicação depende muito da sua necessidade e do seu negócio.
 
-Uma solução muito utilizada é o Ionic que é um framework para desenvolvimento de aplicações híbridas para dispositivos móveis de rápido e fácil desenvolvimento.
+Aplicações web app são sites que se adaptam ao mobile. Ou seja, conseguem mudar sua aparência e a disposição dos elementos do site para que seja mais acessível quando este é acessado em um dispositivo móvel. São aplicativos feitos com HTML, CSS, JavaScript e, se necessário, com as linguagens de _back-end_.
+
+Aplicativos híbridos são feitos tanto para sistemas Android, quanto para iOS. Esse tipo de aplicativo tende a ser mais lento e pesado do que um aplicativo nativo, mas sua vantagem é que pode ser utilizado em qualquer tipo de sistema. Uma solução muito utilizada é o _Ionic_, que é um _framework_ para desenvolvimento rápido e fácil de aplicações híbridas. É o que usamos para criar aplicativos na Academia Mastertech.
 
 ### O que é uma API
 
@@ -49,11 +51,9 @@ Um outro bom exemplo é uma rede social como o Facebook, que foram criadas diver
 
 É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor. Isso torna o processo muito mais ágil. Mas como assim?
 
-Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, ou seja, acontecerá uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa a próxima requisição e quando ele receber a resposta é enviado o evento sem deixar as demais requisições paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagina na black friday que são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
+Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, e fará uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa as próximas requisições, e quando o site receber a resposta daquela primeira requisição, a validação é recebida sem deixar as demais requisições paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagine que na black friday são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
 
 Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
-
-A versão mais recente e recomendada para a maioria dos usuarios  é a 8.9.1 LTS.
 
 # GIT e GITHUB
 
@@ -61,64 +61,63 @@ Comandos Unix/Git
 
 Principais comandos utilizados no terminal
 
-* * ls- Exibe todas as pastas e arquivos no diretório atual.
+* * `ls` - Exibe todas as pastas e arquivos no diretório atual;
 
-  * pwd- Exibe o caminho do diretório atual \(A\)
+  * `pwd` - Exibe o caminho desde o diretório raiz até o diretório atual;
 
-  * cdDiretorioDeDestino- entra no diretório de destino
+  * `cd <DiretorioDeDestino>` - Entra no diretório de destino;
 
-  * cd ..- volta um diretório.
+  * `cd ..` - Volta um diretório;
 
-  * mkdirNomeDaPasta- cria uma nova pasta no diretório atual
+  * `mkdir <NomeDaNovaPasta>` - Cria uma nova pasta no diretório atual;
 
-  * mvNomeArquivoOuPastaExistente NovoNome- Altera o nome do arquivo ou pasta.
+  * `mv <NomeArquivoOuPastaExistente> <NovoNome>` - Altera o nome do arquivo ou pasta;
 
-  * mvNomeArquivo.EXTENSÃOCaminhoASerMovido/ - Mover um arquivo do diretório atual para o caminho escolhido.EX:mv passwd.txt ./Documentos/ - Move o arquivo passwd.txt para o subdiretório Documentos.
+  * `mv <NomeArquivo.EXTENSÃO> <CaminhoASerMovido/>` - Mover um arquivo do diretório atual para o caminho escolhido. Exemplo: _mv passwd.txt ./Documentos/_ - Move o arquivo passwd.txt para o subdiretório Documentos;
 
-  * rmdirNomeDaPasta- apaga uma pasta vazia
+  * `rmdir <NomeDaPasta>` - Apaga uma pasta vazia;
 
-  * touchNomeDoArquivo- cria um arquivo
+  * `touch <NomeDoArquivo>` - Cria um arquivo;
 
-  * rmNomeDoArquivo- apaga um arquivo
+  * `rm <NomeDoArquivo>` - Apaga um arquivo.
 
-TERMINAL BASH UBUNTU NO WINDOWS:
+PARA QUEM USA O TERMINAL BASH UBUNTU NO WINDOWS:
 
-* * cd /mnt/c/- Acessar o disco C: do windows \(seus arquivos\).
+* * `cd /mnt/c/` - Acessar o disco C: do windows \(onde ficam seus arquivos\).
 
-  
 **Para subir seu projeto no seu github**
 
-* * git init- Inicia um novo repositório git na pasta atual;
+* * `git init` - Inicia um novo repositório git na pasta atual;
 
-  * git status- Exibe o status dos arquivos no repositório atual;
+  * `git status` - Exibe o status dos arquivos no repositório atual;
 
-  * git add NOMEARQUIVO- Prepara os arquivos selecionados para o commit;
+  * `git add <NomeDoArquivo>` - Prepara os arquivos selecionados para o _commit_;
 
-  * git add \* OU git add . - \( \* ou . seleciona todos os arquivos\) - Prepara os arquivos selecionados para o commit;
+  * `git add .` - Prepara os arquivos selecionados para o _commit_;
 
-  * git commit -m “DESCRIÇÃO DAS ALTERAÇÕES” -Efetua as alterações no repositório;
+  * `git commit -m “DESCRIÇÃO DAS ALTERAÇÕES”` - Efetua as alterações no repositório;
 
-  * git log- Exibe todos os commits do repositório local;
+  * `git log` - Exibe todos os_ commits_ do repositório local;
 
-  * git remote - exibi os repositórios remotos
+  * `git remote` - Exibe os repositórios remotos;
 
-  * git remote add origin URL- Se você não clonou um repositório existente e quer conectar seu repositório a um servidor remoto\(github\), isso o adiciona e você é capaz de enviar suas alterações para o repositório remoto\(github\).
+  * `git remote add origin <URL>` - Se você não clonou um repositório existente e quer conectar seu repositório a um servidor remoto \(github\), isso o adiciona e você é capaz de enviar suas alterações para o repositório remoto \(github\);
 
-  * git push origin master ou git push URL master- Empurra as alterações \(Commit\) para o Repositório Remoto \(Ex: para o GitHub\).
+  * `git push origin master` ou `git push <URL> master` - Empurra as alterações \(_commit_\) para o Repositório Remoto \(Ex: para o GitHub\);
 
-  * git clone UrlDoRepositorio -Copia um repositório para a pasta que você está;
+  * `git clone <UrlDoRepositório>` - Copia um repositório para a pasta que você está;
 
-  * git pull origin master ou git pull URL master- Baixa as últimas alterações do repositório remoto;
+  * `git pull origin master` ou `git pull <URL> master` - Baixa as últimas alterações do repositório remoto;
 
-  * git help - é uma ajuda que aparece alguns comandos caso você esqueca qual o correto.
+  * `git help` - é uma ajuda que aparece alguns comandos caso você esqueca qual o correto;
 
-  * git rm NOMEDOARQUIVO - remove o arquivo selecionado
+  * `git rm <NomeDoArquivo>` - remove o arquivo selecionado;
 
-  * git rm -r NOMEDODIRETORIO - remove o diretório do seu projeto, ou seja a pasta do seu projeto.
+  * `git rm -r <NomeDoDiretório>` - remove o diretório do seu projeto, ou seja a pasta do seu projeto;
 
   * Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo **.gitignore **não serão adicionados em um repositório.
 
-Comandos Git -Saiba mais em:[http://rogerdudler.github.io/git-guide/index.pt\_BR.ht](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+Comandos Git: saiba mais em [http://rogerdudler.github.io/git-guide/index.pt\_BR.ht](http://rogerdudler.github.io/git-guide/index.pt_BR.html).
 
 ### Extra
 
@@ -160,9 +159,9 @@ Existem inúmeras ferramentas que podem ser utilizadas para criação e edição
 
 ## Editores off-line {#editores-off-line}
 
-* O[Sublime Text](https://www.sublimetext.com/) é um software multiplataforma de edição de texto, no entanto utilizado por muitos desenvolvedores para editar código-fonte, escrito em linguagem Python.
+* O [Sublime Text](https://www.sublimetext.com/) é um software multiplataforma de edição de texto, no entanto utilizado por muitos desenvolvedores para editar código-fonte, escrito em linguagem Python.
 
-* O[Visual Studio Code](https://code.visualstudio.com/) é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+* O [Visual Studio Code](https://code.visualstudio.com/) é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
 * [Atom](https://atom.io/) é um editor de texto de código aberto disponível para as plataformas Linux, macOS e Microsoft Windows, desenvolvido pelo GitHub sob a licença MIT.
 
