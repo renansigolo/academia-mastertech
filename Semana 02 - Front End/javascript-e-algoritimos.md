@@ -284,15 +284,13 @@ console.log (apostila)     // aparece Academia Mastertech.
 
 ## Document
 
-
-
 ### SetInterval e TimeOut
 
 São duas funções do Javascript que chamamos de temporizadores, e com elas é possível definir um intervalo de tempo em que um evento irá acontecer em milisegundos \(1 segundo = 1000 milisegundos\).
 
 A sintaxe das duas funções é praticamente idêntica, só muda a forma em que elas agem no seu código.
 
-A setTimeout\(\) chama a função uma única vez. Enquanto a setInterval\(\) chama a função “infinitamente” sempre no mesmo intervalo de tempo que é colocado e para pausar a função usa-se clearInterval\(\). 
+A setTimeout\(\) chama a função uma única vez. Enquanto a setInterval\(\) chama a função “infinitamente” sempre no mesmo intervalo de tempo que é colocado e para pausar a função usa-se clearInterval\(\).
 
 Exemplo para ficar mais claro: Na função abaixo a setInterval\(\) vai executar o que for definido dentro de uma função passada como parâmetro em 50 em 50 milisegundos e este processo vai  durar 3000 milisegundos \(3 segundos\), que é o tempo definido na setTimeout\(\) e ela ai ela para por conta da clearInterval\(\).
 
@@ -317,29 +315,29 @@ Para entender os eventos em JavaScript é legal pensar que estão em camadas. Po
 
 Quando se clica no botão, o navegador emite o que é conhecido como **evento**. Toda a aplicação sabem que o botão foi clicado.. Para ter uma reação a este clique, é preciso que tenha um código que escute este evento para acionar o "disparo" da caixa de diálogo.
 
-Este processo pode ocorrer diversas vezes, ao abrir uma página, clicar em um botão, passar o mouse e dependendo do foco da sua aplicação é preciso escutar o evento certo para atingir a resposta esperada. 
+Este processo pode ocorrer diversas vezes, ao abrir uma página, clicar em um botão, passar o mouse e dependendo do foco da sua aplicação é preciso escutar o evento certo para atingir a resposta esperada.
 
 Para fazer isso é feito a função addEventListener\(\) onde ela atua como um vigilante 24h que fica de olho em todos os eventos acontecendo em sua aplicação para que possa dar prosseguimento a próxima ação quando o evento for disparado.
 
-Você pode usar a função addEventListener\(\) para escutar os eventos que neste caso será No caso, um botão chamado com a id clickButton que terá o evento click e a função que vai acontecer assim que ocorrer o clique do botão que neste caso é um alert com um aviso.
+Você pode usar a função addEventListener\(\) para escutar os eventos que neste caso é um botão com o id clickButton, que terá o evento click e a função Teste que vai acontecer assim que o clique do botão acontecer e gerar alert com o aviso.
 
 ```
 <html>
     <head>
         <title>Eventos de Javascript</title>
     </head>
- 
+
     <body>
         <div id="main">
             <button id="clickButton" class="buttonStyle">clicar aqui</button>
         </div>
- 
+
         <script>
         let clickButton = document.querySelector("#clickButton");
- 
-        clickButton.addEventListener('click', displayDialog, false);
- 
-        function displayDialog(e) {
+
+        clickButton.addEventListener('click', Teste, false);
+
+        function Teste() {
             window.alert("Deu certo!");
         }
         </script>
@@ -347,9 +345,21 @@ Você pode usar a função addEventListener\(\) para escutar os eventos que nest
 </html>
 ```
 
+### Alguns eventos mais comuns....
+
+onclick é disparado quando é pressionado e liberado o botão primário do mouse, trackpad, etc.
+
+mousemove é disparado sempre que o cursor do mouse se move.
+
+mouseover é disparado quando o cursor do mouse é movido para sobre algum elemento.
+
+scroll é disparado quando há “rolagem” \(scroll\) num elemento.
+
 ## E o que é DOM?
 
-Ele é uma representação da sua página no navegador como se fosse uma árvore. Ele que define métodos para acessar à sua árvore, assim é possível alterar a estrutura, estilo e conteúdo.![](/assets/tree.png)
+Quando o navegador recebe a requisição e baixa o documento HTML é  preciso transformá-lo em uma página Web que é uma uma longa linha de string de caracteres. E com isso o próprio navegador de inicio decide quais partes são parágrafos, quais são títulos,  e assim por diante e  armazena essa interpretação do código HTML como um estrutura de objetos, chamada **Document Object Model **ou **DOM. **Ele** **cria um objeto diferente para cada elemento, mas vincula cada objeto de elemento ao seu elemento pai. Isso cria uma relação pai-filho como uma estrutura em árvore..![](/assets/tree.png)
+
+#### Maneiras de acessar pelo DOM
 
 | Propriedade | Descrição |
 | :--- | :--- |
@@ -359,6 +369,143 @@ Ele é uma representação da sua página no navegador como se fosse uma árvore
 | innerHTML | Retorna ou define o conteúdo de um elemento. |
 | appendChild | Insere um novo elemento filho. |
 | removeChild | Remove um elemento filho. |
+
+
+
+##### _Exercícios resolvidos em sala_
+
+ Imprima no console uma escada com a mesma quantidade de degraus que o número contido na variável.
+
+  Ex: numero = 4;
+
+  \#
+
+  \#\#
+
+  \#\#\#
+
+  \#\#\#\#
+
+```
+// ESCADA - forma 1
+let numero = 10;   
+let degrau = '#';
+
+for(let i = 1; i <= numero; i++){
+	degrau += '#';
+	console.log(degrau);
+}
+
+//ESCADA - forma 2
+let escadinha = '#';
+
+let numero_de_degraus = prompt('Digite quantos degraus você deseja: ');
+
+for(let contador = 0; contador < numero_de_degraus; contador++) {
+  console.log(escadinha);
+  escadinha = escadinha + '#';
+}
+```
+
+
+
+  Crie um programa que busque uma letra dentro de uma frase e imprima a quantidade de ocorrências dela, da seguinte forma:
+
+  Foram encontradas 4 ocorrências da letra "a" na frase "Colocar dois pratos de trigo para dois tigres".
+
+  Não foram encontradas ocorrências da letra "a" na frase "Colocar dois pratos de trigo para dois tigres".
+
+  Dica: Em javascript, os caracteres de uma string podem ser acessados usando a notação de vetor.
+
+  Por exemplo: considerando que variável palavra contém a string "Facebook", o valor de palavra\[2\] é "c".
+
+    // BUSCA-LETRA
+    let frase = "Três pratos de trigo para três tigres tristes";
+    let letra_procurada = 'r'
+    let contador = 0;
+
+
+    for(let letra of frase){
+    	if (letra == letra_procurada){
+    		contador++;
+    	}
+    }
+
+    console.log(`A frase "${frase}" possui ${contador} letras ${letra_procurada}`);
+
+
+
+  1- Criar um programa que soma o valor da lista de compra, considerando o valor de cada item e sua quantidade. No final, o programa deve imprimir uma mensagem no console: O valor total da lista de compras é R$ 100.
+
+  2- Somar também a quantidade de itens da lista e alterar a mensagem a ser impressa: O valor total da lista de compras é R$ 100 e a quantidade de itens é 23
+
+    let itens = [
+      {
+        nome: "Banana",
+        valor: 2.1,
+        quantidade: 1
+      },
+      {
+        nome: "Sabonete",
+        valor: 1.3,
+        quantidade: 3
+      },
+      {
+        nome: "Doritos",
+        valor: 4.7,
+        quantidade: 2
+      },
+      {
+        nome: "Pão",
+        valor: 0.38,
+        quantidade: 10
+      },
+      {
+        nome: "Leite",
+        valor: 2.34,
+        quantidade: 3
+      },
+      {
+        nome: "Ovos",
+        valor: 0.42,
+        quantidade: 12
+      }
+    ];
+
+      let valorTotal = 0;
+      let quantidadeProdutos = 0;
+
+      for(let item of itens){
+        valorTotal =  Math.ceil(valorTotal)+(item.valor * item.quantidade);
+        quantidadeProdutos = quantidadeProdutos + item.quantidade;
+      }
+
+      console.log(`O valor total da lista de compras é de R$ ${valorTotal} 
+      e a quantidade de produtos é ${quantidadeProdutos}`);
+
+  1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console: _O valor sorteado foi banana._
+
+  2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais. Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console: _Os valores sorteados foram banana, banana e pera. Você perdeu!_ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
+
+    let valores = ['maçã', 'banana', 'pera', '7'];
+    let escolha = [];
+
+
+
+    for(let i = 0; i < 3; i++){
+    	let x = Math.floor((Math.random() * 4) + 1); //Número aleatório entre 1 e 4
+    	escolha[i] = valores[x-1];
+    }
+
+    if(escolha[0] == escolha[1] && escolha[1] == escolha[2]){
+    	console.log(`Os valores sorteados foram ${escolha[0]}, ${escolha[1]} e ${escolha[2]}. 
+    	Parabéns, você foi sorteado!`);
+    }
+    else {
+    	console.log(`Os valores sorteados foram ${escolha[0]}, ${escolha[1]} e ${escolha[2]}. 
+    	Você foi não sorteado!`);
+
+    }
 
 
 
