@@ -478,12 +478,12 @@ Por exemplo: considerando que variável palavra contém a string "Facebook", o v
       e a quantidade de produtos é ${quantidadeProdutos}`);
 
 1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console:  
- _O valor sorteado foi banana.  
+ _O valor sorteado foi banana.    
 _
 
 2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais.  
  Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console:  
- _Os valores sorteados foram banana, banana e pera. Você perdeu!  
+ _Os valores sorteados foram banana, banana e pera. Você perdeu!    
 _ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     let valores = ['maçã', 'banana', 'pera', '7'];
@@ -506,29 +506,30 @@ _ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     }
 
-  Criar um programa que verifica se um dado vetor está ordenado ou não, e imprima as seguintes mensagens no console.
+Criar um programa que verifica se um dado vetor está ordenado ou não,  
+ e imprima as seguintes mensagens no console.
 
- O vetor está ordenado
+O vetor está ordenado
 
-  O vetor não está ordenado
+O vetor não está ordenado
 
-  Obs: O vetor só irá conter números inteiros, positivos e maiores que zero.
+Obs: O vetor só irá conter números inteiros, positivos e maiores que zero.
 
     let lista = [10, 20, 50, 100, 1];
     let ok = true;
 
 
     for(let item of lista){
-    	if(lista[item] < lista[item+1]){
-    		ok = false;
-    	}
+        if(lista[item] < lista[item+1]){
+            ok = false;
+        }
     }
 
     if(ok == false){
-    	console.log(`A lista não é ordenada.`);
+        console.log(`A lista não é ordenada.`);
     }
     else {
-    	console.log(`A lista é ordenada.`);
+        console.log(`A lista é ordenada.`);
     }
 
 

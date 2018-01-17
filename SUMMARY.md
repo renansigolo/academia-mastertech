@@ -17,7 +17,7 @@
 * [HTML e CSS](Semana 01 - Introdução/html-e-css.md)
 * [Bootstrap e templates](Semana 01 - Introdução/bootstrap-e-templates.md)
 
-## Semana 02 - Front End
+## Semana 02 - Javascript
 
 * [Lógica de programação](Semana 02 - Front End/estrategias-de-solucao-de-problemas.md)
 * [Introdução a programação](Semana 02 - Front End/introducao-a-programacao.md)
