@@ -1,6 +1,6 @@
 # Introdução a programação - começando JavaScript
 
-### Variáveis e constantes
+## Variáveis e constantes
 
 Em termos simples, são nomes que inventamos para representar um valor, para que assim seja possível usá-lo diversas vezes naquela lista de tarefas, sem precisar reescrevê-lo todas as vezes que ele for necessário. Com o uso de variáveis, utilizamos apenas o nome de referência.
 
@@ -90,7 +90,7 @@ let carro = {
 
 Essa é a sintaxe que usamos no _JavaScript_ para declarar variáveis.
 
-### Condições
+## Condições
 
 Podemos controlar nosso código com as estruturas de controle como `if` e `else`
 
@@ -122,7 +122,7 @@ EXEMPLO 2\)
 
 Aqui, a variável "palavra" possui valor 'Mastertech'. Quando testamos a condição`if (palavra == 'Banana')`, ela é falsa, e portanto o bloco de código do `if`  não será executado. Ao invés, o bloco de `else` será executado. Esse exemplo deve ser entendido da seguinte forma: _"**Se** palavra for igual a banana, então escreva no console que a palavra é banana. **Senão**, escreva que a palavra não é banana"_.
 
-### Operadores Lógicos
+## Operadores Lógicos
 
 As expressões `if` e `else` são usadas para testar condições lógicas simples. Quando precisamos testar a validade de operações lógicas mais complexas, podemos fazer isso com os operadores lógicos. São eles:
 
@@ -166,7 +166,7 @@ EXEMPLO 3\)
 
 Leia-se: "_**Se** o numero for igual a 2 **ou** a palavra for igual a banana, então imprima no console_". No caso, a variável "numero" equivale a 2, mas a variável "palavra" não equivale a banana. Com o operador lógico OU, somente uma das afirmações precisa ser verdadeira para que o bloco de código seja executado.
 
-### Funções
+## Funções
 
 Funções são uma forma de se estruturar sua aplicação para que você reutilize um mesmo código em diferentes lugares, desta forma nós não precisamos ficar reescrevendo o mesmo código cada vez que  precisarmos utilizá-lo. Determinamos a função como o "cabeçalho" do código que vamos reutilizar, e podemos chamá-lo em qualquer parte do código.
 
@@ -198,7 +198,7 @@ Nessa execução, o console nos mostrará o seguinte:
 * "Por favor, eu quero um milkshake de chocolate!"
 * "Por favor, eu quero um milkshake de ovomaltine!"
 
-### Loop
+## Loop
 
 Um loop \(laço\) é um conceito de repetição de código onde você continua executando os comandos programados até que uma condição seja atingida.
 
