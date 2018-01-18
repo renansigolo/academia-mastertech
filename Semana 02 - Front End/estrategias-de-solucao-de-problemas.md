@@ -10,9 +10,9 @@ Bem, o que é algoritmo? Basicamente é um conjunto de instruções bem definida
 
 **O que!? Como?**
 
-Bem, se você for pensar, fazemos isso todos os dias, a todo momento. Por exemplo, quando saímos de casa para ir ao trabalho. Neste caso, precisamos identificar como fazer isso: de carro, de ônibus, a pé, enfim… Quanto tempo vou demorar com cada uma dessas alternativas.
+Bem, se você for pensar, fazemos isso todos os dias, a todo momento. Por exemplo, quando saímos de casa para ir ao trabalho. Neste caso, precisamos identificar como fazer isso: de carro, de ônibus, a pé, qual caminho fazer, quanto tempo vou demorar, enfim… precisamos determinar uma sequência de ações para resolver um determinado problema.
 
-Pensando no mundo da TI agora, imagina um aplicativo famoso, o Waze ou o google maps, por exemplo. Dentro destes aplicativos, existem complexos algoritmos, com conjuntos de instruções e variáveis \(rotas, tempo estimado, cálculo de velocidade média etc\) que geram resultados \(chegar até o seu trabalho da melhor forma possível\), conforme a interação do usuário.
+Pensando no mundo da TI agora, imagina um aplicativo famoso, como o _Waze_ ou o _Google Maps_, por exemplo. Dentro destes aplicativos, existem complexos algoritmos, com conjuntos de instruções e variáveis \(rotas, tempo estimado, cálculo de velocidade média etc\) que geram resultados \(chegar até o seu trabalho da melhor forma possível\), conforme a interação do usuário.
 
 Outro exemplo, agora mais clássico: o simples ato de tomar um banho ou ir ao supermercado.
 
@@ -36,13 +36,13 @@ Outro exemplo, agora mais clássico: o simples ato de tomar um banho ou ir ao su
 
 **Fim**
 
-Digamos que esse seja o banho padrão \(\_standard\),\_mas você pode variá-lo conforme as suas preferências.
+Digamos que esse seja o banho padrão, mas você pode variá-lo conforme as suas preferências.
 
 O mesmo ocorre para softwares e funcionalidades dentro de um sistema. Você escreve algoritmos, como o escrito acima, para chegar a um resultado esperado com as instruções definidas.
 
-A diferença entre o algoritmo acima e os algoritmos de sistemas é a linguagem utilizada. Pense da seguinte forma, o algoritmo acima foi escrito de uma forma que você, humano racional,  consiga compreender. Agora, o que precisamos fazer para que um computador entenda?
+A diferença entre o algoritmo acima e os algoritmos de sistemas é a linguagem utilizada. Pense da seguinte forma, o algoritmo acima foi escrito de uma forma que você, humano racional,  consiga compreender, que é o português. Agora, o que precisamos fazer para que um computador entenda?
 
-Para que um computador entenda o seu algoritmo, basicamente,  você precisará usar uma linguagem de programação, ou seja, você estará escrevendo uma sequência de passos que um computador \(que não possui habilidades de interpretação subjetiva\) deverá executar sem ficar com dúvidas, utilizando uma linguagem que é conhecida e facilmente interpretada pelo computador.Conceitos e regras básicas de programação
+Para que um computador entenda o seu algoritmo, basicamente,  você precisará usar uma linguagem de programação, ou seja, você estará escrevendo uma sequência de passos que um computador \(que não possui habilidades de interpretação subjetiva\) deverá executar sem ficar com dúvidas, utilizando uma linguagem que é conhecida e facilmente interpretada pelo computador. 
 
 Mesmo para nós, seres humanos autodenominados como os seres mais inteligentes do planeta, há uma série de regras pré-estabelecidas para que a listinha com as instruções de como tomar banho seja compreendida, executada e gere um resultado. E acredite, os humanos são seres muito mais complexos do que computadores \(talvez daqui uns 20 anos alguém virá me dizer que estou errado, mas por enquanto, sim, somos muito mais complexos\).
 
