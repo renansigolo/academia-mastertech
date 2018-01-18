@@ -1,35 +1,94 @@
-# Introdução a programação
+# Introdução a programação - começando JavaScript
 
-## O que é uma linguagem de programação?
+### Variáveis e constantes
 
-Imagine uma linguagem de programação como se fosse um outro idioma.
-
-Assim como nós aprendemos Inglês, Espanhol, Italiano entre outras, as linguagens de programação seguem as mesmas regras e princípios. Quer um exemplo?
-
-Assim como a língua portuguesa é composta da seguinte estrutura, seguindo as regras de sintaxe e semântica, as linguagens de programação funcionam da mesma forma.
-
-![](/assets/sixtaxe.png)
-
-Porém o tempo para se aprender uma linguagem de programação é muito menor do que um outro idioma. Por exemplo_ Python_ que é uma das linguagens mais utilizadas para programar o backEnd contém apenas 33 palavras reservadas. Isso significa que você precisa aprender apenas 33 palavras!
-
-## Conceitos básicos de programação... começando JavaScript
-
-### Variáveis
-
-Variáveis são como caixinhas que armazenam alguma informação dentro delas, em _JavaScript_ nós as declaramos no código da seguinte forma:
+Em termos simples, são nomes que inventamos para representar um valor, para que assim seja possível usá-lo diversas vezes naquela lista de tarefas, sem precisar reescrevê-lo todas as vezes que ele for necessário. Com o uso de variáveis, utilizamos apenas o nome de referência.
 
 ```
-let nomeDaMinhaVariavel = 'Olá Mastertech';
-let numeroNaMinhaVariavel = 7;
-let verdadeiroOuFalso = true;
-let meuVetor = [34, 23, 53];
-let meuObjeto = {
-        "nome": "Renan",
-        "idade": 26
-};
+let minhaVariável = 'Essa é minha variável e ela guarda essa frase';
 ```
 
-Uma variável pode guardar um ou mais elementos dentro dela \(variáveis do tipo Objeto fazem isso\).
+### Tipos de dados
+
+Quando desenvolvemos programas, geralmente usamos as variáveis para guardas informações sobre o nosso usuário:
+
+* Nome
+* Idade
+* Salário
+* E por aí vai…
+
+Para o computador, tais informações são dados. E dados podem assumir diversos formatos. Pense da seguinte forma, nome é diferente de idade que, por sua vez, é diferente de salário. Isso em lógica de programação pode ser definido como **tipos de dados primitivos**. Estes tipos existem para otimizar a memória do computador, assim, o computador consegue identificar qual é o tipo de dado que ele irá receber/interpretar.
+
+Tratando-se de tipos de dados primitivos, são constatados cinco formatos:
+
+#### Tipo 1: Texto
+
+Os dados do tipo texto representam uma sequência de um ou mais caracteres. São colocados entre aspas dupla ou simples.
+
+Um exemplo de dado do tipo texto:  `let frase = 'As bananas são amarelas';`
+
+**Obs.: **espaços também contam como caracteres.
+
+#### Tipo 2: Números \(inteiros e decimais\)
+
+Os números são o tipo mais básico de dados num programa. Eles podem ser tanto inteiros quanto decimais. Com eles, podemos fazer cálculos numéricos e uma infinidade de outras coisas.
+
+Um exemplo de dado do tipo inteiro: `let idade = 18;`
+
+Exemplo de número decimal: `let salário = 2350.00;`
+
+#### Tipo 3: Lógico
+
+Este tipo de dado normalmente é representado por alternativas: SIM ou NÃO, VERDADEIRO ou FALSO. Dados do tipo lógico também podem são chamados de booleano \(em homenagem à George Boole, que criou esse tipo de lógica\).
+
+Um exemplo de dado lógico que é frequentemente utilizado em programação é para verificar se situações são verdadeiras ou 9falsas: `let estouComSono = false;`
+
+#### Tipo 4: Vetores
+
+Os vetores são um método prático de guardar vários dados em uma mesma variável. Por exemplo:
+
+```
+let numero = 15;
+let palavra = banana;
+let booleano = true;
+```
+
+Podemos facilmente guardar esses números utilizando somente uma variável:
+
+```
+let vetor = [15, 'banana', true];
+```
+
+E acessamos essas variáveis indicando ao programa qual o índice dentro do vetor em que ela está posicionada:
+
+```
+vetor[0] == 15
+vetor[1] == 'banana'
+vetor[2] == true
+```
+
+**Importante:** os vetores **sempre** iniciam os índices em 0.
+
+#### Tipo 5: Objetos
+
+Um objeto é uma coleção de propriedades, em que cada propriedade possui um par chave =&gt; valor. Os objetos de programação podem ser comparados com os objetos na vida real: por exemplo, um carro possui as seguintes propriedades: motor, janelas, uma cor de tintura, um peso, etc...
+
+Em um programa definimos um objeto da seguinte forma:
+
+```
+let carro = {
+    motor: true,
+    janelas: 4,
+    cor: preto,
+    peso: 1000
+}
+```
+
+**Obs.:** Você deve ter percebido que colocamos as variáveis com a seguinte sintaxe:
+
+`let <NomeDaVariável> = <Valor da variável>;`
+
+Essa é a sintaxe que usamos no _JavaScript_ para declarar variáveis.
 
 ### Condições
 
@@ -61,7 +120,7 @@ EXEMPLO 2\)
         console.log(`A palavra não é banana.`);
     }
 
-Aqui, a variável "palavra" possui valor 'Mastertech'. Quando testamos a condição` if (palavra == 'Banana')`, ela é falsa, e portanto o bloco de código do `if`  não será executado. Ao invés, o bloco de `else` será executado. Esse exemplo deve ser entendido da seguinte forma: _"**Se** palavra for igual a banana, então escreva no console que a palavra é banana. **Senão**, escreva que a palavra não é banana"_.
+Aqui, a variável "palavra" possui valor 'Mastertech'. Quando testamos a condição`if (palavra == 'Banana')`, ela é falsa, e portanto o bloco de código do `if`  não será executado. Ao invés, o bloco de `else` será executado. Esse exemplo deve ser entendido da seguinte forma: _"**Se** palavra for igual a banana, então escreva no console que a palavra é banana. **Senão**, escreva que a palavra não é banana"_.
 
 ### Operadores Lógicos
 
@@ -150,7 +209,7 @@ let vetor = [10, 20, 30, 40];
 
 for (let numero of vetor){
       console.log(numero);
-} 
+}
 ```
 
 Nesse exemplo, o console imprimirá todos os valores do vetor.
