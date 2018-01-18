@@ -92,7 +92,7 @@ Essa é a sintaxe que usamos no _JavaScript_ para declarar variáveis.
 
 ## Condições
 
-Podemos controlar nosso código com as estruturas de controle como `if` e `else`
+Podemos controlar nosso código com as estruturas de controle como `if`, `else` e `else if`
 
 Elas servem para filtrar o resultado caso a condição definida seja verdadeira, veja os exemplos abaixo:
 
@@ -121,6 +121,22 @@ EXEMPLO 2\)
     }
 
 Aqui, a variável "palavra" possui valor 'Mastertech'. Quando testamos a condição`if (palavra == 'Banana')`, ela é falsa, e portanto o bloco de código do `if`  não será executado. Ao invés, o bloco de `else` será executado. Esse exemplo deve ser entendido da seguinte forma: _"**Se** palavra for igual a banana, então escreva no console que a palavra é banana. **Senão**, escreva que a palavra não é banana"_.
+
+EXEMPLO 3\)
+
+    let numero = 15;
+
+    if(numero < 5){
+        console.log(`O número é menor do que 5`);
+    }
+    else if(numero == 10){
+        console.log(`O número é igual a 10!`);
+    }
+    else {
+        console.log(`O número não é menor que cinco e nem é igual a 10.`);
+    }
+
+Leia-se: "**Se** o número for menor do que cinco, execute o primeiro _console.log_. **Senão**, verifique se ele é igual a 10. **Se sim**, execute o segundo _console.log_. **Senão**, execute o terceiro e último _console.log_". Quando precisamos verificar mais de uma condição, e para cada condição executamos códigos diferentes, utilizamos o `else if`. Podemos utilizar quantos `else if` quisermos em nosso código, mas somente um `else`.
 
 ## Operadores Lógicos
 
