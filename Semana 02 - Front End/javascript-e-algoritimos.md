@@ -31,8 +31,6 @@ O JavaScript reconhece os seguintes tipos de valores:
 
 * **Vetor** - é um agrupamento de variáveis, e seu índice sempre começa em zero. As variáveis tanto podem ser strings, números, booleanos...                                              ![](/assets/2018-01-15 %282%29.png)
 
-
-
 #### Função é diferente de objeto
 
 _Os objetos são como nome da caixinha que vai ser guardado os valores, e funções são como um passo a passo do que a sua aplicação vai executar._
@@ -314,7 +312,7 @@ Você pode usar a função addEventListener\(\) para escutar os eventos que nest
         <script>
         let clickButton = document.querySelector("#clickButton");
 
-        clickButton.addEventListener('click', Teste, false);
+        clickButton.addEventListener('click', Teste);
 
         function Teste() {
             window.alert("Deu certo!");
@@ -348,6 +346,63 @@ Quando o navegador recebe a requisição e baixa o documento HTML é  preciso tr
 | innerHTML | Retorna ou define o conteúdo de um elemento. |
 | appendChild | Insere um novo elemento filho. |
 | removeChild | Remove um elemento filho. |
+
+
+
+### Exercícios para relembrar...
+
+1 - Declare uma variável x com um valor inteiro entre 0 e 10. Se o valor for maior que 5, imprima "Maior que 5", se for menor que 5, imprima "Menor que 5" e se for igual a 5, imprima "Igual a 5".
+
+```
+var x = 3;
+
+if ( x > 5 )
+
+print("Maior que 5");
+
+else if ( x < 5 )
+
+print("Menor que 5");
+
+else
+
+print("Igual a 5");
+```
+
+
+
+2 - Crie uma função e declare dentro dela duas variáveis: uma contendo seu nome e na outra seu sobrenome. Quando 
+
+    chamada, essa função deve imprimir "Eu sou &lt;nome&gt; &lt;sobrenome&gt;, e estou na Estação Hack". OBS: Você deve utilizar
+
+    as variáveis quando for imprimir.
+
+```
+function(nome, sobrenome){
+
+print("Eu sou "+nome+" "+sobrenome+", e estou na Estação Hack");
+
+}
+```
+
+3 - Crie um botão que quando clicado exibe uma caixa de mensagem com o conteúdo "Olá Estação Hack!"
+
+```
+<!doctype html>
+<html>
+  <body>
+    <button type="button" id="botao">Click Me!</button>
+  </body>
+  <script>
+    var botao = document.getElementById("botao");
+    botao.onclick = function(){
+      alert("Olá Estação Hack!");
+    }
+  </script>
+</html>
+```
+
+##### 
 
 ##### _Exercícios resolvidos em sala_
 
@@ -459,12 +514,12 @@ Por exemplo: considerando que variável palavra contém a string "Facebook", o v
       e a quantidade de produtos é ${quantidadeProdutos}`);
 
 1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console:  
- _O valor sorteado foi banana.          
+ _O valor sorteado foi banana.            
 _
 
 2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais.  
  Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console:  
- _Os valores sorteados foram banana, banana e pera. Você perdeu!          
+ _Os valores sorteados foram banana, banana e pera. Você perdeu!            
 _ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     let valores = ['maçã', 'banana', 'pera', '7'];
