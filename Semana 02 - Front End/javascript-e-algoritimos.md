@@ -1,12 +1,12 @@
-# Bora aprender o que é o tão falado Javascript.
+# Bora aprender o que é o tão falado Javascript
 
-A primeira coisa que você precisa saber, e que vai mudar a sua vida: JavaScript não tem nada a ver com Java.
+A primeira coisa que você precisa saber, e que vai mudar a sua vida: _JavaScript_ não tem nada a ver com _Java_.
 
-Java é uma outra linguagem de programação usada mais em back-end, como PHP, Ruby, Python. Já o JavaScript é uma linguagem de programação client-side, ou seja usada em front-end para controlar o HTML e o CSS e manipular o comportamento da sua página, ou seja, ela é responder por trazer mágica a sua página.
+_Java_ é uma outra linguagem de programação usada mais em back-end, como _PHP, Ruby, Python_. Já o _JavaScript_ é uma linguagem de programação _client-side_, ou seja usada em _front-end_ para controlar o HTML e o CSS e manipular o comportamento da sua página, ou seja, ela é responder por trazer mágica a sua página.
 
-Exemplo: Quando você passa o mouse em um menu e de forma mágica aparece um submenu com outros itens, adivinha quem fez isso? O Javascript, que  é executado e faz a função de esconder e mostrar aquele submenu.
+Exemplo: quando você passa o mouse em um menu e de forma mágica aparece um submenu com outros itens, adivinha quem fez isso? O _JavaScript_, que  é executado e faz a função de esconder e mostrar aquele submenu.
 
-Quer um exemplo básico, insira este código no Sublime e abra o arquivo html no seu navegador.
+Quer um exemplo básico, insira este código no Sublime e abra o arquivo HTML no seu navegador.
 
 ![](/assets/Screen Shot 2017-12-13 at 8.28.11 AM.png)
 
@@ -16,78 +16,59 @@ Quer um exemplo básico, insira este código no Sublime e abra o arquivo html no
 
 O JavaScript reconhece os seguintes tipos de valores:
 
-* Números** **: como 42 ou 3,14159
-* Valores lógicos chamados de Booleanos: true ou false
+* Números** **: como 42 ou 3,14159;
+* Valores lógicos chamados de Booleanos: true ou false;
 
 ![](/assets/boolean.png)
 
-* Strings: como "Mastertech!" ou "guarda-roupa"
+* Strings: como "Mastertech!" ou "guarda-roupa";
 * null :  um valor nulo;
-* undefined: uma propriedade que possui o valor indefinido;
+* undefined: uma propriedade que possui o valor indefinido.
 
 ### Tipos de dados abstratos/agrupados
 
-objetos - é como um dado que tem propriedades. Compare-o com um carro, por exemplo. Um carro tem uma cor, um modelo, peso, um ano de fabricação, etc. Da mesma forma, objetos em JavaScript podem ter propriedades, que definem suas características.
+* **Objeto** - é como um dado que tem propriedades. Compare-o com um carro, por exemplo. Um carro tem uma cor, um modelo, peso, um ano de fabricação, etc. Da mesma forma, objetos em _JavaScript_ têm propriedades, que definem suas características.
 
-vetor \[ \] - é um agrupamento de variavéis, e sempre começa em zero. As variavéis tanto podem ser strings, números, booleanos....O mais comum é verificar vetores com um mesmo tipo, por exemplo, um vetor de nomes, só teria strings.![](/assets/2018-01-15 %282%29.png)
+* **Vetor** - é um agrupamento de variáveis, e seu índice sempre começa em zero. As variáveis tanto podem ser strings, números, booleanos...                                              ![](/assets/2018-01-15 %282%29.png)
 
-![](/assets/2018-01-15 %282%29.png)
+
 
 #### Função é diferente de objeto
 
 _Os objetos são como nome da caixinha que vai ser guardado os valores, e funções são como um passo a passo do que a sua aplicação vai executar._
 
-### Variavéis
+### Variáveis
 
-Variáveis são como nomes simbólicos para os valores em sua aplicação,imagina que você vai trabalhar com várias variavéis, e não pode todas terem o nome de strings ou de números.
+#### Relembrando...
+
+Variáveis são como nomes simbólicos para os valores em sua aplicação, imagina que você vai trabalhar com várias variáveis, e não pode todas terem o nome de strings ou de números.
 
 Há variáveis globais e locais, sendo que a principal diferença entre elas é onde são declaradas e  sua validade. Como assim?
 
 Uma variável global é declarada em um objeto global, que será válido para todo o documento, e uma variável local geralmente fica armazenada dentro de uma função e quando esta função termina, aquela variável morre. Você não consegue a utilizar em outra função como ocorre com uma global.
 
-Para declarar uma variável \(local e global\) pode-se  colocar :
+Para declarar uma variável \(local e global\) pode-se colocar:
 
-`var Idade : 20;`
+`let idade = 20;`
 
-`var Nome: "João";`
-
-Ou sem a palavra var, que ficaria como:
-
-`Nome: "João"`
+`let nome = "João";`
 
 ## exemplos JS
 
 #### Operadores
 
-=  significa atribuir um valor a uma variável
-
-== significa Igual.
-
-!=  significa Diferente.
-
-=== significa Estritamente igual \(verifica conteúdo e tipo da variável\).
-
-!==  significa Estritamente diferente \(verifica conteúdo e tipo da variável\);
-
-&lt;    Menor que.
-
-&lt;=  Menor ou igual a.
-
-&gt;    Maior que.
-
-&gt;=  Maior ou igual a.
-
-* significa concatenar um elemento ou variável A com o B
-
-++   significa quando vc incrementa/adiciona um valor a variável \(ex: usado no for\)
-
---    significa quando vc decrementa/diminui um valor a variável
-
-&&   é o mesmo valor de "E".
-
-\|\|    é o mesmo valor de "Ou".
-
-!     é o mesmo valor de "Não".
+* `=` - Significa atribuir um valor a uma variável;
+* `==` - Significa igual \(comparação\);
+* `!=` - Significa diferente;
+* `<`  -  Menor que;
+* `<=` - Menor ou igual a;
+* `>`  -  Maior que;
+* `>=` - Maior ou igual a;
+* `++` - Significa incrementar em 1 a variável \(ex: usado no laço\);
+* `--`  - Significa decrementar em 1 a variável;
+* `&&` - Operador lógico E;
+* `||` - Operador lógico OU;
+* `!` - É o mesmo valor de "Não".
 
 ### Mais exemplos:
 
@@ -111,23 +92,22 @@ Ou sem a palavra var, que ficaria como:
 
 #### For e while
 
-Frequentemente é preciso ter nas aplicações repetir a execução de um bloco de códigos até que determinada condição seja verdadeira, ou senão até uma quantidade de vezes seja o suficiente.
+Frequentemente é preciso repetir a execução de um bloco de códigos até que determinada condição seja verdadeira.
 
-O **while** faz este laço, ou loop de executar o código até que a condição seja verdadeira, porém sem saber o número correto de iterações. Por exemplo, verificar em site de sorteio, se o número 20 foi selecionado. Não está determinado o número de participantes ou de tentativas, então o while vai "rodar" até encontrar este número.
+O **while** faz este laço \(_loop\)_ de executar o código até que a condição seja verdadeira, porém sem saber o número correto de iterações. Por exemplo, verificar em site de sorteio, se o número 20 foi selecionado. Não está determinado o número de participantes ou de tentativas, então o _while_ vai executar até encontrar este número.
 
-Já o for, também executa o loop porém já está determinado o número de iterações. Por exemplo, usando a mesma ideia do sorteio, é necessário escolher 5 participantes para uma próxima rodada, então já sabemos que o laço irá parar até ter 5 selecionados. Veja o que acontece quando insere este código no console do seu browser:
+Já o **for**, também executa o loop, porém já está determinado o número de iterações. Por exemplo, usando a mesma ideia do sorteio, é necessário escolher 5 participantes para uma próxima rodada, então já sabemos que o laço irá parar até ter 5 selecionados. Veja o que acontece quando insere este código no console do seu browser:
 
 ```
 var contador;
-for(contador = 0; contador < 10; contador++)
-{
+for(contador = 0; contador < 10; contador++) {
   alert(contador);
 }
 ```
 
 ### For...of e for...in
 
-Enquanto o`for...in`interage com o nome das propriedades, o`for...of`interage com o valor das propriedades.
+Enquanto o `for...in` interage com o nome das propriedades, o `for...of` interage com o valor das propriedades:
 
 ```
 let vetor = [3, 5, 7];
@@ -326,7 +306,7 @@ Você pode usar a função addEventListener\(\) para escutar os eventos que nest
     </head>
 
     <body>
-    
+
         <div id="main">
             <button id="clickButton" class="buttonStyle">clicar aqui</button>
         </div>
@@ -479,12 +459,12 @@ Por exemplo: considerando que variável palavra contém a string "Facebook", o v
       e a quantidade de produtos é ${quantidadeProdutos}`);
 
 1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console:  
- _O valor sorteado foi banana.        
+ _O valor sorteado foi banana.          
 _
 
 2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais.  
  Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console:  
- _Os valores sorteados foram banana, banana e pera. Você perdeu!        
+ _Os valores sorteados foram banana, banana e pera. Você perdeu!          
 _ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     let valores = ['maçã', 'banana', 'pera', '7'];
