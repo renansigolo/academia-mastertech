@@ -96,7 +96,24 @@ var express = require('express'),
     app = express();
 ```
 
+##### 
 
+##### Exemplos do que já foi abordado:
+
+```
+const http = require('http');
+
+// Cria servidor
+const servidor = http.createServer((req, res) => {
+  res.end('Chegou aqui');
+
+});
+
+// Abre porta
+servidor.listen(8080);
+
+//rodar npm start
+```
 
 API's
 

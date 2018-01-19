@@ -25,8 +25,7 @@
 
 ## Semana 03
 
-* [protocolos HTTP ](Semana 04 - Aplicativos/integrando-uma-api.md)
-* [Orientação a objetos](Semana 03 - Back End/database.md)
+* [Começando com back-end](Semana 04 - Aplicativos/integrando-uma-api.md)
 * [Angular](Semana 03 - Back End/angular.md)
 * [Typescript](Semana 03 - Back End/node.md)
 
