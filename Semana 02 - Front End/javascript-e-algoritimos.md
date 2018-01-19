@@ -2,7 +2,7 @@
 
 A primeira coisa que você precisa saber, e que vai mudar a sua vida: _JavaScript_ não tem nada a ver com _Java_.
 
-_Java_ é uma outra linguagem de programação usada mais em back-end, como _PHP, Ruby, Python_. Já o _JavaScript_ é uma linguagem de programação _client-side_, ou seja usada em _front-end_ para controlar o HTML e o CSS e manipular o comportamento da sua página, ou seja, ela é responder por trazer mágica a sua página.
+_Java_ é uma outra linguagem de programação usada mais em _back-end_, como _PHP, Ruby, Python_. Já o _JavaScript_ é uma linguagem de programação _client-side_, ou seja usada em _front-end_ para controlar o HTML e o CSS e manipular o comportamento da sua página.
 
 Exemplo: quando você passa o mouse em um menu e de forma mágica aparece um submenu com outros itens, adivinha quem fez isso? O _JavaScript_, que  é executado e faz a função de esconder e mostrar aquele submenu.
 
@@ -10,71 +10,11 @@ Quer um exemplo básico, insira este código no Sublime e abra o arquivo HTML no
 
 ![](/assets/Screen Shot 2017-12-13 at 8.28.11 AM.png)
 
-## JavaScript
-
-## Valores
-
-O JavaScript reconhece os seguintes tipos de valores:
-
-* Números** **: como 42 ou 3,14159;
-* Valores lógicos chamados de Booleanos: true ou false;
-
-![](/assets/boolean.png)
-
-* Strings: como "Mastertech!" ou "guarda-roupa";
-* null :  um valor nulo;
-* undefined: uma propriedade que possui o valor indefinido.
-
-### Tipos de dados abstratos/agrupados
-
-* **Objeto** - é como um dado que tem propriedades. Compare-o com um carro, por exemplo. Um carro tem uma cor, um modelo, peso, um ano de fabricação, etc. Da mesma forma, objetos em _JavaScript_ têm propriedades, que definem suas características.
-
-* **Vetor** - é um agrupamento de variáveis, e seu índice sempre começa em zero. As variáveis tanto podem ser strings, números, booleanos...                                              ![](/assets/2018-01-15 %282%29.png)
-
-#### Função é diferente de objeto
-
-_Os objetos são como nome da caixinha que vai ser guardado os valores, e funções são como um passo a passo do que a sua aplicação vai executar._
-
-### Variáveis
-
-#### Relembrando...
-
-Variáveis são como nomes simbólicos para os valores em sua aplicação, imagina que você vai trabalhar com várias variáveis, e não pode todas terem o nome de strings ou de números.
-
-Há variáveis globais e locais, sendo que a principal diferença entre elas é onde são declaradas e  sua validade. Como assim?
-
-Uma variável global é declarada em um objeto global, que será válido para todo o documento, e uma variável local geralmente fica armazenada dentro de uma função e quando esta função termina, aquela variável morre. Você não consegue a utilizar em outra função como ocorre com uma global.
-
-Para declarar uma variável \(local e global\) pode-se colocar:
-
-`let idade = 20;`
-
-`let nome = "João";`
-
-## exemplos JS
-
-#### Operadores
-
-* `=` - Significa atribuir um valor a uma variável;
-* `==` - Significa igual \(comparação\);
-* `!=` - Significa diferente;
-* `<`  -  Menor que;
-* `<=` - Menor ou igual a;
-* `>`  -  Maior que;
-* `>=` - Maior ou igual a;
-* `++` - Significa incrementar em 1 a variável \(ex: usado no laço\);
-* `--`  - Significa decrementar em 1 a variável;
-* `&&` - Operador lógico E;
-* `||` - Operador lógico OU;
-* `!` - É o mesmo valor de "Não".
-
-### Mais exemplos:
+## Relembrando...
 
 * `if(umaCondicao >= queOutra){  };`
 
 * `else(){  };`
-
-* `let titulo = document.querySelector('h1');`
 
 * `let minhaVariavel = 'um valor para esta variável';`
 
@@ -86,60 +26,29 @@ Para declarar uma variável \(local e global\) pode-se colocar:
 
 * `acumulador = acumulador + numero; == acumulador += numero`
 
-* `<button onclick="minhaFuncao()"> Clique Aqui </button>`
+## Utilizando JavaScript com HTML e CSS
 
-#### For e while
+#### Colocando um arquivo script.js em seu HTML
 
-Frequentemente é preciso repetir a execução de um bloco de códigos até que determinada condição seja verdadeira.
-
-O **while** faz este laço \(_loop\)_ de executar o código até que a condição seja verdadeira, porém sem saber o número correto de iterações. Por exemplo, verificar em site de sorteio, se o número 20 foi selecionado. Não está determinado o número de participantes ou de tentativas, então o _while_ vai executar até encontrar este número.
-
-Já o **for**, também executa o loop, porém já está determinado o número de iterações. Por exemplo, usando a mesma ideia do sorteio, é necessário escolher 5 participantes para uma próxima rodada, então já sabemos que o laço irá parar até ter 5 selecionados. Veja o que acontece quando insere este código no console do seu browser:
+Para que seu HTML e CSS identifiquem as funções que temos no nosso script, precisamos acrescentar ao final do nosso body a seguinte linha de código:
 
 ```
-var contador;
-for(contador = 0; contador < 10; contador++) {
-  alert(contador);
-}
+<script src="script.js"></script>
 ```
 
-### For...of e for...in
+#### Mexendo com elementos do HTML no JavaScript
 
-Enquanto o `for...in` interage com o nome das propriedades, o `for...of` interage com o valor das propriedades:
-
-```
-let vetor = [3, 5, 7];
-
-for (let i in vetor) {
-   console.log(i); // logs "0", "1", "2" (aparece a posição de cada vetor ou seja o nome, que neste caso seria números)
-}
-
-for (let i of vetor) {
-   console.log(i); // logs "3", "5", "7" (neste caso aparece o valor, ou seja a posição 0 tem valor de 3)
-}
-```
-
-## ES5 x ES6
-
-* Duas formas de declarar uma função \(Ambos são a mesma coisa!!! Elas somente estão escritas de formas diferentes\)
-
-ES5
+Para de fato conseguirmos realizar qualquer tipo de programação em nosso HTML, precisamos selecionar e identificar no script com qual elemento vamos mexer. Para isso, usamos
 
 ```
-function defineNome(){
+let meuElemento = document.querySelector(seletor);
 
-}
+ou
+
+let meusElementos = document.querySelectorAll(seletor);
 ```
 
-ES6
-
-```
-const defineNome = () => {
-
-}
-```
-
-## Exemplos básicos de funções
+Para
 
 Inserindo uma função em um botão![](/assets/button-testejs.png)Criando um botão via html, quando você tenta clicar nele nada acontece. Por isso podemos inserir uma função de clique neste botão. Insira a função abaixo e teste em seu navegador.
 
@@ -347,14 +256,13 @@ Quando o navegador recebe a requisição e baixa o documento HTML é  preciso tr
 | appendChild | Insere um novo elemento filho. |
 | removeChild | Remove um elemento filho. |
 
-
-
 ### Exercícios para relembrar...
 
-1 - Declare uma variável x com um valor inteiro entre 0 e 10. Se o valor for maior que 5, imprima "Maior que 5", se for menor que 5, imprima "Menor que 5" e se for igual a 5, imprima "Igual a 5".
+1 - Declare uma variável x com um valor inteiro entre 0 e 10. Se o valor for maior que 5, imprima "Maior que 5",  
+se for menor que 5, imprima "Menor que 5" e se for igual a 5, imprima "Igual a 5".
 
 ```
-var x = 3;
+var x = 3;
 
 if ( x > 5 )
 
@@ -369,16 +277,16 @@ else
 print("Igual a 5");
 ```
 
-
-
-2 - Crie uma função e declare dentro dela duas variáveis: uma contendo seu nome e na outra seu sobrenome. Quando 
-
-    chamada, essa função deve imprimir "Eu sou &lt;nome&gt; &lt;sobrenome&gt;, e estou na Estação Hack". OBS: Você deve utilizar
-
-    as variáveis quando for imprimir.
+2 - Crie uma função e declare dentro dela duas variáveis: uma contendo seu nome e na outra seu sobrenome. Quando
 
 ```
-function(nome, sobrenome){
+chamada, essa função deve imprimir "Eu sou &lt;nome&gt; &lt;sobrenome&gt;, e estou na Estação Hack". OBS: Você deve utilizar
+
+as variáveis quando for imprimir.
+```
+
+```
+function(nome, sobrenome){
 
 print("Eu sou "+nome+" "+sobrenome+", e estou na Estação Hack");
 
@@ -388,7 +296,7 @@ print("Eu sou "+nome+" "+sobrenome+", e estou na Estação Hack");
 3 - Crie um botão que quando clicado exibe uma caixa de mensagem com o conteúdo "Olá Estação Hack!"
 
 ```
-<!doctype html>
+<!doctype html>
 <html>
   <body>
     <button type="button" id="botao">Click Me!</button>
@@ -514,12 +422,12 @@ Por exemplo: considerando que variável palavra contém a string "Facebook", o v
       e a quantidade de produtos é ${quantidadeProdutos}`);
 
 1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console:  
- _O valor sorteado foi banana.            
+ _O valor sorteado foi banana.                
 _
 
 2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais.  
  Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console:  
- _Os valores sorteados foram banana, banana e pera. Você perdeu!            
+ _Os valores sorteados foram banana, banana e pera. Você perdeu!                
 _ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     let valores = ['maçã', 'banana', 'pera', '7'];

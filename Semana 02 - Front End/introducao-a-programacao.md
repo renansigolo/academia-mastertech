@@ -216,7 +216,7 @@ c > b = true //10 é menor que 6, então é uma afirmação verdadeira
 
 ## Laços de repetição
 
-Um _loop_ \(laço\) é um conceito de repetição de código onde você continua executando os comandos programados até que uma condição seja atingida. Os laços sempre possuem uma variável "contadora", que usamos como referência para saber em qual laço estamos \(por exemplo, podemos começar do 0 e fazer um laço de repetição que repita nosso código 10 vezes\). Existem dois tipos de laços: o primeiro usa como referência um vetor, passando por casa um de seus itens e realizando cálculos com eles. 
+Um _loop_ \(laço\) é um conceito de repetição de código onde você continua executando os comandos programados até que uma condição seja atingida. Os laços sempre possuem uma variável "contadora", que usamos como referência para saber em qual laço estamos \(por exemplo, podemos começar do 0 e fazer um laço de repetição que repita nosso código 10 vezes\). Existem dois tipos de laços: o primeiro usa como referência um vetor, passando por casa um de seus itens e realizando cálculos com eles.
 
 No outro, usamos uma variável criada dentro do laço, colocamos uma "condição de parada" \(alguma afirmação que seja verdadeira para fazer o laço continuar rodando, e que fique falsa quando queremos que o laço pare\), e incrementamos sempre o valor dessa variável em 1. Veja exemplos:
 
@@ -241,6 +241,35 @@ for (let i = 0; i < 10; i++){ //(for(variável contadora de iterações; condiç
 ```
 
 Nesse exemplo, o console imprimirá o valor da variável i, desde 0 até 9.
+
+#### O laço while
+
+O **while** faz este laço \(_loop\)_ de executar o código até que a condição seja verdadeira, porém sem saber o número correto de iterações. Por exemplo, verificar em site de sorteio, se o número 20 foi selecionado. Não está determinado o número de participantes ou de tentativas, então o _while_ vai executar até encontrar este número.
+
+```
+var contador = 100;
+
+while (contador > 0){
+    console.log(contador);
+    contador--;
+}
+```
+
+#### For...of e for...in
+
+Enquanto o `for...in` interage com o nome das propriedades, o `for...of` interage com o valor das propriedades:
+
+```
+let vetor = [3, 5, 7];
+
+for (let i in vetor) {
+   console.log(i); // logs "0", "1", "2" (aparece a posição de cada vetor ou seja o nome, que neste caso seria números)
+}
+
+for (let i of vetor) {
+   console.log(i); // logs "3", "5", "7" (neste caso aparece o valor, ou seja a posição 0 tem valor de 3)
+}
+```
 
 ## Funções
 
