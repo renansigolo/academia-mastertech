@@ -17,11 +17,11 @@ Aqui você irá encontrar todos os códigos realizados em sala de aula como refe
 
 É onde são armazenados os dados temporários de sua navegação, para agilizar o acesso aos sites visitados anteriormente. Imagina que seja uma caixinha em que, toda vez que você acessa um site, armazena-se nela dados como pesquisa, cliques, e afins, ou no caso de aplicativos, informações como quais são os aplicativos mais acessados e etc... e cada vez que você acessar um site ou um aplicativo, ele visita essa caixinha para que não tenha que pedir ao usuário todas essas informações novamente. Isso ajuda a economizar tempo e tornar a resposta mais rápida.
 
-Porém é comum que alguns dados se misturem ou que essa caixinha fique com muita informação. Por isso, é muito comum que o browser \(_Google Chrome _ou_ Internet Explorer, _por exemplo\) peça para que o usuário apague ou limpe o cache, para eliminar estes dados e ficar mais leve. IMPORTANTE: no cache são dados temporários apenas. Dados como senhas salvas, preenchimento automático e etc se mantém.
+Porém é comum que alguns dados se misturem ou que essa caixinha fique com muita informação. Por isso, é muito comum que o browser \(_Google Chrome \_ou_ Internet Explorer, \_por exemplo\) peça para que o usuário apague ou limpe o cache, para eliminar estes dados e ficar mais leve. IMPORTANTE: no cache são dados temporários apenas. Dados como senhas salvas, preenchimento automático e etc se mantém.
 
 ### Front-end x Back-end
 
-Quem trabalha com _front-end_ é responsável por toda parte visual, ou seja cores, botões, cliques, e toda interface do site. Nesta etapa é super importante dar atenção a experiência do usuário, chamado de UX \(_User Experience - _falaremos sobre isso mais pra frente\).
+Quem trabalha com _front-end_ é responsável por toda parte visual, ou seja cores, botões, cliques, e toda interface do site. Nesta etapa é super importante dar atenção a experiência do usuário, chamado de UX \(\_User Experience - \_falaremos sobre isso mais pra frente\).
 
 O foco principal é em HTML \(linguagem de marcação\), CSS \(linguagem de estilo\) e JavaScript \(linguagem de script/programação\). São linguagens _client-side_, ou seja são interpretadas no computador do cliente \(usuário\). Isso significa que não há necessidade de se conectar a um servidor para poder programar com elas, pois não é preciso fazer requisições a bancos de dados nem nada do tipo.
 
@@ -47,13 +47,7 @@ De forma mais simples, é o que acontece com alguns sites que possuem mapas de l
 
 Um outro bom exemplo é uma rede social como o Facebook, que foram criadas diversas APIs que possibilitaram receber informações de uma conta ou mesmo em fazer login em outros sites, utilizando uma conta do Facebook.
 
-#### O que é Node.js?
 
-É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor. Isso torna o processo muito mais ágil. Mas como assim?
-
-Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, e fará uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa as próximas requisições, e quando o site receber a resposta daquela primeira requisição, a validação é recebida sem deixar as demais requisições paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagine que na black friday são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
-
-Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
 
 # GIT e GITHUB
 
