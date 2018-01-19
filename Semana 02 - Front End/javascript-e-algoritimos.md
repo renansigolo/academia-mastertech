@@ -30,7 +30,7 @@ Quer um exemplo básico, insira este código no Sublime e abra o arquivo HTML no
 
 #### Colocando um arquivo script.js em seu HTML
 
-Para que seu HTML e CSS identifiquem as funções que temos no nosso script, precisamos acrescentar ao final do nosso body a seguinte linha de código:
+Para que seu _HTML_ e _CSS_ identifiquem as funções que temos no nosso script, precisamos acrescentar ao final do nosso &lt;body&gt;&lt;/body&gt; a seguinte linha de código:
 
 ```
 <script src="script.js"></script>
@@ -38,7 +38,7 @@ Para que seu HTML e CSS identifiquem as funções que temos no nosso script, pre
 
 #### Mexendo com elementos do HTML no JavaScript
 
-Para de fato conseguirmos realizar qualquer tipo de programação em nosso HTML, precisamos selecionar e identificar no script com qual elemento vamos mexer. Para isso, usamos
+Para de fato conseguirmos realizar qualquer tipo de programação em nosso _HTML_, precisamos selecionar e identificar no script com qual elemento vamos mexer. Para isso, usamos:
 
 ```
 let meuElemento = document.querySelector(seletor);
@@ -48,9 +48,11 @@ ou
 let meusElementos = document.querySelectorAll(seletor);
 ```
 
-Para
+#### Inserindo uma função em um botão
 
-Inserindo uma função em um botão![](/assets/button-testejs.png)Criando um botão via html, quando você tenta clicar nele nada acontece. Por isso podemos inserir uma função de clique neste botão. Insira a função abaixo e teste em seu navegador.
+![](/assets/button-testejs.png)
+
+Criando um botão via HTML, quando você tenta clicar nele nada acontece. Por isso podemos inserir uma função de clique neste botão. Insira a função abaixo e teste em seu navegador.
 
 ```
 <!DOCTYPE html>
@@ -62,32 +64,32 @@ Inserindo uma função em um botão![](/assets/button-testejs.png)Criando um bot
     <title>Mastertech</title>
 </head>
 
-<h1> Academia Mastertech</h1>
-<p> Começando a programar</p>
+<h1> Academia Mastertech </h1>
+<p> Começando a programar </p>
 
-<button onclick="Clicar()">Clique Aqui</button>
+<button onclick="clicar()"> Clique Aqui </button>
 
-<script type="text/javascript" src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
 
 //arquivo js//
 
-function Clicar(){
-alert("teste com sucesso");
+function clicar(){
+    alert("teste com sucesso");
 }
 ```
 
 ## Brincando com o Javascript - Botão
 
-Para inserir um conteúdo em um formulário e alterar em seu site é simples de fazer pelo Javascript. Veja este exemplo:
+Para inserir um conteúdo em um formulário e alterar em seu site é simples de fazer pelo _JavaScript_. Veja este exemplo:
 
-No arquivo html, inserimos um novo item &lt;p&gt;, &lt;input&gt; e &lt;button&gt; com id e no botão chamando a função do JS.
+No arquivo _HTML_, inserimos um novo item &lt;p&gt;, &lt;input&gt; e &lt;button&gt; com id e no botão chamando a função do JS.
 
 ![](/assets/fucntion-teste.png)
 
-Já no arquivo script.js inserimos uma nova função, a 'MudarTexto' onde será o start para alterar o texto de seu html de acordo com o que for inserido no campo do formulário.
+Já no arquivo script.js inserimos uma nova função, a 'mudarTexto' onde será o start para alterar o texto de seu HTML de acordo com o que for inserido no campo do formulário.
 
 Criamos uma nova variável para armazenar o valor \(value\) que será "recebido" do campo &lt;input&gt;. E logo em seguida, busca um elemento que está no arquivo html, com um id que é colocado \(' '\) e receberá o valor da variável colocada acima.
 
@@ -422,12 +424,12 @@ Por exemplo: considerando que variável palavra contém a string "Facebook", o v
       e a quantidade de produtos é ${quantidadeProdutos}`);
 
 1- Crie um programa que sorteie um dos valores presentes no vetor 'valores'e imprima o resultado no console:  
- _O valor sorteado foi banana.                
+ _O valor sorteado foi banana.                    
 _
 
 2- Repita esse sorteio 3 vezes e verifique se os valores sorteados são iguais.  
  Caso sejam, o jogador venceu o jogo. Exemplos de mensagens no console:  
- _Os valores sorteados foram banana, banana e pera. Você perdeu!                
+ _Os valores sorteados foram banana, banana e pera. Você perdeu!                    
 _ e _Os valores sorteados foram banana, banana e banana. Você venceu!_
 
     let valores = ['maçã', 'banana', 'pera', '7'];
