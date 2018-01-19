@@ -16,9 +16,9 @@ Pensando no mundo de TI agora, imagine um aplicativo famoso, como o _Waze_ ou o 
 
 Outro exemplo, agora mais clássico: o simples ato de tomar um banho ou ir ao supermercado.
 
-\(Escrevendo em formato de listas para organizar o pensamento\)
-
 #### Tomar Banho
+
+_\(Escrevendo em formato de listas para organizar o pensamento\)_
 
 **Início**
 
@@ -56,7 +56,7 @@ Para isso, existe o [VisualG](http://www.apoioinformatica.inf.br/produtos/visual
 
 [![](https://d2tycqyw09ngo1.cloudfront.net/be-content/uploads/2016/06/08192542/JavaScript-1.jpg "JavaScript - A melhor forma de aprender lógica de programação \| Becode")](https://d2tycqyw09ngo1.cloudfront.net/be-content/uploads/2016/06/08192542/JavaScript-1.jpg)
 
-A linguagem que usamos é o **JavaScript\(JS\)!**
+A linguagem que usamos é o **JavaScript \(JS\)!**
 
 O JS é uma linguagem capaz de executar instruções bem definidas e gerar resultados na tela do seu navegador, além da vantagem de estar usando uma linguagem que você **CERTAMENTE** irá precisar em seus projetos futuros, visto que hoje o _JavaScript_ é considerado uma das linguagens mais populares do mundo.
 

@@ -182,6 +182,66 @@ EXEMPLO 3\)
 
 Leia-se: "_**Se** o numero for igual a 2 **ou** a palavra for igual a banana, então imprima no console_". No caso, a variável "numero" equivale a 2, mas a variável "palavra" não equivale a banana. Com o operador lógico OU, somente uma das afirmações precisa ser verdadeira para que o bloco de código seja executado.
 
+## Operadores Matemáticos
+
+Existem operadores matemáticos básicos que podemos usar em nossos programas para fazer cálculos matemáticos simples: somar, subtrair, dividir, multiplicar e afins. São eles:
+
+* `+` - somar;
+* `-` - subtrair;
+* `/` - dividir;
+* `*` - multiplicar;
+* `>` e `>=` - maior e maior ou igual;
+* `<` e `<=` - menor e menor ou igual;
+* `++` - somar 1 ao valor da variável;
+* `--` - subtrair 1 ao valor da variável;
+* `+=` - adicionar à variável um valor;
+* `-=` - subtrair da variável um valor;
+* `*=` - multiplicar o valor da variável por um valor dado.
+
+Seguem alguns exemplos :
+
+EXEMPLO 1\)
+
+```
+let i = 0;
+i++; //Soma 1 ao valor de i: i + 1 = 0 + 1 = 1
+
+let a = 5;
+a += 10; //Soma 10 ao valor de a: a + 10 = 5 + 10 = 15
+
+let b = 6;
+let c = 10;
+c > b = true //10 é menor que 6, então é uma afirmação verdadeira
+```
+
+## Laços de repetição
+
+Um _loop_ \(laço\) é um conceito de repetição de código onde você continua executando os comandos programados até que uma condição seja atingida. Os laços sempre possuem uma variável "contadora", que usamos como referência para saber em qual laço estamos \(por exemplo, podemos começar do 0 e fazer um laço de repetição que repita nosso código 10 vezes\). Existem dois tipos de laços: o primeiro usa como referência um vetor, passando por casa um de seus itens e realizando cálculos com eles. 
+
+No outro, usamos uma variável criada dentro do laço, colocamos uma "condição de parada" \(alguma afirmação que seja verdadeira para fazer o laço continuar rodando, e que fique falsa quando queremos que o laço pare\), e incrementamos sempre o valor dessa variável em 1. Veja exemplos:
+
+EXEMPLO 1\)
+
+```
+let vetor = [10, 20, 30, 40];
+
+for (let numero of vetor){
+      console.log(numero);
+}
+```
+
+Nesse exemplo, o console imprimirá todos os valores do vetor, e o laço parará de rodar quando chegar ao final do vetor.
+
+EXEMPLO 2\)
+
+```
+for (let i = 0; i < 10; i++){ //(for(variável contadora de iterações; condição de parada; incremento){ }
+    console.log(i);
+}
+```
+
+Nesse exemplo, o console imprimirá o valor da variável i, desde 0 até 9.
+
 ## Funções
 
 Funções são uma forma de se estruturar sua aplicação para que você reutilize um mesmo código em diferentes lugares, desta forma nós não precisamos ficar reescrevendo o mesmo código cada vez que  precisarmos utilizá-lo. Determinamos a função como o "cabeçalho" do código que vamos reutilizar, e podemos chamá-lo em qualquer parte do código.
@@ -214,29 +274,5 @@ Nessa execução, o console nos mostrará o seguinte:
 * "Por favor, eu quero um milkshake de chocolate!"
 * "Por favor, eu quero um milkshake de ovomaltine!"
 
-## Loop
 
-Um loop \(laço\) é um conceito de repetição de código onde você continua executando os comandos programados até que uma condição seja atingida.
-
-EXEMPLO 1\)
-
-```
-let vetor = [10, 20, 30, 40];
-
-for (let numero of vetor){
-      console.log(numero);
-}
-```
-
-Nesse exemplo, o console imprimirá todos os valores do vetor.
-
-EXEMPLO 2\)
-
-```
-for (let i = 0; i < 10; i++){
-    console.log(i);
-}
-```
-
-Nesse exemplo, o console imprimirá o valor da variável i, desde 0 até 9.
 
