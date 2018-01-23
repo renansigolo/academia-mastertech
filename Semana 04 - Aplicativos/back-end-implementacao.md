@@ -169,18 +169,6 @@ const app = express();
 
 Guia de utilização do Express.js e também de utilização dos métodos de requisição \(GET, POST, PUT, DELETE\) [aqui](http://expressjs.com/pt-br/starter/basic-routing.html).
 
-### Query Strings
-
-Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
-
-![](/assets/tag.jpg)
-
-#### O que é URI?
-
-Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
-
-##### 
-
 ##### Exemplo de um Local Host criando usando Express:
 
     const express = require('express');
@@ -196,7 +184,17 @@ Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados
         res.send(`Hello World!`);
     });
 
-## 
+### Query Strings
+
+Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
+
+![](/assets/tag.jpg)
+
+#### O que é URI?
+
+Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
+
+
 
 ## APIs
 
