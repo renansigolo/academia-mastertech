@@ -6,7 +6,7 @@ Existem duas coisas bem importantes em uma mensagem HTTP:
 
 * **Header:**
 
-  * Contém as instruções para a transferência das informações que estão contidas no _body_ e até métodos HTTP.
+  * Contém as instruções para a transferência das informações que estão contidas no _body_ e métodos HTTP.
 
 * **Body:**
 
@@ -98,7 +98,50 @@ Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respo
         console.log(`Server running at http://${hostname}:${port}`);
     });
 
-##### 
+## Modularização de código
+
+Um módulo encapsula blocos de códigos relacionados em uma única unidade de código. Quando criamos um módulo, isso pode ser interpretado como "mover todas as funções relacionadas para um arquivo específico". Vamos fazer um exemplo:
+
+Vamos supor que nosso `index.js` seja um programa que verifique se o número é par ou não:
+
+```
+let numero;
+
+let retornaParidade = (numero) => {
+    if(numero % 2 == 0)
+        return true;
+    return false;
+}
+```
+
+Para modularizar um código, nós utilizaremos duas palavras dedicadas: module.exports e require. Vamos separar o código. Para isso, criaremos um arquivo chamado identificadorParidade.js: aqui ficará nosso módulo.
+
+* `index.js`
+
+    const identificador = require('./identificadorParidade');
+    let numero;
+
+    identificador.retornaParidade(numero); //Chama a função através da constante
+
+    if(retornaParidade(numero)){
+        console.log(`O número ${numero} é par!`);
+    } else {
+        console.log(`O número ${numero} é ímpar!`);
+    }
+
+* `identificadorParidade.js`
+
+```
+module.exports.retornaPar = (numero) => {
+    if(numero % 2 == 0)
+        return true;
+    return false;
+}
+```
+
+Perceba que o nosso arquivo principal, o `index.js`, ficou menor e mais simplificado.
+
+
 
 ## Express
 
