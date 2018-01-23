@@ -98,6 +98,8 @@ Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respo
         console.log(`Server running at http://${hostname}:${port}`);
     });
 
+## 
+
 ## Modularização de código
 
 Um módulo encapsula blocos de códigos relacionados em uma única unidade de código. Quando criamos um módulo, isso pode ser interpretado como "mover todas as funções relacionadas para um arquivo específico". Vamos fazer um exemplo:
@@ -114,7 +116,7 @@ let retornaParidade = (numero) => {
 }
 ```
 
-Para modularizar um código, nós utilizaremos duas palavras dedicadas: module.exports e require. Vamos separar o código. Para isso, criaremos um arquivo chamado identificadorParidade.js: aqui ficará nosso módulo.
+Para modularizar um código, nós utilizaremos duas palavras dedicadas: **module.exports** e **require**. Vamos separar o código. Para isso, criaremos um arquivo chamado `identificadorParidade.js`: aqui ficará nosso módulo.
 
 * `index.js`
 
