@@ -145,9 +145,9 @@ Perceba que o nosso arquivo principal, o `index.js`, ficou menor e mais simplifi
 
 ## Express
 
-O Express é um framework de Node.js que é muito utilizado para desenvolver aplicações web, pois ajuda o Node em requisições dos métodos GET, POST, PUT e DELETE, já comentados acima. Por exemplo se uma requisição GET fosse feita via Node puro demoraria certo tempo, e o Express vem para ajudar neste processo, pois possui middlewares prontos para serem usados nas requisições.
+O Express é um framework de Node.js muito utilizado para desenvolver aplicações web, pois possui recursos que ajudam o Node em requisições dos métodos GET, POST, PUT e DELETE, já comentados acima. Por exemplo se uma requisição GET fosse feita via Node puro demoraria certo tempo, e o Express vem para ajudar neste processo, pois possui middlewares prontos para serem usados nas requisições.
 
-###### O que é Middleware? É uma função intermediária com acesso ao objeto de requisição \(req\) ou de resposta \(res\), e ao próximo middleware no ciclo de requisição-resposta de uma aplicação Express. De forma simples: uma função para usar entre/no meio de uma requisição/resposta.
+###### O que é Middleware? É uma função intermediária com acesso ao objeto de requisição \(req\) ou de resposta \(res\), e ao próximo middleware no ciclo de requisição-resposta de uma aplicação Express. De forma simples: é uma função que faz a mediação entre o programa e demais aplicações.
 
 Para começar:
 
@@ -162,6 +162,10 @@ Após instalar é preciso injetar o express em sua aplicação:
 const express = require('express'),
 const app = express();
 ```
+
+[Exemplo Hello World!](http://expressjs.com/pt-br/starter/hello-world.html) no site do Express.js.
+
+Guia de utilização do Express.js e também de utilização dos métodos de requisição \(GET, POST, PUT, DELETE\) [aqui](http://expressjs.com/pt-br/starter/basic-routing.html).
 
 ### Query Strings
 
