@@ -104,7 +104,7 @@ Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
 
 #### ES6 \(ECMAScript 6\)
 
-O Node utiliza uma versão nova de sintaxe para JavaScript, que contém constantes, \_arrow functions, \_e várias outras coisas. E para podermos utilizar o Node, precisamos nos adaptar a essas novas variáveis!
+O Node utiliza uma versão nova de sintaxe para JavaScript, que contém constantes, _arrow functions_, e várias outras coisas. E para podermos utilizar o Node, precisamos nos adaptar a essas novas variáveis!
 
 * **Constantes:** As constantes têm a mesma função que as variáveis, mas com um único detalhe: quando alocamos um valor à uma constante, não conseguimos mudar mais o valor dela \(por isso que se chamam constantes, né?\). Veja a sintaxe:
 
