@@ -102,9 +102,9 @@ Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respo
 
 ## Express
 
-O Express é um framework de Node.js que é muito utilizado para desenvolver aplicações web, pois ajuda o Node em requisições dos métodos get, post, put já comentados acima. Por exemplo se uma requisição GET fosse feita via Node puro demoraria e o Express vem para ajudar neste processo, pois possui middlewares prontos para serem usados nas requisições.
+O Express é um framework de Node.js que é muito utilizado para desenvolver aplicações web, pois ajuda o Node em requisições dos métodos GET, POST, PUT e DELETE, já comentados acima. Por exemplo se uma requisição GET fosse feita via Node puro demoraria certo tempo, e o Express vem para ajudar neste processo, pois possui middlewares prontos para serem usados nas requisições.
 
-###### O que é Middleware? é uma função intermediária com acesso ao objeto de requisição \(req\), de resposta \(res\), e ao próximo middleware no ciclo de requisição-resposta de uma aplicação Express. De forma simples:  uma coisa para usar entre/no meio de duas coisas que seriam a requisição e resposta.
+###### O que é Middleware? É uma função intermediária com acesso ao objeto de requisição \(req\) ou de resposta \(res\), e ao próximo middleware no ciclo de requisição-resposta de uma aplicação Express. De forma simples: uma função para usar entre/no meio de uma requisição/resposta.
 
 Para começar:
 
@@ -116,32 +116,9 @@ npm install express --save   //instala o express e o save, salva na sua aplicaç
 Após instalar é preciso injetar o express em sua aplicação:
 
 ```
-var express = require('express'),
-    app = express();
+const express = require('express'),
+const app = express();
 ```
-
-##### 
-
-##### Exemplos do que já foi abordado:
-
-```
-const http = require('http');
-
-// Cria servidor
-const servidor = http.createServer((req, res) => {
-  res.end('Chegou aqui');
-
-});
-
-// Abre porta
-servidor.listen(8080);
-
-//rodar npm start
-```
-
-API's
-
-API é uma forma de integrar um sistema no outro. Por exemplo o Waze está conectado ao Spotify, então assim autoriza a integração, você o contato com Spotify para navegar, e assim que fizer a "chamada" para ouvir a playlist, ela vai buscar esta lista e começar o streaming, é este processo que chamamos de integração.
 
 ### Query Strings
 
@@ -152,4 +129,31 @@ Tudo o que vem depois da "?" é o que chamamos de query string, que são informa
 #### O que é URI?
 
 Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
+
+##### 
+
+##### Exemplo de um Local Host criando usando Express:
+
+    const express = require('express');
+    const app = express();
+
+    app.listen(3000, () => { 
+        console.log(`Servidor rodando. Acesse em http://localhost:3000`);
+    });
+
+    //Criando a primeira rota:
+    app.get('/', (req, res) => {
+        console.log(`Estou acessando minha rota padrão '/'`);
+        res.send(`Hello World!`);
+    });
+
+## 
+
+## APIs
+
+API é uma forma de integrar um sistema no outro. Por exemplo o Waze está conectado ao Spotify, então assim autoriza a integração, você faz o contato com Spotify para navegar, e assim que fizer a "chamada" para ouvir a playlist, ela vai buscar esta lista e começar o streaming, é este processo que chamamos de integração.
+
+### 
+
+
 
