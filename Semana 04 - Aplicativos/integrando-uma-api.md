@@ -6,7 +6,7 @@
 
 A Internet é uma rede de computadores interligados em escala mundial. A cada dia, mais e mais computadores são conectados a Internet, e ela fica cada vez mais extensa. Surgiu então, a necessidade de dedicar computadores especialmente para prover serviços à rede, enquanto os demais usufruem dessa rede. Esses computadores especiais são chamados de **Servidores**, enquanto os computadores normais \(como os nossos que usamos para escrever códigos\) são chamados de **Clientes**. É por isso que falamos que o HTML, por exemplo, executa no _client-side,_ e quando queremos pegar algum dado que está em um banco de dados, esse processo é execudado no _server-side_.
 
-Toda vez que um Cliente pede uma requisição ao servidor, essa requisição é encaminhada através da Internet. Por exemplo, quando queremos entrar no site do _Google_, fazemos uma **requisição** para o servidor onde o site _google.com.br \_está sendo **hospedado**. Quando nosso computador faz essa requisição, ela é transmitida até o servidor da \_Google_ passando por vários servidores até chegar no específico. E quando chega, a requisição se transforma em uma **resposta **\(que no nosso exemplo é o endereço do site do _Google_\), e é enviada de volta para o cliente.
+Toda vez que um Cliente pede uma requisição ao servidor, essa requisição é encaminhada através da Internet. Por exemplo, quando queremos entrar no site do _Google_, fazemos uma **requisição** para o servidor onde o site _google.com.br \_está sendo **hospedado**. \_Quando nosso computador faz essa requisição, ela é transmitida até o servidor do_ Google_ passando por vários servidores até chegar no específico. E quando chega, a requisição se transforma em uma **resposta **\(que no nosso exemplo é o endereço do site do \_Google_\), e é enviada de volta para o cliente.
 
 ## Protocolo HTTP
 
@@ -90,17 +90,89 @@ Tudo o que vem depois da "?" é o que chamamos de query string, que são informa
 
 Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
 
-#### O que é NPM?
+#### O que é NPM?:
 
-A NPM é duas coisas: primeiro, é um repositório online para publicação de projetos de código aberto para o node.j e além disso ele é uma linha de comando que interage com este repositório online, que ajuda na instalação de pacotes, gerenciamento de versão e gerenciamento de dependências, tudo feito via terminal.
+A NPM \(_Node Package Manager_\) é duas coisas: primeiro, é um repositório online para publicação de projetos de código aberto para o Node.js e além disso ele é uma linha de comando que interage com este repositório online, que ajuda na instalação de pacotes, gerenciamento de versão e gerenciamento de dependências, tudo feito via terminal.
 
 #### O que é Node.js?
 
 É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor. Isso torna o processo muito mais ágil. Mas como assim?
 
-Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, e fará uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa as próximas requisições, e quando o site receber a resposta daquela primeira requisição, a validação é recebida sem deixar as demais requisições paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagine que na black friday são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
+Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, e fará uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa as próximas requisições, e quando o site receber a resposta daquela primeira requisição, a validação é recebida sem deixar as demais paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagine que na _black friday_ são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
 
 Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
+
+#### ES6 \(ECMAScript 6\)
+
+O Node utiliza uma versão nova de sintaxe para JavaScript, que contém constantes, \_arrow functions, \_e várias outras coisas. E para podermos utilizar o Node, precisamos nos adaptar a essas novas variáveis!
+
+* **Constantes:** As constantes têm a mesma função que as variáveis, mas com um único detalhe: quando alocamos um valor à uma constante, não conseguimos mudar mais o valor dela \(por isso que se chamam constantes, né?\). Veja a sintaxe:
+
+```
+const minhaConstante = 10;
+
+// Se eu tentar atribuir um outro valor à 'minhaConstante':
+minhaConstante = 2.5;
+
+// Não funcionará. O valor será sempre 10.
+console.log(minhaConstante); ===> O terminal mostrará 10.
+```
+
+* **Arrow functions: **As arrow functions nada mais são do que funções normais, escritas de outra forma. Não há nenhum segredo nelas: só às chamamos de _arrow functions _\(funções flecha\) por causa de sua sintaxe:
+
+```
+let minhaFuncao = () => {
+    ...
+}
+```
+
+Segue um exemplo que fizemos em sala de aula:
+
+* Calculando a média utilizando \_arrow functions \_e pegando argumentos através do terminal:
+
+```
+let argumentos = process.argv; 
+let notas = [];
+
+//Salvando os argumentos pegos pelo terminal no vetor notas: 
+for(i = 2; i < argumentos.length; i++){ 
+    notas.push(Number(argumentos[i])); 
+}
+
+//Função: 
+const calcularMedia = (notas) => { 
+    let total = 0; 
+    for(nota of notas){ 
+        total += nota; 
+    }
+
+    return total/notas.length;
+}
+
+if(calcularMedia(notas) >= 6){ 
+    console.log(O aluno foi aprovado com a nota ${calcularMedia(notas)}); 
+} else { 
+    console.log(O aluno foi reprovado com a nota ${calcularMedia(notas)}); 
+}
+```
+
+## Beleza, eu aprendi tudo isso. Mas, pra quê?
+
+Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respostas de um servidor usando o Node.js! E para isso precisamos entender primeiro o que são todas essas siglas e termos da Internet. Se olharmos a documentação do Node, as variáveis, constantes, \_arrow functions \_que ele usa possuem nomes específicos que remetem à esses termos. Quer um exemplo? Veja esse código abaixo e tente entender o que ele faz:
+
+    const http = require('http');
+    const hostname = '127.0.0.1';
+    const port = 3000;
+
+    const server = http.createServer((req, res) => {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/plain');
+        res.end('Hello World\n');
+    });
+
+    server.listen(port, hostname, () => {
+        console.log(`Server running at http://${hostname}:${port}`);
+    });
 
 ### Express
 
