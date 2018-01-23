@@ -11,19 +11,19 @@
   * [Angular](exercicios/angular.md)
   * [HTML, CSS, JS](exercicios/html-css-js.md)
 
-## Semana 01 - Introdução
+## Semana 01 - Front-End
 
 * [Desmistificando a web](Semana 01 - Introdução/desmistificando-a-web.md)
 * [HTML e CSS](Semana 01 - Introdução/html-e-css.md)
 * [Bootstrap e templates](Semana 01 - Introdução/bootstrap-e-templates.md)
 
-## Semana 02 - Javascript
+## Semana 02 - JavaScript
 
 * [Lógica de programação](Semana 02 - Front End/estrategias-de-solucao-de-problemas.md)
 * [Introdução a programação](Semana 02 - Front End/introducao-a-programacao.md)
 * [Javascript e DOM](Semana 02 - Front End/javascript-e-algoritimos.md)
 
-## Semana 03
+## Semana 03 - Back-End
 
 * [Back-End: Teoria](Semana 04 - Aplicativos/integrando-uma-api.md)
 * [Back-end: Implementação](Semana 04 - Aplicativos/back-end-implementacao.md)

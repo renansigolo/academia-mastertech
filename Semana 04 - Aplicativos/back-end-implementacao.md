@@ -4,11 +4,11 @@
 
 Existem duas coisas bem importantes em uma mensagem HTTP:
 
-* **Header**
+* **Header:**
 
   * Contém as instruções para a transferência das informações que estão contidas no _body_ e até métodos HTTP.
 
-* **Body**
+* **Body:**
 
   * Pode estar vazio ou conter as informações que você deseja transmitir através da rede.
 
@@ -23,16 +23,6 @@ Body:   {
            "idade": 16
         }
 ```
-
-### Query Strings
-
-Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
-
-![](/assets/tag.jpg)
-
-#### O que é URI?
-
-Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
 
 #### ES6 \(ECMAScript 6\)
 
@@ -105,6 +95,18 @@ Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respo
     server.listen(port, hostname, () => {
         console.log(`Server running at http://${hostname}:${port}`);
     });
+
+### Query Strings
+
+Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
+
+![](/assets/tag.jpg)
+
+#### O que é URI?
+
+Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
+
+#### 
 
 ### Express
 
