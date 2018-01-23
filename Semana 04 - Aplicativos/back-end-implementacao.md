@@ -118,16 +118,18 @@ Para modularizar um código, nós utilizaremos duas palavras dedicadas: module.e
 
 * `index.js`
 
-    const identificador = require('./identificadorParidade');
-    let numero;
+```
+const identificador = require('./identificadorParidade');
+let numero;
 
-    identificador.retornaParidade(numero); //Chama a função através da constante
+identificador.retornaParidade(numero); //Chama a função através da constante
 
-    if(retornaParidade(numero)){
-        console.log(`O número ${numero} é par!`);
-    } else {
-        console.log(`O número ${numero} é ímpar!`);
-    }
+if(retornaParidade(numero)){
+      console.log(O número ${numero} é par!);
+  } else {
+      console.log(O número ${numero} é ímpar!);
+  }
+```
 
 * `identificadorParidade.js`
 
@@ -140,8 +142,6 @@ module.exports.retornaPar = (numero) => {
 ```
 
 Perceba que o nosso arquivo principal, o `index.js`, ficou menor e mais simplificado.
-
-
 
 ## Express
 
