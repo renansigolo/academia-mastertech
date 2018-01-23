@@ -90,7 +90,7 @@ Tudo o que vem depois da "?" é o que chamamos de query string, que são informa
 
 Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
 
-#### O que é NPM?:
+#### O que é NPM?
 
 A NPM \(_Node Package Manager_\) é duas coisas: primeiro, é um repositório online para publicação de projetos de código aberto para o Node.js e além disso ele é uma linha de comando que interage com este repositório online, que ajuda na instalação de pacotes, gerenciamento de versão e gerenciamento de dependências, tudo feito via terminal.
 
