@@ -25,12 +25,13 @@
 
 ## Semana 03
 
-* [Back-end](Semana 04 - Aplicativos/integrando-uma-api.md)
-* [Angular](Semana 03 - Back End/angular.md)
+* [Back-End: Teoria](Semana 04 - Aplicativos/integrando-uma-api.md)
+* [Back-end: Implementação](Semana 04 - Aplicativos/back-end-implementacao.md)
 * [Typescript](Semana 03 - Back End/node.md)
 
 ## Semana 04 - Aplicativos
 
+* [Angular](Semana 03 - Back End/angular.md)
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
 * [Angular - app](Semana 04 - Aplicativos/angular.md)
 
