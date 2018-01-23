@@ -1,4 +1,4 @@
-# Back-end: Implementação
+# Back-End: Implementação
 
 ### Sintaxe de um Protocolo HTTP
 
@@ -23,6 +23,8 @@ Body:   {
            "idade": 16
         }
 ```
+
+#### 
 
 #### ES6 \(ECMAScript 6\)
 
@@ -50,7 +52,7 @@ let minhaFuncao = () => {
 
 Segue um exemplo que fizemos em sala de aula:
 
-* Calculando a média utilizando \_arrow functions \_e pegando argumentos através do terminal:
+* Calculando a média utilizando arrow functions e pegando argumentos através do terminal:
 
 ```
 let argumentos = process.argv; 
@@ -78,9 +80,9 @@ if(calcularMedia(notas) >= 6){
 }
 ```
 
-## Beleza, eu aprendi tudo isso. Mas, pra quê?
+### Beleza, eu aprendi tudo isso. Mas, pra quê?
 
-Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respostas de um servidor usando o Node.js! E para isso precisamos entender primeiro o que são todas essas siglas e termos da Internet. Se olharmos a documentação do Node, as variáveis, constantes, \_arrow functions \_que ele usa possuem nomes específicos que remetem à esses termos. Quer um exemplo? Veja esse código abaixo e tente entender o que ele faz:
+Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respostas de um servidor usando o Node.js! E para isso precisamos entender primeiro o que são todas essas siglas e termos da Internet. Se olharmos a documentação do Node, as variáveis, constantes e arrow functions que ele usa possuem nomes específicos que remetem à esses termos. Quer um exemplo? Veja esse código abaixo e tente entender o que ele faz:
 
     const http = require('http');
     const hostname = '127.0.0.1';
@@ -96,21 +98,11 @@ Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respo
         console.log(`Server running at http://${hostname}:${port}`);
     });
 
-### Query Strings
+##### 
 
-Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
+## Express
 
-![](/assets/tag.jpg)
-
-#### O que é URI?
-
-Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
-
-#### 
-
-### Express
-
-O express é um framework de Node.js que é muito utilizado para desenvolver aplicações web que ajuda o node em requisições dos métodos get, post, put já comentados acima. Por exemplo se uma requisição GET fosse feita via Node puro demoraria e o Express vem para ajudar neste processo, pois possui middlewares prontos para serem usados nas requisições.
+O Express é um framework de Node.js que é muito utilizado para desenvolver aplicações web, pois ajuda o Node em requisições dos métodos get, post, put já comentados acima. Por exemplo se uma requisição GET fosse feita via Node puro demoraria e o Express vem para ajudar neste processo, pois possui middlewares prontos para serem usados nas requisições.
 
 ###### O que é Middleware? é uma função intermediária com acesso ao objeto de requisição \(req\), de resposta \(res\), e ao próximo middleware no ciclo de requisição-resposta de uma aplicação Express. De forma simples:  uma coisa para usar entre/no meio de duas coisas que seriam a requisição e resposta.
 
@@ -150,4 +142,14 @@ servidor.listen(8080);
 API's
 
 API é uma forma de integrar um sistema no outro. Por exemplo o Waze está conectado ao Spotify, então assim autoriza a integração, você o contato com Spotify para navegar, e assim que fizer a "chamada" para ouvir a playlist, ela vai buscar esta lista e começar o streaming, é este processo que chamamos de integração.
+
+### Query Strings
+
+Tudo o que vem depois da "?" é o que chamamos de query string, que são informações que serão interpretadas pela aplicação que é executada no servidor.
+
+![](/assets/tag.jpg)
+
+#### O que é URI?
+
+Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
 

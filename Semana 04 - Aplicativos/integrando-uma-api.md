@@ -24,21 +24,19 @@ Quando estamos navegando na internet, a todo momento o nosso navegador está env
 
 Por exemplo, quando acessamos a ferramenta Inspect, e ir na aba Network conseguimos ver todo esse processo a cada vez que carregamos um site:![](/assets/http01.png)
 
-O _**Request Method**_ indica quais o nosso objetivo quando fazemos uma requisição ao servidor, por exemplo, pegar informações do servidor.
+### Principais métodos de requisições
 
-##### Principais métodos:
+O protocolo HTTP define uma série de métodos de requisição \(request methods\) responsáveis por indicar a ação a ser executada sob o dado que estamos enviando ou recebendo do servidor. São os mais importantes:
 
-GET:  
- Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos as informações do servidor, que pode ser um arquivo HTML, XML, JSON, etc.
+* **GET:**  Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos as informações do servidor, que pode ser um arquivo HTML, XML, JSON, etc.
 
-POST:  
- O método POST é utilizado quando queremos criar um recurso. Um bom exemplo é quando temos um formulário. Quando clicamos em uma aba "contato" é um GET, mas quando inserimos dados e clicamos no enviar este seria um POST. Ele cria, adiciona e envia ao servidor.
+* **POST:**  O método POST é utilizado quando queremos criar um recurso. Um bom exemplo é quando temos um formulário. Quando clicamos em uma aba "contato" é um GET, mas quando inserimos dados e clicamos no enviar este seria um POST. Ele cria, adiciona e envia ao servidor.
 
-PUT:  
- Quando um recurso precisa ser atualizado e ele já existe, já esta dentro do servidor. Se não existir, pode ser criado. Por exemplo, quando você faz uma atualização de cadastro ou quando você já tem um cadastro e é solicitado mais um número de telefone para contato. Você já existe dentro do servidor mas pode atualizar ou criar algo novo.
+* **PUT**:  Quando um recurso precisa ser atualizado e ele já existe, já esta dentro do servidor. Se não existir, pode ser criado. Por exemplo, quando você faz uma atualização de cadastro ou quando você já tem um cadastro e é solicitado mais um número de telefone para contato. Você já existe dentro do servidor mas pode atualizar ou criar algo novo.
 
-DELETE:  
- Como a palavra diz, é uma requisição para excluir o recurso especificado. Por exemplo, quando você apaga um conta do twitter, ou o dado de um cartão salvo em um e-commerce.
+* **DELETE:**  Como a palavra diz, é uma requisição para excluir o recurso especificado. Por exemplo, quando você apaga um conta do twitter, ou o dado de um cartão salvo em um e-commerce.
+
+
 
 ### HTTP x HTTPS
 
