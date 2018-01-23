@@ -1,4 +1,4 @@
-# Estratégias de solução de problemas
+# Lógica de Programação
 
 ## Algoritmos
 
