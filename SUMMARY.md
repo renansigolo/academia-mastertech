@@ -21,7 +21,7 @@
 
 * [Back-End: Teoria](Semana 04 - Aplicativos/integrando-uma-api.md)
 * [Back-End: Implementação](Semana 04 - Aplicativos/back-end-implementacao.md)
-* [Typescript](Semana 03 - Back End/node.md)
+* [Banco de Dados: MongoDB](Semana 03 - Back End/node.md)
 
 ## Semana 04 - Aplicativos
 

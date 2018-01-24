@@ -1,68 +1,28 @@
-# Node & Express
+# Banco de Dados: MongoDB
 
-#### O que é Node.js?
+## Banco de Dados: relacional X não-relacional
 
-É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor. Isso torna o processo muito mais ágil. Mas como assim?
+Como o nome já sugere, o banco de dados é uma aplicação dá ao usuário a possibilidade de armazenar e receber dados. A diferença entre os bancos de dados relacional e não-relacional são a forma de inserção de dados e à sua organização interna.
 
-Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, ou seja, acontecerá uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa a próxima requisição e quando ele receber a resposta é enviado o evento sem deixar as demais requisições paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagina na black friday que são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
+* **Banco de dados relacional: **Aqui, os dados são guardados em forma de tabela: dentro das tabelas, os dados são organizados em colunas, e cada coluna contém um tipo de dado. Cada dado é inserido como uma nova linha na tabela.
 
-Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
+![](http://www.totalcross.com/blog/wp-content/uploads/2017/10/Exemplo-Banco-de-Dados.png)
 
-A versão mais recente e recomendada para a maioria dos usuarios  é a 8.9.1 LTS.
+**Obs.: **no modelo relacional, a estrutura do banco de dados deve ser projetada com cuidado, pois não é possível inserir novos tipos de dados depois de pronto. Alguns tipos de bancos relacionais: MySQL e SQL Server.
 
-**Windows**
+* **Banco de dados não-relacional: **Os modelos não-relacionais surgiram da necessidade de se ter uma melhor performance e alta escalabilidade. Utilizando um banco não-relacional, não há a necessidade de se fazer toda a arquitetura do banco antes de utilizá-lo, pois todas as informações são ocupadas em um documento \(geralmente um JSON\). Alguns exemplos de bancos não-relacionais: MongoDB \(que usaremos em nossos projetos\) e CouchDB.
 
-Baixar o instalador e executa-lo.
+![](/assets/Capturar.PNG)
 
-Instalando via terminal Linux e macOS
+**Obs.: **Perceba que é possível que cada documento tenha quantos parâmetros desejar.
 
-**Linux**
 
-```
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-```
 
-```
-sudo apt-get install -y nodejs
-```
+## Utilizando o MongoDB
 
-**macOS**
 
-Install Homebrew:
 
-[https://brew.sh/](https://brew.sh/)
 
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
 
-NodeJs :
 
-```
-curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ 
-| sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" 
-&& sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
-```
-
-```
-brew install node
-```
-
-Verificando se foi instalado com sucesso e a versão do Node.js
-
-```
-node --version
-npm --version
-```
-
-Aparecendo a versão do Node.js e do Npm, a instalação foi feita com sucesso.
-
-Obs. O Npm é instalado junto com o Node.js
-
-**Instalando o Express**
-
-[https://expressjs.com/en/starter/installing.html](https://expressjs.com/en/starter/installing.html)
-
-\`\`\`  
-$ npm install express --save
 
