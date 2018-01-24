@@ -63,7 +63,7 @@ versão 4 (que estamos usando no curso)
 Incluir a linha abaixo também que é a meta tag de viewport que faz o site ocupar todo o espaço disponível na janela, tanto em celulares, como em tablets ou em PC, e é ela que possibilita o design responsivo e o mobile-first. Pode ser usada tanto no bootstrap como em qualquer outro site.
 
 ```
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 ```
 
 #### Grids
