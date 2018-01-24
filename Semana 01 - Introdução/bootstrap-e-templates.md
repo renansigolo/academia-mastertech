@@ -12,7 +12,7 @@ um **framework **para front-end criado para facilitar e ajudar no trabalho do DE
 
 Nós temos algumas opções nas formas de incluir o Bootstrap em nosso projeto.
 
-### Bootstrap4 \(beta 2\) - via CDN
+### Bootstrap4 - via CDN
 
 * Insere o Bootstrap 4 através de CDN no seu projeto
 
@@ -22,16 +22,16 @@ Nós temos algumas opções nas formas de incluir o Bootstrap em nosso projeto.
 
 ```
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 ```
 
-### Bootstrap4 \(beta 2\) - via NPM
+### Bootstrap4  - via NPM
 
 * Instale o Bootstrap 4 através do NPM \(Package Manager\)
 
 ```
-npm install bootstrap@4.0.0-beta.2
+npm install bootstrap
 ```
 
 * Instale outras dependências para rodar o JS do bootstrap
@@ -56,10 +56,8 @@ Link para referenciar no seu html
 versão 3.3.7
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 
-versão 4 beta (que estamos usando no curso)
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" 
-rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" 
-crossorigin="anonymous">
+versão 4 (que estamos usando no curso)
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 ```
 
 Incluir a linha abaixo também que é a meta tag de viewport que faz o site ocupar todo o espaço disponível na janela, tanto em celulares, como em tablets ou em PC, e é ela que possibilita o design responsivo e o mobile-first. Pode ser usada tanto no bootstrap como em qualquer outro site.
