@@ -58,7 +58,7 @@ Link para referenciar no seu html
 versão 3.3.7
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 
-versão 4 (que estamos usando no curso)
+versão 4.0.0 (que estamos usando no curso)
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 ```
 
