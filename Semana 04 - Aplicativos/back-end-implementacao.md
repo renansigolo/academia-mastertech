@@ -106,37 +106,39 @@ Um módulo encapsula blocos de códigos relacionados em uma única unidade de c�
 
 Vamos supor que nosso `index.js` seja um programa que verifique se o número é par ou não:
 
-```
-let numero;
+    let numero;
 
-let retornaParidade = (numero) => {
-    if(numero % 2 == 0)
-        return true;
-    return false;
-}
-```
+    let retornaParidade = (numero) => {
+        if(numero % 2 == 0)
+            return true;
+        return false;
+    }
 
-Para modularizar um código, nós utilizaremos duas palavras dedicadas: **module.exports** e **require**. Vamos separar o código. Para isso, criaremos um arquivo chamado `identificadorParidade.js`: aqui ficará nosso módulo.
+    if(retornaParidade(numero)){
+          console.log(`O número ${numero} é par!`);
+      } else {
+          console.log(`O número ${numero} é ímpar!`);
+      }
+
+Para modularizar um código, nós utilizaremos duas palavras dedicadas: **module.exports** e **require**, quem vem junto com o Node.js \(por isso precisamos ter o Node instalado\). Vamos separar o código. Para isso, criaremos um arquivo chamado `identificadorParidade.js`: aqui ficará nosso módulo.
 
 * `index.js`
 
-```
-const identificador = require('./identificadorParidade');
-let numero;
+    const identificador = require('./identificadorParidade');
+    let numero = 15;
 
-identificador.retornaParidade(numero); //Chama a função através da constante
+    identificador.retornaParidade(numero); //Chama a função através da constante
 
-if(retornaParidade(numero)){
-      console.log(O número ${numero} é par!);
-  } else {
-      console.log(O número ${numero} é ímpar!);
-  }
-```
+    if(identificador.retornaParidade(numero)){
+          console.log(`O número ${numero} é par!`);
+      } else {
+          console.log(`O número ${numero} é ímpar!`);
+      }
 
 * `identificadorParidade.js`
 
 ```
-module.exports.retornaPar = (numero) => {
+module.exports.retornaParidade = (numero) => {
     if(numero % 2 == 0)
         return true;
     return false;
@@ -193,8 +195,6 @@ Tudo o que vem depois da "?" é o que chamamos de query string, que são informa
 #### O que é URI?
 
 Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
-
-
 
 ## APIs
 
