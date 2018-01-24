@@ -16,9 +16,17 @@ Como o nome já sugere, o banco de dados é uma aplicação dá ao usuário a po
 
 **Obs.: **Perceba que é possível que cada documento tenha quantos parâmetros desejar.
 
-
-
 ## Utilizando o MongoDB
+
+### Estrutura do MongoDB
+
+![](https://image.slidesharecdn.com/mongodbhalloweenparty-141031014902-conversion-gate01/95/mongo-db-halloween-party-8-638.jpg?cb=1414720310)
+
+O MongoDB possui a estrutura declarada na imagem para organização de seus documentos. No servidor, podemos criar vários bancos de dados, e dentro de um banco de dados, podemos criar várias coleções. Por sua vez, podemos ter, também, vários documentos dentro de uma coleção.
+
+### Documentação MongoDB
+
+Estude a documentação do Mongo através desse link: [https://docs.mongodb.com/manual/tutorial/getting-started/](https://docs.mongodb.com/manual/tutorial/getting-started/)
 
 
 
