@@ -18,7 +18,7 @@ Vamos montar aqui um exemplo prático usando Node.js, Express.js e MongoDB para 
 >
 > **Relembrando: **Express.js é um framework para criar aplicações web usando o Node como base. Ela simplifica o processo de criação de um servidor, que já está disponível no Node puro \(para relembrar: O Node permite que usemos JavaScript no back-end de nossas aplicações\).
 
-* Rodamos o código no terminal:
+* Rodamos o código no terminal para instalar o Express:
 
 ![](/assets/exemplo-img-4.PNG)
 
