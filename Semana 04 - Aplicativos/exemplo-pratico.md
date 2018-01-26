@@ -76,7 +76,7 @@ Configuramos o body-parser da seguinte forma:
 
 ![](/assets/exemplo-img-16.PNG)
 
-> Lembrando que bodyParser deve ser escrito em \_camelCase \_sempre e deve ficar antes de qualquer utilização do Express!
+> Lembrando que bodyParser deve ser escrito em camelCase sempre e deve ficar antes de qualquer utilização do Express!
 
 ## Usando o MongoDB
 
