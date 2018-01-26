@@ -26,9 +26,9 @@ O MongoDB possui a estrutura declarada na imagem para organização de seus docu
 
 #### Como instalar?
 
-Acesse o site : https://www.mongodb.com/ e faça o download;
+Acesse o site : [https://www.mongodb.com/](https://www.mongodb.com/) e faça o download;
 
-Após a instalação, acesse o prompt de comando e digite o seguinte comando: md \data\db 
+Após a instalação, acesse o prompt de comando e digite o seguinte comando: md \data\db
 
 Este comando cria um diretório para salvar/armazenar seus dados.
 
@@ -39,4 +39,6 @@ Após isso, acessar através do caminho abaixo o mongod que é o seu servidor e 
 ### Documentação MongoDB
 
 Estude a documentação do Mongo através desse link: [https://docs.mongodb.com/manual/tutorial/getting-started/](https://docs.mongodb.com/manual/tutorial/getting-started/)
+
+**Obs.: É muito importante saber ler as documentações de bibliotecas, frameworks e APIs. Não existe apostila melhor para aprender sobre um determinado assunto do que a sua própria documentação. Por isso não vamos ensinar aqui os métodos do MongoDB: todos estão bem explicadinhos na documentação!**
 
