@@ -76,7 +76,7 @@ Configuramos o body-parser da seguinte forma:
 
 ![](/assets/exemplo-img-16.PNG)
 
-> Lembrando que bodyParser deve ser escrito em _camelCase _sempre e deve ficar antes de qualquer utilização do Express!
+> Lembrando que bodyParser deve ser escrito em \_camelCase \_sempre e deve ficar antes de qualquer utilização do Express!
 
 * **Usando MongoDB: **até agora fizemos requisições GET e POST em nosso servidor, mas não salvamos e nem recuperamos dados de um banco de dados. Precisamos, então, instalar o MongoDB:
 
@@ -96,9 +96,25 @@ E devemos indicar em nosso `index.js` que utilizaremos o Express-MongoDB:
 
 * Agora vamos utilizar o nosso GET para listar todos os dados que temos em nosso banco de dados:
 
+![](/assets/exemplo-img-20.PNG)
 
-
-
+> **Entendendo o código: **Com o MongoDB, conseguimos fazer uma requisição para o nosso banco de dados chamado "meu-bd" na coleção "usuarios". Conseguimos listar todos os documentos que temos em nosso BD através do comando **db.collection\('usuarios'\).find\(\)**.
+>
+> Porém, o MongoDB nos retorna um objeto \(que é a coleção\) com vários objetos dentro \(que são nossos documentos\). E o JavaScript não consegue interpretar esse tipo de dado. Lembre-se de que sempre que queremos várias informações, precisamos coloca-las em um **vetor**, e é por isso que utilizamos o método **.toArray\(\) **para transformar nossa coleção em um vetor de documentos.
+>
+> A função **.toArray\(\) **precisa de uma função de callback para nos avisar se foi realmente possível transformar o que nos foi pedido do banco de dados em um vetor. E ela possui a seguinte sintaxe:
+>
+> ```
+> .toArray((erro, resultado) => {
+>     if(erro){
+>         console.log(erro);
+>     } else {
+>         console.log(resultado);
+>     }
+> });
+> ```
+>
+> Caso não seja possível transformar em vetor, ela nos retorna um erro \(err\). Senão, nos retorna o resultado, que são os documentos escritos em formato de vetor.
 
 
 
