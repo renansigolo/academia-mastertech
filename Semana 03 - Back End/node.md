@@ -24,7 +24,7 @@ Como o nome já sugere, o banco de dados é uma aplicação dá ao usuário a po
 
 O MongoDB possui a estrutura declarada na imagem para organização de seus documentos. No servidor, podemos criar vários bancos de dados, e dentro de um banco de dados, podemos criar várias coleções. Por sua vez, podemos ter, também, vários documentos dentro de uma coleção.
 
-#### Como instalar?
+#### Como instalar?\(_Windows_\)
 
 Acesse o site : [https://www.mongodb.com/](https://www.mongodb.com/) e faça o download;
 
@@ -35,6 +35,38 @@ Este comando cria um diretório para salvar/armazenar seus dados.
 Após isso, acessar através do caminho abaixo o mongod que é o seu servidor e mongo, que é a área do mongo que você vai manipular seus dados.
 
 ![](/assets/mongo.png)
+
+#### Como instalar?\(_Mac_\)
+
+Acesse o site : [https://www.mongodb.com/](https://www.mongodb.com/) e faça o download;
+
+Após a instalação, acesse o terminal e digite o seguintes comandos:
+
+![](/assets/Captura de Tela 2018-01-26 às 14.38.47.png)
+
+Por padrão, MongoDB escreve / armazena dados na pasta  `/data/db`, você precisa criar esta pasta manualmente e atribuir permissão adequada.
+
+![](/assets/Captura de Tela 2018-01-26 às 14.39.48.png)
+
+Crie um `~/.bash_profile `arquivo e atribua `/usr/local/mongodb/bin `a variável de ambiente **$ PATH**, para que você possa acessar facilmente os comandos do Mongo.
+
+![](/assets/Captura de Tela 2018-01-26 às 14.41.43.png)
+
+_\(obs: para sair e outros comando no **vim**\)_
+
+![](/assets/Captura de Tela 2018-01-26 às 14.46.49.png)
+
+
+
+Comece MongoDB com `mongod `e faça uma simples conexão com mongo `mongo`.
+
+![](/assets/Captura de Tela 2018-01-26 às 14.44.33.png)
+
+![](/assets/Captura de Tela 2018-01-26 às 14.48.03.png)
+
+
+
+
 
 ### Documentação MongoDB
 
