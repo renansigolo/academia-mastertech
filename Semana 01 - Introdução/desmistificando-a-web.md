@@ -39,14 +39,6 @@ Aplicações web app são sites que se adaptam ao mobile. Ou seja, conseguem mud
 
 Aplicativos híbridos são feitos tanto para sistemas Android, quanto para iOS. Esse tipo de aplicativo tende a ser mais lento e pesado do que um aplicativo nativo, mas sua vantagem é que pode ser utilizado em qualquer tipo de sistema. Uma solução muito utilizada é o _Ionic_, que é um _framework_ para desenvolvimento rápido e fácil de aplicações híbridas. É o que usamos para criar aplicativos na Academia Mastertech.
 
-### O que é uma API
-
-A sigla significa "Application Programming Interface" que funciona para criar uma interface \(caminho\) com regras bem definidas para integração entre aplicações, para troca de informações e para trabalhar com elas.
-
-De forma mais simples, é o que acontece com alguns sites que possuem mapas de localização, o Google fornece uma parte de seu código utilizado na criação do aplicativo Google Maps, e isso é incorporado no site. Quando por exemplo você clica em um endereço de uma loja e aparece a rua e a localização em um mapa, significa que a sua requisição chegou no Google e ele respondeu mostrando o local no mapa.
-
-Um outro bom exemplo é uma rede social como o Facebook, que foram criadas diversas APIs que possibilitaram receber informações de uma conta ou mesmo em fazer login em outros sites, utilizando uma conta do Facebook.
-
 
 
 # GIT e GITHUB
