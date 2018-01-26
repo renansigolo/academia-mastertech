@@ -198,7 +198,7 @@ Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados
 
 ### Exemplo de estrutura
 
-arquivo index.js
+Arquivo `index.js`:
 
 ```
 // Primeiro passo - Importando os módulos/dependências/bibliotecas
@@ -210,7 +210,7 @@ const animaisController = require('./controllers/clientes.js');
 // Instanciando o express
 const app = express();
 
-// Aplicando o body parser (middleware 
+// Aplicando o body parser (middleware)
 app.use(bodyParser.json());
 
 // Inicializando o servidor
