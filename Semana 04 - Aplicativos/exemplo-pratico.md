@@ -50,7 +50,7 @@ Vamos testar nossa requisição: vamos pedir para o servidor no enviar "Olá Mun
 
 > Se executarmos `node index.js` novamente no nosso terminal, e atualizarmos nossa página no browser, vamos ver a mensagem "Olá Mundo!".
 >
-> Você já deve ter percebido que toda atualização que fizermos em nosso código, precisamos parar o servidor e executar o `node index.js` novamente para que as mudanças sejam realmente aplicadas. Isso é um processo muito tedioso, e para facilitar, nós vamos usar, a partir de agora uma ferramenta que faz esse trabalho para nós automaticamente: o **Nodemon**.
+> Você já deve ter percebido que toda atualização que fizermos em nosso código, precisamos parar o servidor e executar o `node index.js` novamente para que as mudanças sejam realmente aplicadas. Isso é um processo muito tedioso, e para facilitar, nós vamos usar, a partir de agora, uma ferramenta que faz esse trabalho para nós automaticamente: o **Nodemon**.
 
 * Instalando o Nodemon através do terminal
 
