@@ -68,7 +68,7 @@ A partir de agora, vamos usar o comando `nodemon index.js` para rodar nosso cód
 
 ![](/assets/exemplo-img-13.PNG)
 
-> O Express não manipula dados enviados com JSON, e então precisamos de uma nova ferramenta chamada Body Parser.:
+> O Express não manipula dados enviados com JSON, e então precisamos de uma nova ferramenta chamada Body Parser:
 
 ![](/assets/exemplo-img-15.PNG)
 
@@ -78,7 +78,7 @@ Configuramos o body-parser da seguinte forma:
 
 > Lembrando que bodyParser deve ser escrito em \_camelCase \_sempre e deve ficar antes de qualquer utilização do Express!
 
-### Usando o MongoDB
+## Usando o MongoDB
 
 Até agora fizemos requisições GET e POST em nosso servidor, mas não salvamos e nem recuperamos dados de um banco de dados. Precisamos, então, instalar o MongoDB:
 
@@ -131,6 +131,4 @@ Agora vamos utilizar o nosso GET para listar todos os dados que temos em nosso b
 ## DESAFIO: Construir um CRUD completo.
 
 Aqui você já aprendeu metade de um CRUD \(Create, Read, Update, Delete\): criamos um novo documento em nossa coleção, e retornamos para nossa aplicação todos os documentos que temos salvos. O desafio é: construir um CRUD completo! Tente você mesmo usar as requisições PUT e DELETE para fazer o UPDATE e o DELETE de itens no banco de dados!
-
-
 
