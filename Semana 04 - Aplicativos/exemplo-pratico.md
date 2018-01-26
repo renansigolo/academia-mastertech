@@ -34,8 +34,6 @@ Se rodarmos `node index.js` no terminal, e abrirmos `http://localhost:3000` no b
 
 ![](/assets/exemplo-img-7.PNG)
 
-
-
 * **Requisição GET: **A requisição GET faz um pedido ao servidor para que ele mande à nossa aplicação alguma coisa. A razão pela qual nosso localhost nos mostra "Cannot GET /" na página é porque ainda não pedimos nenhuma requisição ao servidor. Com o Express, nós usamos o método get para mediar essa requisição. O método get possui a seguinte sintaxe:
 
 ![](/assets/exemplo-img-8.PNG)
@@ -50,5 +48,19 @@ Vamos testar nossa requisição: vamos pedir para o servidor no enviar "Olá Mun
 
 ![](/assets/exemplo-img-10.PNG)
 
-Se executarmos `node index.js` novamente no nosso terminal, e atualizarmos nossa página no browser, vamos ver a mensagem "Olá Mundo!".
+> Se executarmos `node index.js` novamente no nosso terminal, e atualizarmos nossa página no browser, vamos ver a mensagem "Olá Mundo!".
+>
+> Você já deve ter percebido que toda atualização que fizermos em nosso código, precisamos parar o servidor e executar o `node index.js` novamente para que as mudanças sejam realmente aplicadas. Isso é um processo muito tedioso, e para facilitar, nós vamos usar, a partir de agora uma ferramenta que faz esse trabalho para nós automaticamente: o **Nodemon**.
+
+* Instalando o Nodemon através do terminal
+
+![](/assets/exemplo-img-11.PNG)
+
+A partir de agora, vamos usar o comando `nodemon index.js` para rodar nosso código e deixar que ele atualize automaticamente.
+
+
+
+
+
+
 
