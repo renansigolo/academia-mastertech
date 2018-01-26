@@ -128,7 +128,9 @@ Agora vamos utilizar o nosso GET para listar todos os dados que temos em nosso b
 >
 > O método insert\(\), assim como o .toArray\(\) que usamos na requisição GET, possui uma função de callback que verifica se foi possível inserir um novo documento na coleção. Caso não foi possível, ela nos retorna um erro. Se foi possível, ela nos retorna um **status code**, que no caso é o "200", que significa "created".
 
+## DESAFIO: Construir um CRUD completo.
 
+Aqui você já aprendeu metade de um CRUD \(Create, Read, Update, Delete\): criamos um novo documento em nossa coleção, e retornamos para nossa aplicação todos os documentos que temos salvos. O desafio é: construir um CRUD completo! Tente você mesmo usar as requisições PUT e DELETE para fazer o UPDATE e o DELETE de itens no banco de dados!
 
 
 
