@@ -98,8 +98,6 @@ Nessa semana do _back-end_, vamos aprender a fazer requisições e receber respo
         console.log(`Server running at http://${hostname}:${port}`);
     });
 
-## 
-
 ## Modularização de código
 
 Um módulo encapsula blocos de códigos relacionados em uma única unidade de código. Quando criamos um módulo, isso pode ser interpretado como "mover todas as funções relacionadas para um arquivo específico". Vamos fazer um exemplo:
@@ -135,7 +133,6 @@ if(identificador.retornaParidade(numero)){
     } else {
         console.log(O número ${numero} é ímpar!);
     }
-
 ```
 
 * `identificadorParidade.js`
@@ -199,11 +196,34 @@ Tudo o que vem depois da "?" é o que chamamos de query string, que são informa
 
 Um URI \(do inglês Uniform Resource Identifier\) são vários caracteres usados para identificar ou denominar uma aplicação na internet para interagir com representações desta aplicação por intermédio da internet. Um bom exemplo é a URL.
 
-## APIs
+### Exemplo de estrutura
 
-API é uma forma de integrar um sistema no outro. Por exemplo o Waze está conectado ao Spotify, então assim autoriza a integração, você faz o contato com Spotify para navegar, e assim que fizer a "chamada" para ouvir a playlist, ela vai buscar esta lista e começar o streaming, é este processo que chamamos de integração.
+arquivo index.js
 
-### 
+```
+// Primeiro passo - Importando os módulos/dependências/bibliotecas
+const express = require('express');
+const bodyParser = require('body-parser');
+const clientesController = require('./controllers/clientes.js');
+const animaisController = require('./controllers/clientes.js');
+
+// Instanciando o express
+const app = express();
+
+// Aplicando o body parser (middleware 
+app.use(bodyParser.json());
+
+// Inicializando o servidor
+app.listen(3000, () => {
+    console.log('Servidor ligado. Acesse em http://localhost:3000');
+});
+
+// Endpoints (é colocado o local do arquivo, o nome do controller e a função)
+app.get('/clientes', clientesController.listar);
+app.post('/clientes/cliente', clientesController.criar);
+app.get('/animais', animaisController.listar);
+app.post('/animais/animal', animaisController.criar);
+```
 
 
 

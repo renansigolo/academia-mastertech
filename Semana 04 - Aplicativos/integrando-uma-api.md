@@ -2,6 +2,26 @@
 
 ![](/assets/back.png)
 
+Quando o usuário digita um endereço, é o back-end que processa aquele endereço e envia os dados para o front-end apresentar na tela.Por ser uma área muito abrangente, existem diversas linguagens, frameworks e tecnologias. Cada um deles é focado em diferentes aspectos e soluções. Existem as tecnologias de back-end voltadas para web, como:
+
+PHP
+
+Ruby on Rails
+
+Node.js
+
+Python
+
+E existem também as linguagens focadas em soluções desktop, os famosos programas de computadores e sistemas:
+
+C
+
+C\#
+
+C++
+
+Java
+
 ## Cliente x Servidor
 
 A Internet é uma rede de computadores interligados em escala mundial. A cada dia, mais e mais computadores são conectados a Internet, e ela fica cada vez mais extensa. Surgiu então, a necessidade de dedicar computadores especialmente para prover serviços à rede, enquanto os demais usufruem dessa rede. Esses computadores especiais são chamados de **Servidores**, enquanto os computadores normais \(como os nossos que usamos para escrever códigos\) são chamados de **Clientes**. É por isso que falamos que o HTML, por exemplo, executa no _client-side,_ e quando queremos pegar algum dado que está em um banco de dados, esse processo é execudado no _server-side_.
@@ -36,7 +56,7 @@ O protocolo HTTP define uma série de métodos de requisição \(request methods
 
 * **DELETE:**  Como a palavra diz, é uma requisição para excluir o recurso especificado. Por exemplo, quando você apaga um conta do twitter, ou o dado de um cartão salvo em um e-commerce.
 
-
+![](/assets/codes-status.png)
 
 ### HTTP x HTTPS
 
@@ -60,9 +80,21 @@ A NPM \(_Node Package Manager_\) é duas coisas: primeiro, é um repositório on
 
 #### O que é Node.js?
 
-É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor. Isso torna o processo muito mais ágil. Mas como assim?
+É uma plataforma que lê e entende o Javascript pelo lado do browser e também do servidor, assim é possível  usar a mesma biblioteca, objetos iguais e ter melhor controle sobre o código. Isso torna o processo muito mais ágil. Mas como assim?
 
 Imagine que você tem um site e seu usuário vai fazer o login, ele vai inserir o email e a senha, e fará uma requisição para o banco de dados para validar e liberar o acesso a outra página. Porém, ao invés de aguardar esta resposta do banco, ele já antecipa as próximas requisições, e quando o site receber a resposta daquela primeira requisição, a validação é recebida sem deixar as demais paradas e sem sobrecarregar o servidor. O processamento de requisições é muito mais alto e rápido. Por exemplo, um site que utiliza é o Walmart. Imagine que na _black friday_ são milhares de acessos e requisições \(compra, cadastro, pagamento...\) se não tiver um processamento rápido, poderiam perder muitas vendas.
 
 Instalando o NodeJS  - [https://nodejs.org/en/](https://nodejs.org/en/)
+
+#### **Database**
+
+A database ou banco de dados funciona como uma biblioteca repleta de informações, o cérebro que faz os sites serem dinâmicos. Toda vez que você realiza uma ação ou procura algo em um site, a database é responsável por aceitar sua busca, encontrar o dado e apresentar no website. No back-end, a database é acessada pelos usuários indiretamente a partir de uma aplicação externa. Alguns exemplos são MySQL, MongoDB, Postgresql e NoSQL.
+
+**API**
+
+Uma API  é que uma interface que permite que dois sistemas, ainda que criados com tecnologias diferentes, se comuniquem através de uma linguagem comum. Elas conectam softwares, aplicações, databases e serviços, substituindo a necessidade de uma programação mais complexa. Por exemplo o Waze está conectado ao Spotify, então assim autoriza a integração, você faz o contato com Spotify para navegar, e assim que fizer a "chamada" para ouvir a playlist, ela vai buscar esta lista e começar o streaming, é este processo que chamamos de integração.
+
+**Escalabilidade**
+
+A tecnologia continua mudando, os modelos de negócio mudam e o sistema de back-end precisa ser construído de forma a se adaptar facilmente à essas mudanças. É para isso que serve a escalabilidade, um dos conceitos mais importantes no back-end. É preciso pensar em quão flexível é a estrutura de uma aplicação para acomodar novos códigos, mais tráfego e dados.
 

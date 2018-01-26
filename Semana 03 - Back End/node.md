@@ -24,13 +24,19 @@ Como o nome já sugere, o banco de dados é uma aplicação dá ao usuário a po
 
 O MongoDB possui a estrutura declarada na imagem para organização de seus documentos. No servidor, podemos criar vários bancos de dados, e dentro de um banco de dados, podemos criar várias coleções. Por sua vez, podemos ter, também, vários documentos dentro de uma coleção.
 
+#### Como instalar?
+
+Acesse o site : https://www.mongodb.com/ e faça o download;
+
+Após a instalação, acesse o prompt de comando e digite o seguinte comando: md \data\db 
+
+Este comando cria um diretório para salvar/armazenar seus dados.
+
+Após isso, acessar através do caminho abaixo o mongod que é o seu servidor e mongo, que é a área do mongo que você vai manipular seus dados.
+
+![](/assets/mongo.png)
+
 ### Documentação MongoDB
 
 Estude a documentação do Mongo através desse link: [https://docs.mongodb.com/manual/tutorial/getting-started/](https://docs.mongodb.com/manual/tutorial/getting-started/)
-
-
-
-
-
-
 
