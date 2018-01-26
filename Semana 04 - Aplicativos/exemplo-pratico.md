@@ -122,5 +122,11 @@ Agora vamos utilizar o nosso GET para listar todos os dados que temos em nosso b
 
 ### Requisição POST:
 
+![](/assets/exemplo-img-21.PNG)
+
+> **Entendendo o código: **O POST possui uma estrutura muito parecida com a do GET. A única diferença é que ao invés de usarmos o método **.find\(\)**, usamos o método **.insert\(\)**, pois com a requisição POST queremos inserir um novo documento em nossa coleção.
+>
+> O método insert\(\), assim como o .toArray\(\) que usamos na requisição GET, possui uma função de callback que verifica se foi possível inserir um novo documento na coleção. Caso não foi possível, ela nos retorna um erro. Se foi possível, ela nos retorna um **status code**, que no caso é o "200", que significa "created".
+
 
 
