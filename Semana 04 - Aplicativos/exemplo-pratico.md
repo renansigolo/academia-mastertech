@@ -74,9 +74,33 @@ A partir de agora, vamos usar o comando `nodemon index.js` para rodar nosso cód
 
 Configuramos o body-parser da seguinte forma:
 
+![](/assets/exemplo-img-16.PNG)
+
+> Lembrando que bodyParser deve ser escrito em _camelCase _sempre e deve ficar antes de qualquer utilização do Express!
+
 * **Usando MongoDB: **até agora fizemos requisições GET e POST em nosso servidor, mas não salvamos e nem recuperamos dados de um banco de dados. Precisamos, então, instalar o MongoDB:
 
 ![](/assets/exemplo-img-14.PNG)
+
+> Para utilizarmos o Mongo, vamos precisar também de uma ferramenta que permite que utilizemos o Express também no nosso banco de dados, para facilitar ainda mais o código. Essa ferramenta se chama Express-MongoDB. Vamos baixá-la usando o npm:
+
+![](/assets/exemplo-img-17.PNG)
+
+E devemos indicar em nosso `index.js` que utilizaremos o Express-MongoDB:
+
+![](/assets/exemplo-img-18.PNG)
+
+* Linkando nosso banco de dados \(que é hosteado pelo MongoDB em nosso `index.js`\):
+
+![](/assets/exemplo-img-19.PNG)
+
+* Agora vamos utilizar o nosso GET para listar todos os dados que temos em nosso banco de dados:
+
+
+
+
+
+
 
 
 
