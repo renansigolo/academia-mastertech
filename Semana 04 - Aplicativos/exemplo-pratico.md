@@ -64,7 +64,11 @@ A partir de agora, vamos usar o comando `nodemon index.js` para rodar nosso cód
 
 ![](/assets/exemplo-img-12.PNG)
 
-> Quando enviamos a requisição, enviamos o conteúdo pelo body
+> Quando enviamos a requisição, enviamos o conteúdo pelo body dela.
+>
+> Obs.: Perceba aqui que o caminho que utilizamos é o "http://localhost:3000/usuarios".
+
+![](/assets/exemplo-img-13.PNG)
 
 
 
