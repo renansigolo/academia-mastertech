@@ -26,15 +26,17 @@ Vamos montar aqui um exemplo prático usando Node.js, Express.js e MongoDB para 
 
 ![](/assets/exemplo-img-5.PNG)
 
-A primeira coisa que vamos fazer é criar um servidor local onde vamos fazer nossas requisições. Para isso usamos um método do Express chamado `listen`:
+* A primeira coisa que vamos fazer é criar um servidor local onde vamos fazer nossas requisições. Para isso usamos um método do Express chamado `listen`:
 
 ![](/assets/exemplo-img-6.PNG)
 
-Se rodarmos `node index.js` no terminal, e abrirmos `http://localhost:3000` no browser, teremos a mensagem _"Cannot GET /"_. Isso é um bom sinal: significa que agora podemos nos comunicar com o nosso express através do servidor.
+* Se rodarmos `node index.js` no terminal, e abrirmos `http://localhost:3000` no browser, teremos a mensagem _"Cannot GET /"_. Isso é um bom sinal: significa que agora podemos nos comunicar com o nosso express através do servidor.
 
 ![](/assets/exemplo-img-7.PNG)
 
-* **Requisição GET: **A requisição GET faz um pedido ao servidor para que ele mande à nossa aplicação alguma coisa. A razão pela qual nosso localhost nos mostra "Cannot GET /" na página é porque ainda não pedimos nenhuma requisição ao servidor. Com o Express, nós usamos o método get para mediar essa requisição. O método get possui a seguinte sintaxe:
+#### **Requisição GET**
+
+** **A requisição GET faz um pedido ao servidor para que ele mande à nossa aplicação alguma coisa. A razão pela qual nosso localhost nos mostra "Cannot GET /" na página é porque ainda não pedimos nenhuma requisição ao servidor. Com o Express, nós usamos o método get para mediar essa requisição. O método get possui a seguinte sintaxe:
 
 ![](/assets/exemplo-img-8.PNG)
 
@@ -44,7 +46,7 @@ Se rodarmos `node index.js` no terminal, e abrirmos `http://localhost:3000` no b
 
 > Geralmente abreviamos resquest para **req **e response para **res**.
 
-Vamos testar nossa requisição: vamos pedir para o servidor no enviar "Olá Mundo!" quando fizermos a requisição GET:
+* Vamos testar nossa requisição: vamos pedir para o servidor no enviar "Olá Mundo!" quando fizermos a requisição GET:
 
 ![](/assets/exemplo-img-10.PNG)
 
@@ -58,7 +60,9 @@ Vamos testar nossa requisição: vamos pedir para o servidor no enviar "Olá Mun
 
 A partir de agora, vamos usar o comando `nodemon index.js` para rodar nosso código e deixar que ele atualize automaticamente.
 
-* **Requisição POST: **A requisição POST envia ao servidor a informação que queremos enviar. O método POST no Express possui a mesma sintaxe que o método GET:
+#### **Requisição POST **
+
+A requisição POST envia ao servidor a informação que queremos enviar. O método POST no Express possui a mesma sintaxe que o método GET:
 
 ![](/assets/exemplo-img-12.PNG)
 
