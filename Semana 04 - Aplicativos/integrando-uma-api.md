@@ -4,25 +4,18 @@
 
 Quando o usuário digita um endereço, é o back-end que processa aquele endereço e envia os dados para o front-end apresentar na tela.Por ser uma área muito abrangente, existem diversas linguagens, frameworks e tecnologias. Cada um deles é focado em diferentes aspectos e soluções. Existem as tecnologias de back-end voltadas para web, como:
 
-PHP
-
-Ruby on Rails
-
-Node.js
-
-Python
+* PHP
+* Ruby on Rails
+* Node.js
+* Python
 
 E existem também as linguagens focadas em soluções desktop, os famosos programas de computadores e sistemas:
 
-C
-
-C\#
-
-C++
-
-Java
-
-## Cliente x Servidor
+* C
+* C\#
+* C++
+* Java
+* ## Cliente x Servidor
 
 A Internet é uma rede de computadores interligados em escala mundial. A cada dia, mais e mais computadores são conectados a Internet, e ela fica cada vez mais extensa. Surgiu então, a necessidade de dedicar computadores especialmente para prover serviços à rede, enquanto os demais usufruem dessa rede. Esses computadores especiais são chamados de **Servidores**, enquanto os computadores normais \(como os nossos que usamos para escrever códigos\) são chamados de **Clientes**. É por isso que falamos que o HTML, por exemplo, executa no _client-side,_ e quando queremos pegar algum dado que está em um banco de dados, esse processo é execudado no _server-side_.
 
