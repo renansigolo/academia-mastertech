@@ -60,7 +60,11 @@ A partir de agora, vamos usar o comando `nodemon index.js` para rodar nosso cód
 
 
 
+* **Requisição POST: **A requisição POST envia ao servidor a informação que queremos enviar. O método POST no Express possui a mesma sintaxe que o método GET:
 
+![](/assets/exemplo-img-12.PNG)
+
+> Quando enviamos a requisição, enviamos o conteúdo pelo body
 
 
 
