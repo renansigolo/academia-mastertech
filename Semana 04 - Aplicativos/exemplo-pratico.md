@@ -58,17 +58,25 @@ Vamos testar nossa requisição: vamos pedir para o servidor no enviar "Olá Mun
 
 A partir de agora, vamos usar o comando `nodemon index.js` para rodar nosso código e deixar que ele atualize automaticamente.
 
-
-
 * **Requisição POST: **A requisição POST envia ao servidor a informação que queremos enviar. O método POST no Express possui a mesma sintaxe que o método GET:
 
 ![](/assets/exemplo-img-12.PNG)
 
 > Quando enviamos a requisição, enviamos o conteúdo pelo body dela.
 >
-> Obs.: Perceba aqui que o caminho que utilizamos é o "http://localhost:3000/usuarios".
+> Obs.: Perceba aqui que o caminho que utilizamos é o "[http://localhost:3000/usuarios](http://localhost:3000/usuarios)".
 
 ![](/assets/exemplo-img-13.PNG)
+
+> O Express não manipula dados enviados com JSON, e então precisamos de uma nova ferramenta chamada Body Parser.:
+
+![](/assets/exemplo-img-15.PNG)
+
+Configuramos o body-parser da seguinte forma:
+
+* **Usando MongoDB: **até agora fizemos requisições GET e POST em nosso servidor, mas não salvamos e nem recuperamos dados de um banco de dados. Precisamos, então, instalar o MongoDB:
+
+![](/assets/exemplo-img-14.PNG)
 
 
 
