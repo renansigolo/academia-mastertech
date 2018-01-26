@@ -78,6 +78,10 @@ Configuramos o body-parser da seguinte forma:
 
 > Lembrando que bodyParser deve ser escrito em \_camelCase \_sempre e deve ficar antes de qualquer utilização do Express!
 
+
+
+
+
 * **Usando MongoDB: **até agora fizemos requisições GET e POST em nosso servidor, mas não salvamos e nem recuperamos dados de um banco de dados. Precisamos, então, instalar o MongoDB:
 
 ![](/assets/exemplo-img-14.PNG)
@@ -114,7 +118,7 @@ E devemos indicar em nosso `index.js` que utilizaremos o Express-MongoDB:
 > });
 > ```
 >
-> Caso não seja possível transformar em vetor, ela nos retorna um erro \(err\). Senão, nos retorna o resultado, que são os documentos escritos em formato de vetor.
+> Caso não seja possível transformar em vetor, ela nos retorna um erro \(err\). Senão, nos retorna o resultado \(result\), que são os documentos escritos em formato de vetor.
 
 
 
