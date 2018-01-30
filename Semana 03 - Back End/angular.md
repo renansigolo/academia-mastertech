@@ -1,8 +1,8 @@
-# Angular 
+# AngularJS
 
 ## Angular Básico
 
-Documentação oficial: [https://angular.io/](https://angular.io/)
+Documentação oficial: [https://angularjs.org/](https://angularjs.org/)
 
 * Arquitetura do Angular: [https://angular.io/guide/architecture](https://angular.io/guide/architecture)
 * Módulos
