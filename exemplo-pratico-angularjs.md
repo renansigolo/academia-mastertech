@@ -32,8 +32,7 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 ![](/assets/Captura de Tela 2018-01-30 às 13.41.15.png)
 
-* Por fim, vamos deixar nosso formulário mais agradável com uma estilização, e principalmente criar a class `.feita`
-  , para poder manipular o item ao clicar, fazendo com que risque a palavra e fique como concluída.
+* Por fim, vamos deixar nosso formulário mais agradável com uma estilização, e principalmente criar a class `.feita`, para poder manipular o item ao clicar, fazendo com que risque a palavra e fique como concluída.
 
 ![](/assets/Captura de Tela 2018-01-30 às 13.43.42.png)
 
