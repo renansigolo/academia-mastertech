@@ -30,8 +30,6 @@ O MVC é uma arquitetura \(padrão para se escrever o código\) que separa a apl
 
 ![](/assets/arquitetura_mvc.png)
 
-
-
 * **A camada View:** 
   * É a camada que exibe os dados \(interface do usuário\);
   * Usualmente é montada com HTML e CSS;
@@ -56,7 +54,7 @@ O MVC é uma arquitetura \(padrão para se escrever o código\) que separa a apl
 
 
 
-
+### Diretivas
 
 Angular Básico
 
