@@ -26,9 +26,14 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 
 
+* Crie input e botão para envia tarefa e a lista de tarefas.
+
+![](/assets/Captura de Tela 2018-01-30 às 11.45.02.png)
 
 
 
 
+
+* 
 
 
