@@ -52,9 +52,21 @@ O MVC é uma arquitetura \(padrão para se escrever o código\) que separa a apl
 
 ![](/assets/controller_exemplo.PNG)
 
-
-
 ### Diretivas
+
+Diretivas são extensões da linguagem HTML, que fornecem a possibilidade de estender/ampliar o comportamento de elementos HTML. Este recurso permite a implementação de novos comportamentos de forma declarativa. 
+
+Ao selecionar um elemento HTML, a diretiva pode ampliar seu comportamento de diversas formas:
+
+* para adicionar um novo HTML,
+* associar eventos à funções Javascript,
+* manipular o DOM.
+
+![](/assets/diretivas_exemplo.PNG)
+
+Exemplo prático do uso de diretivas:
+
+![](/assets/diretivas_exemplo_2.png)
 
 Angular Básico
 
