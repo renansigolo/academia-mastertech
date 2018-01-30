@@ -20,14 +20,35 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 ![](/assets/Captura de Tela 2018-01-30 às 10.06.06.png)
 
-
-
 * Crie input e botão para envia tarefa e a lista de tarefas.
 
 ![](/assets/Captura de Tela 2018-01-30 às 11.45.02.png)
 
 
 
-* 
+* Vamos criar agora o controller dentro do nosso módulo para salvar o item para lista e exibi-los.
+
+![](/assets/Captura de Tela 2018-01-30 às 13.25.12.png)
+
+
+
+* Precisamos indicar as variáveis e o evento dentro das tags determinantes e assim manipular o input para formar a lista.
+
+![](/assets/Captura de Tela 2018-01-30 às 13.41.15.png)
+
+
+
+* Por fim, vamos deixar nosso formulário mais agradável com uma estilização, e principalmente criar a class .feita, para poder manipular o item ao clicar, fazendo com que risque a palavra e fique como concluída.
+
+![](/assets/Captura de Tela 2018-01-30 às 13.43.42.png)
+
+
+
+* Eis o resultado: 
+
+![](/assets/Captura de Tela 2018-01-30 às 13.48.36.png)
+
+
+
 
 
