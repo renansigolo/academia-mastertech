@@ -24,11 +24,37 @@ As vantagens de se utilizar SPA, segundo o site [locaweb](http://blog.locaweb.co
 >
 > Quando trabalhamos com SPA deixamos  muito bem separado as partes do que é front-end e o que é back-end, já que todo o back costuma estar em uma API, assim podemos fazer mudanças em back sem precisar mexer em nada de front e vice versa.
 
-
-
 ### Arquitetura MVC \(Model-View-Controller\)
 
 O MVC é uma arquitetura \(padrão para se escrever o código\) que separa a aplicação em três camadas: a visão \(view\), o modelo \(model\), e o controlador \(controller\).
+
+![](/assets/arquitetura_mvc.png)
+
+
+
+* **A camada View:** 
+  * É a camada que exibe os dados \(interface do usuário\);
+  * Usualmente é montada com HTML e CSS;
+  * É responsável por utilizar as informações modeladas \(transformadas em algo útil para o usuário pelo JavaScript\) para produzir interfaces de apresentação conforme a necessidade.
+
+![](/assets/view_exemplo.PNG)
+
+* **A camada Model:**
+  * É a camada que contém a estrutura do dado por trás de uma parte específica da aplicação;
+  * Responsável pela leitura, manipulação e validação de dados;
+  * Obtém os dados e os traduz em informações relevantes para serem exibidas pela View;
+  * Notifica a View e o Controller associados, quando há uma mudança em seu estado.
+
+![](/assets/model_exemplo.png)
+
+* **A camada Controller:**
+  * Exerce o controle de qual Model deverá ser aplicada e qual View será mostrado ao usuário.
+  * O Controller manipula e roteia as requisições dos usuários;
+  * Interpreta as requisições submetidas pelo usuário e traduz em comandos que são enviados para o Model e/ou para a View;
+
+![](/assets/controller_exemplo.PNG)
+
+
 
 
 
