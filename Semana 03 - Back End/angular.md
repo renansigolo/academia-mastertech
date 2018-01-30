@@ -54,7 +54,7 @@ O MVC é uma arquitetura \(padrão para se escrever o código\) que separa a apl
 
 ### Diretivas
 
-Diretivas são extensões da linguagem HTML, que fornecem a possibilidade de estender/ampliar o comportamento de elementos HTML. Este recurso permite a implementação de novos comportamentos de forma declarativa. 
+Diretivas são extensões da linguagem HTML, que fornecem a possibilidade de estender/ampliar o comportamento de elementos HTML. Este recurso permite a implementação de novos comportamentos de forma declarativa.
 
 Ao selecionar um elemento HTML, a diretiva pode ampliar seu comportamento de diversas formas:
 
@@ -68,43 +68,11 @@ Exemplo prático do uso de diretivas:
 
 ![](/assets/diretivas_exemplo_2.png)
 
-Angular Básico
 
-Documentação oficial: [https://angularjs.org/](https://angularjs.org/)
 
-* Arquitetura do Angular: [https://angular.io/guide/architecture](https://angular.io/guide/architecture)
-* Módulos
-* Criar e utilizar componentes
-* Diretivas: ngFor
-* Eventos: click
+#### Documentação do AngularJS
 
-## Angular CLI
+[https://docs.angularjs.org/tutorial/step\_01](https://docs.angularjs.org/tutorial/step_01)
 
-Programa de terminal que cria e gerencia aplicações Angular
 
-### Referência de comandos
-
-* Instala o Angular CLI
-
-  `npm install -g @angular/cli`
-
-* Inicia um projeto
-
-  `ng new NomeDoProjeto`
-
-* Inicia o ambiente de desenvolvimento
-
-  `ng serve`
-
-* Cria um Componente
-
-  `ng generate component NomeDoComponente`
-
-* Cria um serviço
-
-`ng generate service NomeDoServico`
-
-Serviços e comunicação entre componentes:
-
-[https://angular.io/guide/component-interaction\#parent-and-children-communicate-via-a-service](https://angular.io/guide/component-interaction#parent-and-children-communicate-via-a-service)
 
