@@ -1,4 +1,4 @@
-# Exemplo Prático: utilizando os conceitos dessa semana
+# Exemplo Prático: utilizando os conceitos AngularJS
 
 Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Tarefas.
 
@@ -12,7 +12,7 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 ![](/assets/Captura de Tela 2018-01-30 às 09.26.37.png)
 
-* Como vimos, para poder utilizar a AngularJs devemos criar um módulo. A cima do nosso recurso, abra outro script. e crie o module.
+* Como vimos, para poder utilizar a AngularJs devemos criar um módulo. A cima do nosso recurso, abra outro script. e crie o `module`.
 
 ![](/assets/Captura de Tela 2018-01-30 às 10.02.35.png)
 
@@ -24,31 +24,20 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 ![](/assets/Captura de Tela 2018-01-30 às 11.45.02.png)
 
-
-
 * Vamos criar agora o controller dentro do nosso módulo para salvar o item para lista e exibi-los.
 
 ![](/assets/Captura de Tela 2018-01-30 às 13.25.12.png)
-
-
 
 * Precisamos indicar as variáveis e o evento dentro das tags determinantes e assim manipular o input para formar a lista.
 
 ![](/assets/Captura de Tela 2018-01-30 às 13.41.15.png)
 
-
-
-* Por fim, vamos deixar nosso formulário mais agradável com uma estilização, e principalmente criar a class .feita, para poder manipular o item ao clicar, fazendo com que risque a palavra e fique como concluída.
+* Por fim, vamos deixar nosso formulário mais agradável com uma estilização, e principalmente criar a class `.feita`
+  , para poder manipular o item ao clicar, fazendo com que risque a palavra e fique como concluída.
 
 ![](/assets/Captura de Tela 2018-01-30 às 13.43.42.png)
-
-
 
 * Eis o resultado: 
 
 ![](/assets/Captura de Tela 2018-01-30 às 13.48.36.png)
-
-
-
-
 
