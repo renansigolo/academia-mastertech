@@ -14,7 +14,7 @@ As vantagens de se utilizar SPA, segundo o site [locaweb](http://blog.locaweb.co
 >
 > **2. Performance:**
 >
-> O sistema fica muito mais performático, por que ele carrega o sistema completo na primeira requisição de forma assíncrona que permite o usuário já consumir o  conteúdo sem esperar que tudo seja carregado por completo e as requisições seguintes são responsáveis por trafegar apenas os dados brutos entre o cliente e o servidor, normalmente no formato JSON.
+> O sistema fica muito mais performático, por que ele carrega o sistema completo na primeira requisição de forma assíncrona que permite o usuário já consumir o conteúdo sem esperar que tudo seja carregado por completo e as requisições seguintes são responsáveis por trafegar apenas os dados brutos entre o cliente e o servidor, normalmente no formato JSON.
 >
 > **3. Responsabilidade do client-side:**
 >
@@ -68,11 +68,7 @@ Exemplo prático do uso de diretivas:
 
 ![](/assets/diretivas_exemplo_2.png)
 
-
-
 #### Documentação do AngularJS
 
 [https://docs.angularjs.org/tutorial/step\_01](https://docs.angularjs.org/tutorial/step_01)
-
-
 
