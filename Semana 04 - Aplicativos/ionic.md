@@ -49,9 +49,10 @@ ionic start "seunomedoApp" tabs
 
 //se quiser utilizar a versão 1, basta colocar:
 ionic start "seunomedoApp" tabs --type ionic1
+
+//para rodar basta colocar, acesse a pasta do seu projeto Ionic
+ionic serve
 ```
 
 ![](/assets/2018-01-31.png)
-
-
 
