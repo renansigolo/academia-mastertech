@@ -40,7 +40,13 @@ Para iniciar seu primeiro app siga as instruções na página [Getting Started](
 
 Para nos auxiliar no desenvolvimento o Ionic possui uma extensiva [documentação](https://ionicframework.com/docs/) que irá nos auxiliar na hora de criar nosso app.
 
-Como começar:
+**Pré-requisitos:**
+
+**NodeJS**
+
+**NPM**
+
+Primeiros passos
 
 ```
 npm install -g cordova ionic
@@ -57,4 +63,40 @@ ionic serve
 ```
 
 ![](/assets/2018-01-31.png)
+
+##### Como estilizar o seu CSS do Ionic
+
+Da mesma forma que podemos trabalhar o CSS no html, no ionic é a mesma coisa, mudando apenas as tags utilizadas em cada página. Um exemplo seria desta forma:
+
+```
+  //html
+  <ion-list>  
+        <ion-item>
+
+           <a class="item item-avatar" href="#">
+              <img ng-src="{{x.Image}}">
+              <h2>{{x.Name}}</h2>
+              <p id="texto">  {{x.Local}}</p>
+            </a>
+
+        </ion-item>
+    </ion-list> 
+    
+    //css
+ion-list ion-item {
+  background: green;
+}
+
+.item-avatar {
+  background: red;
+  color: #FFF;
+  padding:20px;
+}
+
+#texto{
+text-align: center;
+}
+```
+
+
 
