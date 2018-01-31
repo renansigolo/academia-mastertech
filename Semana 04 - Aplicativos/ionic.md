@@ -4,7 +4,23 @@
 
 Assim como o Bootstrap é um framework para auxiliar na criação do CSS o IONIC é um framework para nos ajudar a criar uma aplicação mobile que será convertida para um aplicativo iOS e/ou Android.
 
-Para ser mais claro, você irá construir um aplicativo para iOS e Android utilizando linguagens de programação Web, sem precidar aprender Swift ou Kotlin.
+Com o Ionic é possível escrever código uma única vez e ter um aplicativo que roda ‘nativamente’ \(entre aspas pois não é totalmente nativo\) no iPhone, Android e Windows Phone. Isso é possível pois estes Sistemas Operacionais Móveis possuem APIs \(_Application Program Interface_\) usadas para que seus programadores desenvolvam aplicativos nativos para a plataforma.
+
+Para ser mais claro, você irá construir um aplicativo para iOS e Android utilizando linguagens de programação Web, sem precisar aprender Swift ou Kotlin.
+
+O que o Ionic faz é, através do
+
+[_Apache Cordova_](https://cordova.apache.org/)
+
+, ajudar-nos a comunicarmos com estas APIs que, por sua vez, comunicam-se com um componente chamado
+
+_Web View,_
+
+usado por aplicativos nativos para visualização de páginas web dentro do contexto dos aplicativos móveis\(como um Browser qualquer\). O Ionic permite que nosso aplicativo rode embarcado dentro dessa
+
+_Web View,_
+
+O que o Ionic faz é, através do Apache Cordova se comunica com estas APIs que, por sua vez, comunica-se com um componente chamado _Web View, _usado por aplicativos nativos para visualizar páginas web. O Ionic permite que nosso aplicativo rode, interprete e renderize o código HTML, CSS e JavaScript do aplicativo. O Ionic também estiliza o componentes HTML para se parecer com os componentes nativos de cada plataforma móvel, simulando a experiência nativa do usuário final.
 
 ## Ionic Framework X Ionic Creator
 
@@ -81,7 +97,7 @@ Da mesma forma que podemos trabalhar o CSS no html, no ionic é a mesma coisa, m
 
         </ion-item>
     </ion-list> 
-    
+
     //css
 ion-list ion-item {
   background: green;
