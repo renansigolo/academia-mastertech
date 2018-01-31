@@ -62,7 +62,11 @@ ionic serve
 //para começar a mexer nos templates acessar a pasta www e dentro dela a pasta templates.
 ```
 
-![](/assets/2018-01-31.png)
+Blank: Template vazio, sem pacotes pré-instalados e com apenas uma página.
+
+Tabs: Aplicação de exemplo usando o sistema de navegação em abas do Ionic.
+
+Side Menu: Mesma aplicação de exemplo do Tabs porém, ao invés de abas, um sistema de navegação em menu lateral deslizante.
 
 ##### Como estilizar o seu CSS do Ionic
 
