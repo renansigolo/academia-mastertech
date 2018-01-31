@@ -16,12 +16,14 @@ Na verdade 3, vou comentar um pouquinho sobre como o ionic framework é dividido
 
 O ionic framework é toda a estrutura, comandos etc que irá suportar seu app.
 
-Como o Ionic foi criado em cima do Angular ele também é dividido em duas partes 
+Como o Ionic foi criado em cima do Angular ele também é dividido em duas partes
 
 * [**Ionic 1**](https://ionicframework.com/docs/v1/)
+
   * Toda a estrutura do Ionic 1 utiliza o AngularJS como padrão
 
 * [**Ionic 2/3**](https://ionicframework.com/framework)
+
   * A partir da segunda versão do Ionic ele já utiliza o novo Angular, atualmente chamado apenas de Angular que é escrito em Typescript e o Cordova para criar nosso código nativo!
 
 Neste curso vamos utilizar somente o Ionic 3, mas é importante que você saiba as diferenças para não se confundir na hora de escrever seu código ;\)
@@ -38,7 +40,18 @@ Para iniciar seu primeiro app siga as instruções na página [Getting Started](
 
 Para nos auxiliar no desenvolvimento o Ionic possui uma extensiva [documentação](https://ionicframework.com/docs/) que irá nos auxiliar na hora de criar nosso app.
 
+Como começar:
 
+```
+npm install -g cordova ionic
+
+ionic start "seunomedoApp" tabs
+
+//se quiser utilizar a versão 1, basta colocar:
+ionic start "seunomedoApp" tabs --type ionic1
+```
+
+![](/assets/2018-01-31.png)
 
 
 
