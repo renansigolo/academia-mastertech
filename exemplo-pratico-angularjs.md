@@ -1,4 +1,4 @@
-# Exemplo Prático: utilizando os conceitos AngularJS
+# Exemplo Prático: AngularJS
 
 Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Tarefas.
 
