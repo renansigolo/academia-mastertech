@@ -8,25 +8,9 @@ Com o Ionic é possível escrever código uma única vez e ter um aplicativo que
 
 Para ser mais claro, você irá construir um aplicativo para iOS e Android utilizando linguagens de programação Web, sem precisar aprender Swift ou Kotlin.
 
-O que o Ionic faz é, através do
+O que o Ionic faz é, através do Apache Cordova, se comunicar com estas APIs que, por sua vez, comunica-se com um componente chamado Web View, usado por aplicativos nativos para visualização de páginas web dentro do contexto dos aplicativos móveis\(como um Browser qualquer\). O Ionic permite que nosso aplicativo rode embarcado dentro dessa Web View,
 
-[_Apache Cordova_](https://cordova.apache.org/)
-
-, ajudar-nos a comunicarmos com estas APIs que, por sua vez, comunicam-se com um componente chamado
-
-_Web View,_
-
-usado por aplicativos nativos para visualização de páginas web dentro do contexto dos aplicativos móveis\(como um Browser qualquer\). O Ionic permite que nosso aplicativo rode embarcado dentro dessa
-
-_Web View,_
-
-O que o Ionic faz é, através do Apache Cordova se comunica com estas APIs que, por sua vez, comunica-se com um componente chamado _Web View, _usado por aplicativos nativos para visualizar páginas web. O Ionic permite que nosso aplicativo rode, interprete e renderize o código HTML, CSS e JavaScript do aplicativo. O Ionic também estiliza o componentes HTML para se parecer com os componentes nativos de cada plataforma móvel, simulando a experiência nativa do usuário final.
-
-## Ionic Framework X Ionic Creator
-
-O Ionic é dividido em 2 partes...
-
-Na verdade 3, vou comentar um pouquinho sobre como o ionic framework é dividido
+O Ionic permite que nosso aplicativo rode, interprete e renderize o código HTML, CSS e JavaScript do aplicativo. O Ionic também estiliza o componentes HTML para se parecer com os componentes nativos de cada plataforma móvel, simulando a experiência nativa do usuário final.
 
 ### Ionic Framework
 
