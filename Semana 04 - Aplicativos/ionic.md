@@ -1,4 +1,4 @@
-# IONIC 3
+# IONIC 1
 
 ## O que é IONIC?
 
@@ -52,6 +52,8 @@ ionic start "seunomedoApp" tabs --type ionic1
 
 //para rodar basta colocar, acesse a pasta do seu projeto Ionic
 ionic serve
+
+//para começar a mexer nos templates acessar a pasta www e dentro dela a pasta templates.
 ```
 
 ![](/assets/2018-01-31.png)
