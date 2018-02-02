@@ -9,7 +9,15 @@ Os serviços AngularJS são:
 
 ## Criando Serviços {#creating-services}
 
-Os desenvolvedores de aplicativos são livres para definir seus próprios serviços registrando o nome do**serviço**e a**função de fábrica do serviço**, com um módulo AngularJS.
+Os desenvolvedores de aplicativos são livres para definir seus próprios serviços registrando o nome do **serviço **e a **função de fábrica do serviço**, com um módulo AngularJS.
 
 A **função de fábrica do serviço **gera o único objeto ou função que representa o serviço para o resto do aplicativo.O objeto ou função retornada pelo serviço é injetado em qualquer componente \(controlador, serviço, filtro ou diretiva\) que especifica uma dependência no serviço.
+
+* Crie estrutura básica com menu lateral:
+
+```bash
+$ ionic start myApp sidemenu --type ionic1
+```
+
+![](/assets/Captura de Tela 2018-02-02 às 19.17.49.png)
 

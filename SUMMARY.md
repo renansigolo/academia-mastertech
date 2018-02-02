@@ -27,7 +27,7 @@
 ## Semana 04 - Aplicativos
 
 * [Angular](Semana 03 - Back End/angular.md)
-* [Conceitos AngularJS](Semana 03 - Back End/conceitos-angularjs.md)
-* [Exemplo Prático: AngularJS](exemplo-pratico-angularjs.md)
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
+* [Exemplo AngularJS](exemplo-pratico-angularjs.md)
+* [Conceitos AngularJS](Semana 03 - Back End/conceitos-angularjs.md)
 
