@@ -21,32 +21,15 @@ $ ionic start myApp sidemenu --type ionic1
 
 ![](/assets/Captura de Tela 2018-02-02 às 19.17.49.png)
 
-
-
-
-
 * Neste exemplo vamos usar a view Playlist, mas primeiro vamos criar o arquivo service na pasta js.![](/assets/Captura de Tela 2018-02-02 às 19.47.28.png)
 
-
-
 * Quando criamos services.js, devemos capturar seu module no app.js.![](/assets/Captura de Tela 2018-02-02 às 19.50.29.png)
-
-
 
 * Agora devemos consumir o consumo do service no controller PlaylistCtrl
 
 ![](/assets/Captura de Tela 2018-02-02 às 21.05.52.png)
 
-* Assim é possível observar  ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
-* ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
+* Assim é possível observar o valor do service. ![](/assets/Captura de Tela 2018-02-02 às 21.14.53.png)
 
 
 
