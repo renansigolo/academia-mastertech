@@ -8,7 +8,7 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 ![](/assets/Captura de Tela 2018-01-30 às 09.14.17.png)
 
-* Cole o script de recurso dentro do body. \(Obs: Está em [https://angularjs.org/](https://angularjs.org/) a estrutura básica e o link de recursos.\)
+* Cole o script de recurso dentro do body. \(Obs: Está em [https://angularjs.org/](https://angularjs.org/) a estrutura básica e o link de recursos\).
 
 ![](/assets/Captura de Tela 2018-01-30 às 09.26.37.png)
 
