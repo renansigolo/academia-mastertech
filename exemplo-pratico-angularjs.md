@@ -4,9 +4,7 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 * Vamos criar uma pasta em nosso Desktop, chamada `listaTarefas`
 
-![](/assets/Captura de Tela 2018-01-30 às 09.07.03.png)
-
-
+![](/assets/mkdirlistatarefas.png)
 
 * Crie estrutura básica HTML:5 no arquivo `index.html`. Podemos criá-la direto no Visual Studio Code.![](/assets/Captura de Tela 2018-01-30 às 09.14.17.png)
 
