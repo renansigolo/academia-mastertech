@@ -25,5 +25,9 @@ Vamos demonstrar um exemplo prático usando AngularJs para fazer uma Lista de Ta
 
 * Eis o resultado:![](/assets/Captura de Tela 2018-01-30 às 13.48.36.png)
 
+Para mais informações, e outras formas de utilizar o Angular:
+
+https://docs.angularjs.org/guide
+
 
 
