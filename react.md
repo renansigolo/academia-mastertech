@@ -28,13 +28,39 @@ Como enfatizado em algumas partes do post, o React serve para criar componentes,
 
 ### Mas como conseguir separar esses componentes e seus subcomponentes? {#mas-como-conseguir-separar-esses-componentes-e-seus-subcomponentes}
 
-Da mesma forma que criamos nossas Classes e Métodos, devemos pensar o mesmo para os nossos componentes e seguir o[princípio da responsabilidade única](http://www.devmedia.com.br/arquitetura-o-principio-da-responsabilidade-unica/18700). Onde uma classe deve fazer apenas uma coisa, deve fazê-la bem e deve fazer somente ela.
+Da mesma forma que criamos nossas Classes e Métodos, devemos pensar o mesmo para os nossos componentes e seguir o [princípio da responsabilidade única](http://www.devmedia.com.br/arquitetura-o-principio-da-responsabilidade-unica/18700). Onde uma classe deve fazer apenas uma coisa, deve fazê-la bem e deve fazer somente ela.
 
 ### Exemplo {#exemplo}
 
 Vou tomar como exemplo, o slide de destaques da Home do [Globoesporte.com](http://globoesporte.globo.com/) e vou chamá-lo de`<Slide>`:
 
+![](/assets/slide.jpg)
 
 
 
+O `<Slide> `possui uma única função, que é mostrar os destaques na página através de um Carousel. Dentro desse `<Slide>`, já poderemos separar cada um desses retângulos e dar o nome de`<SlideItem>`, que seriam os subcomponentes de `<Slide>`.
+
+![](/assets/slideItem.jpg)
+
+
+
+E ainda dentro desses subcomponentes, podemos separar mais 2 elementos, que são o `SlideTitle `e o`SlideSubtitle`
+
+![](/assets/slideElements.jpg)
+
+
+
+  
+A partir disso, já conseguimos montar uma hierarquia desses componentes e subcomponentes, que seria:
+
+* Slide
+  * SlideItem
+    * SlideTitle
+    * SlideSubtitle
+
+Tendo a estrutura de componentes e seus subcomponentes, fica mais fácil de trabalhar com a abordagem do React e criar suas interfaces.
+
+## Conclusão {#conclusão}
+
+Essa foi só a primeira parte, para entendermos pelo menos um pouco do que é, o que não é e seu funcionamento.
 

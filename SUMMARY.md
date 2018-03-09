@@ -4,7 +4,7 @@
 
 * [Introduction](README.md)
 * [UX, Ideação e prototipação ](Semana 04 - Aplicativos/ideacao-e-prototipacao.md)
-* [react](react.md)
+* [React - O Que É](react.md)
 
 ## Semana 01 - Front-End
 
