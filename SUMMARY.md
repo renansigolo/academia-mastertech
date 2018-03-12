@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [UX, Ideação e prototipação ](Semana 04 - Aplicativos/ideacao-e-prototipacao.md)
-* [React - O Que É](react.md)
 
 ## Semana 01 - Front-End
 
@@ -32,4 +31,5 @@
 * [ Ionic e Cordova](Semana 04 - Aplicativos/ionic.md)
 * [Conceitos AngularJS](Semana 03 - Back End/conceitos-angularjs.md)
 * [angular1](Semana 03 - Back End/angular1.md)
+* [React - O Que É](react.md)
 
