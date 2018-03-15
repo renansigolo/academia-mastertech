@@ -6,5 +6,23 @@ Para instalar o ReactJS, você ja deve ter instalado no computador NodeJS e o NP
 $ npm i -g create-react-app
 ```
 
+Após instalado vamos criar nossa aplicação.
 
+```
+$ create-react-app meu-aplicativo
+```
+
+O terminal irá apresentar a seguinte resposta:
+
+![](/assets/reactInstall.png)
+
+Para ligar nosso aplicativo React damos esta comando dentro da pasta raíz da nossa aplicação:
+
+```
+$ npm start
+```
+
+
+
+A aplicação abrirá o browser serviço default criando servidor local na porta 3000.![](/assets/default.png)
 
