@@ -10,9 +10,9 @@ O primeiro componente que vamos criar será o  **Header**, dentro dele ira ter o
 
   ![](/assets/cssreact.png)
 
-
-
-* Além da importação do React, importe o Header.css. Devemos usar uma propriedade 
+* Além da importação do React, importe o Header.css. Devemos usar uma propriedade nativa do React chamada _**componentWillMount\(\) **_e_** setState\(\) **_com a 1ª propriedade configuramos para que o método randerize antes da página ser exibida, a 2ª propriedade permite que possamos 
 
 ![](/assets/headerjs.png)
+
+
 
