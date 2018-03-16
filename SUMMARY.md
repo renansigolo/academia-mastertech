@@ -34,4 +34,5 @@
 * [SPA - O Que é](Semana 03 - Back End/spa-o-que-e.md)
 * [React - O Que é](react.md)
 * [React - Começando](Semana 03 - Back End/react-comecando.md)
+* [React - Exemplo Prático](Semana 03 - Back End/react-exemplo-pratico.md)
 
