@@ -12,7 +12,7 @@ O primeiro componente que vamos criar será o  **Header**, dentro dele ira ter o
 
 * Além da importação do React, importe o Header.css. Devemos usar uma propriedade nativa do React chamada \_**componentWillMount\(\) **\_e** setState\(\), ** a 1ª propriedade configuramos para que o método randerize antes da página ser exibida, a 2ª propriedade permite que possamos alterá-la como objeto.
 
-* _**className={}** _ no html permite alterar classe do css apra exibir o menu lateral e ocultá-lo.
+* _**classeName={}** _ no html permite alterar classe do css apra exibir o menu lateral e ocultá-lo.
 
 ![](/assets/headerjs.png)
 
@@ -44,9 +44,5 @@ O primeiro componente que vamos criar será o  **Header**, dentro dele ira ter o
 $ npm start
 ```
 
-
-
 clique para ver o [**código**](https://github.com/estacaohack3/403-restaurante).
-
-
 
