@@ -43,22 +43,30 @@ Aplicativos híbridos são feitos tanto para sistemas Android, quanto para iOS. 
 
 ![](/assets/import.png)
 
-Clientes são os usuários típicos da Web conectados à Internet, por exemplo, seu computador conectado ao seu Wi-Fi, ou seu smartphone conectado à sua rede móvel.
+Clientes são os usuários típicos da Web conectados à Internet, por exemplo, seu computador conectado ao seu Wi-Fi, ou seu smartphone conectado à sua rede móvel.
 
-Servidores são computadores que guardam páginas ou aplicativos. Quando um cliente quer acessar uma página, uma cópia dela é baixada do servidor à máquina do cliente para ser mostrada no browser.
+Servidores são computadores que guardam páginas ou aplicativos. Quando um cliente quer acessar uma página, uma cópia dela é baixada do servidor à máquina do cliente para ser mostrada no browser.
 
 Além do cliente e do servidor, temos:
 
 * **TCP/IP \(**_Transmission Control Protocol e Internet Protocol\)_
-  são protocolos de comunicação que definem como os dados viajam pela Web. Isso é como os mecanismos de transporte que te permitem ir ao shopping, fazer um pedido e comprar. Você pode andar e comprar o que você quer, mas nesse caso vamos imaginar que você ligue para a loja, pague seu pedido pelo telefone e espere pela entrega.
+  são protocolos de comunicação que definem como os dados viajam pela Web. Isso é como os mecanismos de transporte que te permitem ir ao shopping, fazer um pedido e comprar. Você pode andar e comprar o que você quer, mas nesse caso vamos imaginar que você ligue para a loja, pague seu pedido pelo telefone e espere pela entrega.
 * **DNS \(**_Domain Name Servers\)_
-  são como listas de endereços para sites. Quando você digita um endereço web no seu navegador, este procura o real endereço da página web no servidor DNS antes de poder lhe entregar a página. O navegador precisa encontrar em qual servidor web a página está hospedada, para que ele mande mensagens HTTP para o lugar certo \(veja abaixo\). Isso é como pesquisar o endereço e o telefone da loja para que você possa entrar em contato.
+  são como listas de endereços para sites. Quando você digita um endereço web no seu navegador, este procura o real endereço da página web no servidor DNS antes de poder lhe entregar a página. O navegador precisa encontrar em qual servidor web a página está hospedada, para que ele mande mensagens HTTP para o lugar certo. Isso é como pesquisar o endereço e o telefone da loja para que você possa entrar em contato.
 * **HTTP \(**_Hypertext Transfer Protocol\)_
   é um protocolo de aplicação que define uma linguagem para clientes e servidores conversarem entre si. É como a linguagem que você usa para fazer seu pedido e falar com a pessoa que está entregando seu pedido.
 * **Arquivos do componente**
   Um website é feito de muitos arquivos diferentes, que são diferentes partes daquilo que você comprou na loja. Esses arquivos são divididos em dois tipos principais:
-  * **Arquivos de Código**: Websites são feitos primariamente de HTML, CSS e JavaScript, mas você vai encontrar outras tecnologias depois.
-  * **Assets**: Esse é o nome coletivo para todas as outras coisas que compõem um website, como imagens, música, vídeo, documentos do Word e PDFs.
+  * **Arquivos de Código**: Websites são feitos primariamente de HTML, CSS e JavaScript, e outras tecnologias.
+  * **Assets**: Esse é o nome coletivo para todas as outras coisas que compõem um website, como imagens, música, vídeo, documentos PDFs.
+
+
+  Quando você digita um endereço web no seu navegador:
+
+  1. O navegador vai para o servidor DNS e encontra o verdadeiro endereço onde o site se hospeda.
+  2. O navegador manda uma mensagem de requerimento HTTP para o servidor pedindo para enviar a cópia do site ao cliente. Essa mensagem, e todos os outros dados enviados entre o cliente e o servidor, é enviada pela conexão de internet usando TCP/IP.
+  3. A partir do momento que o servidor aprova o pedido do cliente, o servidor manda ao cliente a mensagem "200 OK", que significa "Claro que você pode ver esse site! Aqui está", e então começa a enviar os arquivos do site para o browser como uma série de pequenos pedaços chamados pacotes de dados.
+  4. O navegador monta os pequenos pedaços em um site completo e te mostra.
 
 # GIT e GITHUB
 
