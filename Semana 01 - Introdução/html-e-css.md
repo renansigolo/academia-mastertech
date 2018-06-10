@@ -403,11 +403,44 @@ Seguindo o mesmo conceito do margin, pode ser colocado em % e pixels e definido 
 
 * `display: flex`: Ele permite os elementos ficarem um do lado do outro, permite espaçar os elementos de forma mais intuitiva. Além disso ele também permite alinhar os elementos verticalmente de forma fácil. O`display flex`pode ser um pouco mais complicado de usar tendo em vista que existem diversas propriedades que vem junto da especificação`flexible box.`
 
-A flex box traz uma otimização quanto ao trabalho de posicionar e espaçar elementos entre si, com propriedades já pré-definidas é possível organizar elementos dentro de um elemento pai. Um exemplo prático do que seria:
+A flex box traz uma otimização quanto ao trabalho de posicionar e espaçar elementos entre si, com propriedades já pré-definidas é possível organizar elementos dentro de um elemento pai. O básico para começar a mexer com flexbox é saber que tem 2 formas de elemento: o container, que é como uma caixinha, e os elementos, que ficam dentro dela. Container é um elemento com classe “container”, que não precisa ser div, pode ser por exemplo ul, section etc. Já os itens estão dentro do container e podem ser qualquer tipo de elemento, como div, li etc e não precisam obrigatoriamente de uma classe específica.
+
+Abaixo listo as ordem possíveis a serem adicionadas ao elemento de classe container. Caso não será declarada, a propriedade será igual ao elemento sinalizado como padrão automaticamente.
+
+**display:**deve ser flex para tudo funcionar certinho.
+
+**flex-direction:**define a ordem dos itens.
+
+* row \(**padrão**\): exibe os itens em linha, em ordem normal
+* row-reverse: os itens ficam em linha, mas em ordem reversa
+* column: exibe os itens em uma coluna, ou seja, um abaixo do outro
+* column-reverse: coluna, mas com ordem reversa
+
+**flex-wrap:**define a quebra de linha
+
+* nowrap \(**padrão**\): não permite quebra de linha
+* wrap: permite quebra da linha
+* wrap-reverse: quebra a linha, mas na ordem reversa
+
+**justify-content:**alinha os itens horizontalmente
+
+* flex-start \(**padrão**\): alinha os itens no início do container
+* flex-end: alinha os itens no fim do container
+* center: alinha os itens no centro do container
+* space-between: alinha os itens no centro do container, deixando o primeiro e o último grudados nos cantos
+* space-around: alinha os itens no centro do container, deixando o mesmo espaço de cada lado para cada um. Nos itens no centro, há um espaçamento 2x maior que os nos cantos.
+
+ Um exemplo prático:
 
 ![](/assets/flexbox-justify.png)
 
-### Responsividade
+##### Alguns sites para entender e ver outros exemplos de flexbox e grids layouts:
+
+https://imasters.com.br/css/adeus-flexbox-bem-vindo-css-grid-layout
+
+
+
+##### Responsividade
 
 Ter a preocupação em que seu site seja responsivo já é quase uma obrigação de todo desenvolvedor.
 
