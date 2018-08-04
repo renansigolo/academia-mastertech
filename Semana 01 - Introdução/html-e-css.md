@@ -489,6 +489,29 @@ body { background: blue; }
 }
 ```
 
+## CSS Animation
+
+Animation é uma propriedade de CSS que serve para animar outras propriedades CSS, um exemplo simples é alterar a cor de fundo de verde, para laranja, para rosa e, depois para verde de novo.
+
+@keyframes é uma regra colocada para inserir exatamente para definir qual a transição que o seletor receberá. Por exemplo, se colocar como 0%, e se for no final 100%. Nada impede de ser colocado também nos intervalos, só inserir a porcentagem.
+
+```
+.fundo {
+  width: 100%;
+  height: 100%;
+  animation: transition 5s infinite;
+}
+@keyframes transition {
+  0% {
+    background-color: #705523;
+  }
+  100% {
+    background-color: #f2e8d5;
+  }
+}
+
+```
+
 ## Hora de colocar em prática seus conhecimentos
 
 Exercício 1
