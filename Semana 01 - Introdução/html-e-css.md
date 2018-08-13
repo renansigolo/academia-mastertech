@@ -503,13 +503,14 @@ Animation é uma propriedade de CSS que serve para animar outras propriedades CS
 }
 @keyframes transition {
   0% {
-    background-color: #705523;
+    background-color: green;
   }
   100% {
-    background-color: #f2e8d5;
+    background-color: pink;
   }
 }
 
+// aqui é colocado que o fundo de um html vai alterar a cor de verde para rosa a cada 5 segundos
 ```
 
 ## Hora de colocar em prática seus conhecimentos
