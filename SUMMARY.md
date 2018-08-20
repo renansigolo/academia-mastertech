@@ -11,6 +11,10 @@
 * [HTML e CSS](Semana 01 - Introdução/html-e-css.md)
 * [Bootstrap e templates](Semana 01 - Introdução/bootstrap-e-templates.md)
 
+## design thinking
+
+* [parte 1](design-thinking/parte-1.md)
+
 ## Semana 02 - JavaScript
 
 * [Lógica de programação](Semana 02 - Front End/estrategias-de-solucao-de-problemas.md)
