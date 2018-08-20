@@ -34,3 +34,5 @@ E mediante a tudo isso, é hora de escolher uma dessas ideias como solução do 
 
 Os protótipos de baixa fidelidade, também chamados de rascunhos são desenhados à mão, utilizando papel, lápis e borracha. O objetivo dele é definir de modo simples como seria a interação do usuário com o projeto sem preocupação com o design.
 
+Com isso, você tem definido a sua solução e seu problema, junto com algo visual da sua solução \(seja uma landing page, um aplicativo...\) para começar a dar seus próximos passos.
+
